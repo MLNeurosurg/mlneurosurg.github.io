@@ -1,0 +1,32 @@
+# Site settings
+# this file is *NOT* reloaded automatically using 'bundle exec jekyll serve'
+# access custom variable via {{ site.myvariable }}
+
+title: MLiNS Lab at Michigan Medicine
+author:
+    - email: "chengjia AT umich DOT edu"
+
+#description: >- # this means to ignore newlines until "baseurl:"
+#  Write an awesome description for your new site here. You can edit this
+#  line in _config.yml. It will appear in your document head meta (for
+#  Google search results) and in your feed.xml site description.
+
+baseurl: "/"
+url: "https://mlins.org"
+
+# Exclude from processing.
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+exclude:
+    - third_party.txt
+    - .sass-cache/
+    - .jekyll-cache/
+    - gemfiles/
+    - Gemfile
+    - Gemfile.lock
+    - node_modules/
+    - vendor/bundle/
+    - vendor/cache/
+    - vendor/gems/
+    - vendor/ruby/

@@ -1,0 +1,191 @@
+jiang2022opensrh:
+  color: 531B93
+  venue: NEURIPS DATASETS & BENCHMARKS | 2022
+  venue_link: https://neurips.cc/Conferences/2022
+  link: https://opensrh.mlins.org/
+  title: "OpenSRH: optimizing brain tumor surgery using intraoperative
+      stimulated Raman histology"
+  authors: "Cheng Jiang<sup>*</sup>, Asadur Chowdury<sup>*</sup>,
+      Xinhai Hou<sup>*</sup>, Akhil Kondepudi, Christian W. Freudiger, Kyle
+      Conway, Sandra Camelo-Piragua, Daniel A. Orringer, Honglak Lee, and Todd
+      C. Hollon"
+  pills:
+    - title: Website
+      link: https://opensrh.mlins.org/
+    - title: arXiv
+      link: https://arxiv.org/abs/2206.08439/
+    - title: Github
+      link: https://github.com/MLNeurosurg/opensrh
+    - title: Talk
+      link: https://youtu.be/H36ERdgU-nI
+    - title: Poster
+      link: /assets/posters/jiang2022opensrh.pdf
+    - title: OpenReview
+      link: https://openreview.net/forum?id=2N8JzuiWZ25
+  featured: True
+gologorsky2022generating:
+  color: 00285A
+  venue: PITUITARY | 2022
+  venue_link: https://www.springer.com/journal/11102
+  link: https://doi.org/10.1007/s11102-022-01255-7
+  title: Generating novel pituitary datasets from open-source imaging data and deep volumentric segmentation
+  authors: Rachel Gologorsky, Edward Harake, Grace von Oiste, Mustafa Nasir-Moin, William Couldwell, Eric Oermann, and Todd Hollon
+  pills:
+    - title: PDF
+      link: /assets/pdf/publications/gologorsky2022generating.pdf
+babajanian2022perigeniculate:
+  color: 57B9A5
+  venue: CUREUS | 2022
+  venue_link: https://www.cureus.com
+  link: https://doi.org/10.7759/cureus.28515
+  title: Perigeniculate giant cell tumor of temporal bone
+  authors: "Eric E. Babajanian, Todd C. Hollon, Tori A. Seasor, William Couldwell, and Richard K. Gurgel"
+  pills:
+    - title: PDF
+      link: /assets/pdf/publications/babajanian2022perigeniculate.pdf
+fredrickson2022laminectomy:
+  color: 86763A
+  venue: WORLD NEUROSURGERY | 2022
+  venue_link: https://www.sciencedirect.com/journal/world-neurosurgery
+  link: https://doi.org/10.1016/j.wneu.2022.03.016
+  title: "Laminectomy at T4 and T5 for Resection of Symptomatic Cavernous Malformation"
+  authors: "Vance L.Fredrickson Todd C.Hollon Robert C.Rennert Marcus D.Mazur Andrew T.Dailey, and William T.Couldwell"
+  pills:
+    - title: PDF
+      link: /assets/pdf/publications/fredrickson2022laminectomy.pdf
+comba2022spatiotemporal:
+  color: e63323
+  venue: NATURE COMMUNICATIONS | 2022
+  venue_link: https://www.nature.com/ncomms/
+  link: https://doi.org/10.1038/s41467-022-31340-1
+  title: "Spatiotemporal analysis of glioma heterogeneity reveals COL1A1 as an
+      actionable target to disrupt tumor progression"
+  authors: "Andrea Comba, Syed M. Faisal, Patrick J. Dunn, Anna E. Argento,
+    Todd C. Hollon, Wajd N. Al-Holou, Maria Luisa Varela, Daniel B. Zamler,
+    Gunnar L. Quass, Pierre F. Apostolides, Clifford Abel II, Christine E. Brown,
+    Phillip E. Kish, Alon Kahana, Celina G. Kleer, Sebastien Motsch, Maria G.
+    Castro and Pedro R. Lowenstein"
+  pills:
+      - title: PDF
+        link: /assets/pdf/publications/comba2021uncovering.pdf
+jiang2022rapid:
+  color: 941100
+  venue: NEUROSURGERY | 2022
+  venue_link: http://neurosurgery-online.com
+  link: https://doi.org/10.1227/neu.0000000000001929
+  title: "Rapid automated analysis of skull base tumor specimens using
+    intraoperative optical imaging and artificial intelligence"
+  authors: "Cheng Jiang, Abhishek Bhattacharya, Joseph Linzey, Rushikesh
+      Joshi, Sung Jik Cha, Sudharsan Srinivasan, Daniel Alber, Akhil Kondepudi,
+      Esteban Urias, Balaji Pandian, Wajd Al-Holou, Steve Sullivan, B. Gregory
+      Thompson, Jason Heth, Chris Freudiger, Siri Khalsa, Donato Pacione, John
+      G. Golfinos, Sandra Camelo-Piragua, Daniel A. Orringer, Honglak Lee, and
+      Todd Hollon"
+  pills:
+    - title: PDF
+      link: /assets/pdf/publications/jiang2022rapid.pdf
+    - title: arXiv
+      link: https://arxiv.org/abs/2108.03555
+    - title: PubMed
+      link: https://pubmed.ncbi.nlm.nih.gov/35343469/
+    - title: Talk
+      link: https://youtu.be/Y_VW_RL6ujk?t=2678
+  featured: True
+urias2020denoising:
+  color: 1d459a
+  venue: MLHC | 2020
+  venue_link: https://www.mlforhc.org
+  link: https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/5f245aaae2b6cb56478c0c28/1596218027588/101_CameraReadySubmission_MLfH+Abstract+Final.pdf
+  title: Denoising stimulated Raman histology using weak supervision to improve label-free optical microscopy of human brain tumors
+  authors: Esteban Urias, Christopher Freudiger, Daniel Orringer, Honglak Lee, and Todd Hollon
+  pills:
+    - title: PDF
+      link: /assets/pdf/publications/urias2020denoising.pdf
+comba2021uncovering:
+  color: 6C51DC
+  venue: FRONTIERS IN ONCOLOGY | 2021
+  venue_link: https://www.frontiersin.org/journals/oncology
+  link: https://doi.org/10.3389/fonc.2021.703764
+  title: "Uncovering Spatiotemporal Heterogeneity of High-Grade Gliomas: From
+        Disease Biology to Therapeutic Implications"
+  authors: "Andrea Comba, Syed M Faisal, Maria Luisa Varela, Todd Hollon, Wajd
+    N Al-Holou, Yoshie Umemura, Felipe J Nunez, Sebastien Motsch, Maria G
+    Castro, and Pedro R Lowenstein"
+  pills:
+    - title: PDF
+      link: /assets/pdf/publications/comba2021uncovering.pdf
+croci2021lateral:
+  color: 0e5598
+  venue: OPERATIVE NEUROSURGERY | 2021
+  venue_link: https://journals.lww.com/onsonline/pages/default.aspx
+  link: https://doi.org/10.1093/ons/opab197
+  title: "Lateral Suboccipital Craniotomy With C1-C2 Hemilaminectomies and
+      C1-C3 Fusion for the Treatment of a C1-C2 Synovial Cyst Causing Spinal
+      Cord Compression: 2-Dimensional Operative Video"
+  authors: "Davide Marco Croci, Vance L. Fredrickson, Todd C. Hollon, Andrew T.
+    Dailey, and William T. Couldwell"
+  pills:
+    - title: PDF
+      link: /assets/pdf/publications/croci2021lateral.pdf
+hollon2021label:
+  color: 2f4e88
+  venue: JOURNAL OF NEURO-ONCOLOGY | 2021
+  venue_link: https://www.springer.com/journal/11060
+  link: https://link.springer.com/article/10.1007/s11060-019-03380-z
+  title: "Label-free brain tumor imaging using Raman-based methods"
+  authors: "Todd Hollon and Daniel A. Orringer"
+  pills:
+    - title: PDF
+      link: /assets/pdf/publications/hollon2021label.pdf
+hollon2021rapid:
+  color: 0b648a
+  venue: NEURO-ONCOLOGY | 2021
+  venue_link: https://academic.oup.com/neuro-oncology
+  link:  https://doi.org/10.1093/neuonc/noaa162
+  title: "Rapid, label-free detection of diffuse glioma recurrence using
+      intraoperative stimulated Raman histology and deep neural networks"
+  authors: "Todd C Hollon, Balaji Pandian, Esteban Urias, Akshay V Save,
+      Arjun R Adapa, Sudharsan Srinivasan, Neil K Jairath, Zia Farooq, Tamara
+      Marie, Wajd N Al-Holou, Karen Eddy, Jason A Heth, Siri Sahib S Khalsa,
+      Kyle Conway, Oren Sagher, Jeffrey N Bruce, Peter Canoll, Christian W
+      Freudiger, Sandra Camelo-Piragua, Honglak Lee, Daniel A Orringer"
+  pills:
+    - title: PDF
+      link: /assets/pdf/publications/hollon2021rapid.pdf
+cutler2020normal:
+  color: 3472bd
+  venue: JOURNAL OF NEUROSURGERY | 2020
+  venue_link: https://thejns.org
+  link: https://doi.org/10.3171/2020.5.peds20178
+  title: "Normal cerebral ventricular volume growth in childhood"
+  authors: "Noah S. Cutler, Sudharsan Srinivasan, Bryan L. Aaron, Sharath
+        Kumar Anand, Michael S. Kang, David B. Altshuler, Thomas C.
+        Schermerhorn, Todd C. Hollon, Cormac O. Maher, and Siri Sahib S.
+        Khalsa"
+  pills:
+    - title: PDF
+      link: /assets/pdf/publications/cutler2020normal.pdf
+daou2021volumetric:
+  color: 3472bd
+  venue: JOURNAL OF NEUROSURGERY | 2020
+  venue_link: https://thejns.org
+  link: https://doi.org/10.3171/2020.8.JNS201273
+  title: "Volumetric quantification of aneurysmal subarachnoid hemorrhage
+    independently predicts hydrocephalus and seizures"
+  authors: Badih J. Daou, Siri Sahib S. Khalsa, Sharath Kumar Anand, Craig A.
+      Williamson, Noah S. Cutler, Bryan L. Aaron, Sudharsan Srinivasan,
+      Venkatakrishna Rajajee, Kyle Sheehan, and Aditya S. Pandey
+  pills:
+    - title: PDF
+      link: /assets/pdf/publications/daou2021volumetric.pdf
+hollon2020automated:
+  color: FF9300
+  venue: MOLECULAR & CELLULAR ONCOLOGY | 2020
+  venue_link: https://www.tandfonline.com/journals/kmco20
+  link: https://doi.org/10.1080/23723556.2020.1736742
+  title: "An automated tissue-to-diagnosis pipeline using intraoperative
+    stimulated Raman histology and deep learning"
+  authors: "Todd C. Hollon and Daniel A. Orringer"
+  pills:
+    - title: PDF
+      link: /assets/pdf/publications/hollon2020automated.pdf
