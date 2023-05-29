@@ -57,7 +57,7 @@ alholou2023subclonal:
     Alnawaz Rehemtulla
   pills:
   - title: PDF
-    link: /assets/pdf/publications/alholou2023subclonal.pdf
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/alholou2023subclonal.pdf
   im: alholou2023subclonal.webp
 jiang2022opensrh:
   color: 862e9c
@@ -79,7 +79,7 @@ jiang2022opensrh:
   - title: Talk
     link: https://youtu.be/H36ERdgU-nI
   - title: Poster
-    link: /assets/posters/jiang2022opensrh.pdf
+    link: https://mlins-site.s3.amazonaws.com/pdf/posters/jiang2022opensrh.pdf
   - title: OpenReview
     link: https://openreview.net/forum?id=2N8JzuiWZ25
   im: jiang2022opensrh.webp
@@ -94,7 +94,7 @@ gologorsky2022generating:
     William Couldwell, Eric Oermann, and Todd Hollon
   pills:
   - title: PDF
-    link: /assets/pdf/publications/gologorsky2022generating.pdf
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/gologorsky2022generating.pdf
   im: gologorsky2022generating.webp
 cheung2022methods:
   color: c92a2a
@@ -109,7 +109,7 @@ cheung2022methods:
     Dinah Chen, Lama A Al-Aswad, Yindalon Aphinyanaphongs, and Eric Karl Oermann
   pills:
   - title: PDF
-    link: /assets/pdf/publications/cheung2022methods.pdf
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/cheung2022methods.pdf
   im: cheung2022methods.webp
 babajanian2022perigeniculate:
   color: 087f5b
@@ -121,7 +121,7 @@ babajanian2022perigeniculate:
     and Richard K. Gurgel
   pills:
   - title: PDF
-    link: /assets/pdf/publications/babajanian2022perigeniculate.pdf
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/babajanian2022perigeniculate.pdf
   im: babajanian2022perigeniculate.webp
 fredrickson2022laminectomy:
   color: e67700
@@ -133,7 +133,7 @@ fredrickson2022laminectomy:
     T.Dailey, and William T.Couldwell
   pills:
   - title: PDF
-    link: /assets/pdf/publications/fredrickson2022laminectomy.pdf
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/fredrickson2022laminectomy.pdf
   im: fredrickson2022laminectomy.webp
 comba2022spatiotemporal:
   color: c92a2a
@@ -148,7 +148,7 @@ comba2022spatiotemporal:
     Alon Kahana, Celina G. Kleer, Sebastien Motsch, Maria G. Castro and Pedro R. Lowenstein
   pills:
   - title: PDF
-    link: /assets/pdf/publications/comba2021uncovering.pdf
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/comba2021uncovering.pdf
   im: comba2022spatiotemporal.webp
 jiang2022rapid:
   color: c92a2a
@@ -164,7 +164,7 @@ jiang2022rapid:
     Daniel A. Orringer, Honglak Lee, and Todd Hollon
   pills:
   - title: PDF
-    link: /assets/pdf/publications/jiang2022rapid.pdf
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/jiang2022rapid.pdf
   - title: arXiv
     link: https://arxiv.org/abs/2108.03555
   - title: PubMed
@@ -195,7 +195,7 @@ fredrickson2022cranio:
     Vance R Mortimer, William T Couldwell
   pills:
   - title: PDF
-    link: /assets/pdf/publications/fredrickson2022cranio.pdf
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/fredrickson2022cranio.pdf
   im: fredrickson2022cranio.webp
 fredrickson2022microsurgical:
   color: e67700
@@ -207,7 +207,7 @@ fredrickson2022microsurgical:
     Ramesh Grandhi, William T Couldwell'
   pills:
   - title: PDF
-    link: /assets/pdf/publications/fredrickson2022microsurgical.pdf
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/fredrickson2022microsurgical.pdf
   im: mlins.webp
 comba2021uncovering:
   color: 862e9c
@@ -221,7 +221,7 @@ comba2021uncovering:
     Lowenstein
   pills:
   - title: PDF
-    link: /assets/pdf/publications/comba2021uncovering.pdf
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/comba2021uncovering.pdf
   im: comba2021uncovering.webp
 croci2021lateral:
   color: 3472bd
@@ -235,7 +235,7 @@ croci2021lateral:
     and William T. Couldwell
   pills:
   - title: PDF
-    link: /assets/pdf/publications/croci2021lateral.pdf
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/croci2021lateral.pdf
   im: croci2021lateral.webp
 hollon2021label:
   color: 1864ab
@@ -246,7 +246,7 @@ hollon2021label:
   authors: Todd Hollon and Daniel A. Orringer
   pills:
   - title: PDF
-    link: /assets/pdf/publications/hollon2021label.pdf
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2021label.pdf
   im: hollon2021label.webp
 hollon2021rapid:
   color: 0b7285
@@ -262,7 +262,7 @@ hollon2021rapid:
     Daniel A Orringer
   pills:
   - title: PDF
-    link: /assets/pdf/publications/hollon2021rapid.pdf
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2021rapid.pdf
   im: hollon2021rapid.webp
 orillac2021clinical:
   color: 5c940d
@@ -273,7 +273,7 @@ orillac2021clinical:
   authors: 'Cordelia Orillac, Todd Hollon, Daniel A Orringer'
   #pills:
   #- title: PDF
-  #  link: /assets/pdf/publications/orillac2022clinical.pdf
+  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/orillac2022clinical.pdf
   im: mlins.webp
 talbotstetsko2021ventricular:
   color: e67700
@@ -287,7 +287,7 @@ talbotstetsko2021ventricular:
     C Hollon, Siri Sahib S Khalsa'
   pills:
   - title: PDF
-    link: /assets/pdf/publications/talbotsketsko2021ventricular.pdf
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/talbotsketsko2021ventricular.pdf
   im: talbotstetsko2021ventricular.webp
 agnoletto2021far:
   color: 1864ab
@@ -311,7 +311,7 @@ gamblin2021idiopathic:
     T Couldwell
   pills:
   - title: PDF
-    link: /assets/pdf/publications/gamblin2021idiopathic.pdf
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/gamblin2021idiopathic.pdf
   im: gamblin2021idiopathic.webp
 daou2021volumetric:
   color: 3472bd
@@ -325,7 +325,7 @@ daou2021volumetric:
     Kyle Sheehan, and Aditya S. Pandey
   pills:
   - title: PDF
-    link: /assets/pdf/publications/daou2021volumetric.pdf
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/daou2021volumetric.pdf
   im: daou2021volumetric.webp
 cutler2020normal:
   color: 3472bd
@@ -336,7 +336,7 @@ cutler2020normal:
   authors: Noah S Cutler , Sudharsan Srinivasan , Bryan L Aaron, Sharath Kumar Anand , Michael S Kang, David B Altshuler, Thomas C Schermerhorn, Todd C Hollon , Cormac O Maher , and Siri Sahib S Khalsa
   pills:
   - title: PDF
-    link: /assets/pdf/publications/cutler2020normal.pdf
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/cutler2020normal.pdf
   im: mlins.webp
 khalsa2020automated:
   color: 5f3dc4
@@ -349,7 +349,7 @@ khalsa2020automated:
     Daniel A Orringer
   pills:
   - title: PDF
-    link: /assets/pdf/publications/khalsa2020automated.pdf
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/khalsa2020automated.pdf
   im: khalsa2020automated.webp
 hollon2020near:
   color: c92a2a
@@ -368,7 +368,7 @@ hollon2020near:
     Canoll, Honglak Lee, Sandra Camelo-Piragua, Daniel A Orringer
   pills:
   - title: PDF
-    link: /assets/pdf/publications/hollon2020near.pdf
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2020near.pdf
   - title: Github
     link: https://github.com/MLNeurosurg/srh_cnn
   - title: Video
@@ -386,7 +386,7 @@ hollon2020automated:
   authors: Todd C. Hollon and Daniel A. Orringer
   pills:
   - title: PDF
-    link: /assets/pdf/publications/hollon2020automated.pdf
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2020automated.pdf
   im: hollon2020automated.webp
 urias2020denoising:
   color: 364fc7
@@ -399,7 +399,7 @@ urias2020denoising:
     Todd Hollon
   pills:
   - title: PDF
-    link: /assets/pdf/publications/urias2020denoising.pdf
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/urias2020denoising.pdf
   im: urias2020denoising.webp
 schultz2019synthetic:
   color: 0b7285
@@ -414,7 +414,7 @@ schultz2019synthetic:
     Orringer, Anna S Schwendeman, Andrew P Lieberman
   #pills:
   #- title: PDF
-  #  link: /assets/pdf/publications/schultz2019synthetic.pdf
+  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/schultz2019synthetic.pdf
   im: mlins.webp
 hollon2019surgical:
   color: 212529
@@ -426,7 +426,7 @@ hollon2019surgical:
   authors: Todd Hollon, Walter Stummer, Daniel Orringer, Eric Suero Molina
   #pills:
   #- title: PDF
-  #  link: /assets/pdf/publications/hollon2019surgical.pdf
+  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2019surgical.pdf
   im: mlins.webp
 hollon2018machine:
   color: 3472bd
@@ -439,7 +439,7 @@ hollon2018machine:
     Ariel L Barkan, Erin L McKean, Stephen E Sullivan
   #pills:
   #- title: PDF
-  #  link: /assets/pdf/publications/hollon2018machine.pdf
+  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2018machine.pdf
   im: mlins.webp
 franko2018clinical:
   color: 1864ab
@@ -453,7 +453,7 @@ franko2018clinical:
     Craig A Williamson
   #pills:
   #- title: PDF
-  #  link: /assets/pdf/publications/franko2018clinical.pdf
+  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/franko2018clinical.pdf
   im: mlins.webp
 hollon2018ventriculoscopic:
   color: 3472bd
@@ -466,7 +466,7 @@ hollon2018ventriculoscopic:
     E Sullivan
   #pills:
   #- title: PDF
-  #  link: /assets/pdf/publications/hollon2018ventriculoscopic.pdf
+  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2018ventriculoscopic.pdf
   im: mlins.webp
 hollon2018shedding:
   color: a61e4d
@@ -477,7 +477,7 @@ hollon2018shedding:
   authors: 'Todd C Hollon, Daniel A Orringer'
   #pills:
   #- title: PDF
-  #  link: /assets/pdf/publications/hollon2018shedding.pdf
+  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2018shedding.pdf
   im: mlins.webp
 savastano2017korsakoff:
   color: 3472bd
@@ -489,7 +489,7 @@ savastano2017korsakoff:
   authors: Luis E Savastano, Todd C Hollon, Ariel L Barkan, Stephen E Sullivan
   #pills:
   #- title: PDF
-  #  link: /assets/pdf/publications/savastano2017korsakoff.pdf
+  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/savastano2017korsakoff.pdf
   im: mlins.webp
 wertz2018surgical:
   color: 1864ab
@@ -502,7 +502,7 @@ wertz2018surgical:
     B McHugh, Erin L McKean
   #pills:
   #- title: PDF
-  #  link: /assets/pdf/publications/wertz2018surgical.pdf
+  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/wertz2018surgical.pdf
   im: mlins.webp
 saadeh2018primary:
   color: 1864ab
@@ -514,7 +514,7 @@ saadeh2018primary:
     Paul E McKeever, Daniel A Orringer"
   #pills:
   #- title: PDF
-  #  link: /assets/pdf/publications/saadeh2018primary.pdf
+  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/saadeh2018primary.pdf
   im: mlins.webp
 hollon2018microvascular:
   color: e67700
@@ -527,7 +527,7 @@ hollon2018microvascular:
     B Gregory Thompson
   #pills:
   #- title: PDF
-  #  link: /assets/pdf/publications/hollon2018microvascular.pdf
+  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2018microvascular.pdf
   im: mlins.webp
 hollon2018rapid:
   color: 364fc7
@@ -541,7 +541,7 @@ hollon2018rapid:
     P Lieberman, Karin Muraszko, Sandra Camelo-Piragua, Daniel A Orringer"
   #pills:
   #- title: PDF
-  #  link: /assets/pdf/publications/hollon2018rapid.pdf
+  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2018rapid.pdf
   im: mlins.webp
 khalsa2017spontaneous:
   color: 862e9c
@@ -554,7 +554,7 @@ khalsa2017spontaneous:
     J Gemmete, and Aditya S Pandey
   #pills:
   #- title: PDF
-  #  link: /assets/pdf/publications/khalsa2017spontaneous.pdf
+  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/khalsa2017spontaneous.pdf
   im: mlins.webp
 khalsa2017comparison:
   color: 3472bd
@@ -565,7 +565,7 @@ khalsa2017comparison:
   authors: Siri Sahib S Khalsa, Alan Siu, Tiffani A DeFreitas, Justin M Cappuzzo, John S Myseros, Suresh N Magge, Chima O Oluigbo, and Robert F Keating
   #pills:
   #- title: PDF
-  #  link: /assets/pdf/publications/khalsa2017comparison.pdf
+  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/khalsa2017comparison.pdf
   im: mlins.webp
 orringer2017rapid:
   color: 862e9c
@@ -580,10 +580,10 @@ orringer2017rapid:
     Venneti, Shakti H Ramkissoon, Kathryn A McFadden, Amanda Fisher-Hubbard, Andrew
     P Lieberman, Timothy D Johnson, X Sunney Xie, Jay K Trautman, Christian W Freudiger,
     Sandra Camelo-Piragua
-  #pills:
-  #- title: PDF
-  #  link: /assets/pdf/publications/orringer2017rapid.pdf
-  im: mlins.webp
+  pills:
+  - title: PDF
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/orringer2017rapid.pdf
+  im: orringer2017rapid.webp
 khalsa2017morphometric:
   color: 3472bd
   venue: JOURNAL OF NEUROSURGERY PEDIATRICS | 2017
@@ -593,7 +593,7 @@ khalsa2017morphometric:
   authors: Siri Sahib S Khalsa, Ndi Geh, Bryn A Martin, Philip A Allen, Jennifer Strahle, Francis Loth, Desale Habtzghi, Aintzane Urbizu Serrano, Daniel McQuaide, Hugh J L Garton, Karin M Muraszko, Cormac O Maher
   #pills:
   #- title: PDF
-  #  link: /assets/pdf/publications/khalsa2017morphometric.pdf
+  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/khalsa2017morphometric.pdf
   im: mlins.webp
 hollon2016superatentorial:
   color: 3472bd
@@ -606,7 +606,7 @@ hollon2016superatentorial:
     Daniel A Orringer'
   #pills:
   #- title: PDF
-  #  link: /assets/pdf/publications/hollon2016superatentorial.pdf
+  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2016superatentorial.pdf
   im: mlins.webp
 khalsa2016spontaneous:
   color: 1864ab
@@ -619,7 +619,7 @@ khalsa2016spontaneous:
     J Gemmete, Aditya S Pandey'
   #pills:
   #- title: PDF
-  #  link: /assets/pdf/publications/khalsa2016spontaneous.pdf
+  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/khalsa2016spontaneous.pdf
   im: mlins.webp
 guan2016delayed:
   color: 862e9c
@@ -630,7 +630,7 @@ guan2016delayed:
   authors: Zhe Guan, Thomas J Wilson, Jon A Jacobson, Todd C Hollon, Lynda J-S Yang
   #pills:
   #- title: PDF
-  #  link: /assets/pdf/publications/guan2016delayed.pdf
+  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/guan2016delayed.pdf
   im: mlins.webp
 hollon2016improving:
   color: 3472bd
@@ -642,7 +642,7 @@ hollon2016improving:
     A Orringer'
   #pills:
   #- title: PDF
-  #  link: /assets/pdf/publications/hollon2016improving.pdf
+  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2016improving.pdf
   im: mlins.webp
 hollon2016surgical:
   color: e67700
@@ -654,7 +654,7 @@ hollon2016surgical:
     Hugh J L Garton'
   #pills:
   #- title: PDF
-  #  link: /assets/pdf/publications/hollon2016surgical.pdf
+  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2016surgical.pdf
   im: mlins.webp
 chandler2016outcome:
   color: c92a2a
@@ -667,7 +667,7 @@ chandler2016outcome:
     Sack, Barunashish Brahma, David E Schteingart
   #pills:
   #- title: PDF
-  #  link: /assets/pdf/publications/chandler2016outcome.pdf
+  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/chandler2016outcome.pdf
   im: mlins.webp
 guan2015ruptured:
   color: 3472bd
@@ -679,7 +679,7 @@ guan2015ruptured:
   authors: Zhe Guan, Todd Hollon, J Nicole Bentley, Hugh J L Garton
   #pills:
   #- title: PDF
-  #  link: /assets/pdf/publications/guan2015ruptured.pdf
+  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/guan2015ruptured.pdf
   im: mlins.webp
 hollon2015advances:
   color: 087f5b
@@ -690,7 +690,7 @@ hollon2015advances:
   authors: 'Todd Hollon, Shawn L Hervey-Jumper, Oren Sagher, Daniel A Orringer'
   #pills:
   #- title: PDF
-  #  link: /assets/pdf/publications/hollon2015advances.pdf
+  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2015advances.pdf
   im: mlins.webp
 hollon2015skull:
   color: 1864ab
@@ -701,7 +701,7 @@ hollon2015skull:
   authors: Todd Hollon, Paul E McKeever, Hugh J L Garton, Cormac O Maher
   #pills:
   #- title: PDF
-  #  link: /assets/pdf/publications/hollon2015skull.pdf
+  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2015skull.pdf
   im: mlins.webp
 hollon2013mutations:
   color: 1864ab
@@ -713,7 +713,7 @@ hollon2013mutations:
   authors: Todd C Hollon, Richard L Price, Chang-Hyuk Kwon, E Antonio Chiocca
   #pills:
   #- title: PDF
-  #  link: /assets/pdf/publications/hollon2013mutations.pdf
+  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2013mutations.pdf
   im: mlins.webp
 price2013cytomegalovirus:
   color: 364fc7
@@ -728,5 +728,5 @@ price2013cytomegalovirus:
     E Antonio Chiocca, Chang-Hyuk Kwon
   #pills:
   #- title: PDF
-  #  link: /assets/pdf/publications/price2013cytomegalovirus.pdf
+  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/price2013cytomegalovirus.pdf
   im: mlins.webp
