@@ -1,0 +1,96 @@
+people:
+- name: Todd Hollon, MD
+  position: Principal Investigator
+  key: tocho
+  bio: Dr. Todd Hollon is a neurosurgeon and research scientist who specializes in brain tumors. He is an Assistant Professor of Neurosurgery. He completed his postdoctoral training in the UM Translational Molecular Imaging Laboratory under the supervision of Drs. Daniel Orringer and Honglak Lee. His postdoctoral work focused on the application of deep neural networks to advanced imaging methods to improve the speed and accuracy of intraoperative brain tumor diagnosis. He hopes to be part of the next generation of young scientists that uses computation and machine learning to make scientific breakthroughs.
+  link: https://medicine.umich.edu/dept/neurosurgery/todd-hollon-md
+- name: Sandra Camelo-Piragua, MD
+  position: Professor of Neuropathology
+  key: sandraca
+  link: https://www.pathology.med.umich.edu/faculty/sandraca
+- name: Honglak Lee
+  position: Associate Professor of Computer Science<br>Senior VP and Chief Scientist, LG AI Research
+  key: honglak
+  link: https://web.eecs.umich.edu/~honglak/
+- name: Dan Orringer, MD
+  position: Associate Professor of Neurosurgery, New York University
+  key: dorringe
+  link: https://nyulangone.org/doctors/1124141296/daniel-a-orringer
+- name: Chris Freudiger, PhD
+  position: CTO, Invenio Imaging
+  key: chris
+  link: https://www.invenio-imaging.com
+- name: Maria Castro, PhD
+  position: Professor of Neurosurgery
+  key: mariacas
+  link: https://medicine.umich.edu/dept/neurosurgery/maria-g-castro-phd
+- name: Pedro Lowenstein, MD, PhD
+  position: Professor of Neurosurgery
+  key: pedrol
+  link: https://medicine.umich.edu/dept/neurosurgery/pedro-lowenstein-md-phd
+staff:
+- name: Asadur Chowdury
+  position: Machine Learning Engineer
+  key: achowdur
+  bio: Asadur is a machine learning engineer interested in exploring the effective usage of deep learning models in biomedical images to improve healthcare. He received his Masters of Applied Data Science from University of  Michigan and Bachelors of Science in Neuroscience (cognitive) from Michigan State University. He hopes to see tricorder like systems in his lifetime.
+  link: /people/achowdur
+- name: Lin Wang
+  position: Laboratory Technician
+  key: linwan
+- name: Karen Eddy
+  position: Lab Manager
+  key: eddyka
+  bio: "Karen received her Bachelor's degree in Biology and Biotechnology in Ottawa, Canada. She enjoys lab management and working at the bench. She has worked for the Canadian government, Harvard University and Metabolix, Inc. She joined the Neurosurgery department in 2016."
+  link: /people/eddyka
+students:
+- name: Cheng Jiang
+  position: PhD Candidate
+  key: chengjia
+  link: https://chengjia.me/
+- name: Renly Hou
+  position: PhD Candidate
+  key: xinhaih
+  bio: Renly is interested in semi-supervised learning and representation learning in medical image application. He graduated from The Chinese University of Hong Kong, Shenzhen with a B.S. in Statistical Science and worked as machine learning engineer intern in Tencent before joining MLiNS.
+  link: /people/xinhaih
+- name: Yiwei Lyu
+  position: PhD Student
+  key: yiweilyu
+  bio: Yiwei Lyu is a Ph.D. student of Computer Science and Engineering at the University of Michigan. His research focuses on Multimodal Machine Learning, Computer Vision, Natural Language Processing, and their applications in the real world (including medical domain). Yiwei completed his undergraduate and master's studies at Carnegie Mellon University's School of Computer Science.
+  link: https://lvyiwei1.github.io/
+- name: Akhil Kondepudi
+  position: MD-PhD Student
+  key: akhilk
+  bio: "Akhil Kondepudi is a research fellow interested in the field of biomedical informatics: specifically, how AI can be applied to gain insights into multimodal medical data and improve clinical workflows. He recently completed in his undergraduate studies at the University of Michigan, where he studied neuroscience and computer science."
+  link: https://avkondepudi.me
+- name: Abhishek Bhattacharya
+  position: Medical Student
+  key: abhishbh
+  link: null
+- name: Sung Jik Cha
+  position: Medical Student,  Western Michigan University
+  key: sungjikc
+  bio: "Sung Jik Cha is currently a medical student at the Western Michigan University, Homer Stryker MD School of Medicine. He is deeply interested in medical AI, neuroscience, medical imaging, and histology. He graduated from UC Berkeley with a degree in Computer Science and worked as a software engineer before beginning his journey in medicine."
+  link: /people/sungjikc
+- name: Rachel Gologorsky
+  position: Medical Student, Icahn School of Medicine at Mount Sinai
+  key: gologors
+  bio: "Rachel is interested in applying machine learning techniques to advance medicine. She completed her undergraduate studies at Harvard University, graduating summa cum laude with a joint degree in Computer Science & Mathematics. "
+  link: /people/gologors
+- name: Samir Harake
+  position: Medical Student
+  key: eharakej
+  link: null
+- name: Julia Rosander
+  position: PhD Student
+  key: juliaros
+  bio: "Julia is a PhD student in Computational Medicine and Bioinformatics at the University of Michigan. Her interests include the application of bioinformatics and machine learning to neuroscience discovery. Julia completed her undergraduate studies in Neuroscience at the University of Michigan."
+  link: /people/juliaros
+alums:
+- name: Esteban Urias, MD
+  position: Medical Student (2021)
+  current: Internal medicine resident, University of Michigan
+  link: null
+- name: Balaji Pandian, MD
+  position: Medical Student (2020)
+  current: Anesthesiology resident, Cornell University
+  link: null

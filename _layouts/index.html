@@ -6,16 +6,71 @@
   <body>
 
     {%- include header.html -%}
-    <div class="banner-container" style="width:100%; max-height:500px; position:relative; text-align:center;">
-        <img src="assets/images/main_bg.png" style="width:100%; max-height:500px; object-fit: cover;">
-        <div style="position: absolute; top:50%; left:50%; transform: translate(-50%, -50%); color:white; font-wight:bold; font-size:72px; width:100%; height:100%; display:flex; align-items:center; justify-content:center; background: rgba(0, 0, 0, 0.2);">Machine Learning <br> in Neurosurgery</div>
+    <div class="banner-container">
+        <img class="banner-im" src="assets/images/index/main_bg.webp">
+        <div class="banner-text">Machine Learning <br> in Neurosurgery</div>
     </div>
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-      The MLiNS ('em-linz') Lab studies how machine learning and artificial intelligence can be used to improve the diagnosis and treatment of patients with neurosurgical diseases.
 
-      <a class="twitter-timeline" href="https://twitter.com/ToddCHollon?ref_src=twsrc%5Etfw">Tweets by ToddCHollon</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <div style="display: flex;">
+        <div class="main-desc">
+            <h2 style="font-weight:bold;">Welcome to the Machine Learning in Neurosurgery Lab at Michigan Medicine</h2>
+            <p class="main">The MLiNS Lab, led by Dr. Todd Hollon, works at the intersection of AI, biomedical research, and clinical medicine. The applications of AI in medicine have grown tremendously over the previous decade. AI systems are now being used for early cancer detection, computer-aided diagnosis, automated tumor localization, and personalized treatment recommendations. Our group aims to translate the latest advances in AI, machine learning, and computer science to improve the diagnosis and treatment of patients with neurological and neurosurgical diseases.</p>
+            <p><b><i>What is the background?</i></b>  We use a special kind of neural network, called a generative adversarial network, to synthesize 'fake' images to improve how well we are able to diagnose brain tumors from real patients during surgery. Our background contains a mix of real and fake images: can you spot the fakes?</p>
+        </div>
+        <div class="main-tweet no-palm">
+            <a class="twitter-timeline" data-height="500" data-dnt="true" href="https://twitter.com/ToddCHollon?ref_src=twsrc%5Etfw">Tweets by ToddCHollon</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        </div>
+
+      <h2><b>Research</b></h2>
+      {% for i in site.data.research_cards %}
+        <div class="main-res-wrap">
+            <div class="res-card-wrap {{ i[0].width}} res-card-left" >
+                <img class="res-card-back" src="assets/images/index/{{ i[0].image }}">
+                <div class="{{ i[0].font_color }}">
+                <h1 style="margin:10px;">{{ i[0].title }}</h1>
+                </div>
+            </div>
+            <div class="res-card-wrap {{ i[1].width }}">
+                <img class="res-card-back" src="assets/images/index/{{ i[1].image }}">
+                <div class="{{ i[1].font_color }}">
+                <h1 style="margin:10px;">{{ i[1].title }}</h1>
+                </div>
+            </div>
+        </div>
+      {% endfor %}
+
+
+      <h2><b>Featured Publications</b></h2>
+      {% for i in site.data.featured_publications %}
+      <div class="pubcard">
+          <div class="publeft">
+              <img src="/assets/images/publications/{{ site.data.publications[i].im }}" class="pc-profile">
+          </div>
+          <div class="pubright">
+              {% if i[1].venue_link %}
+              <p style="color:#{{ site.data.publications[i].color }}; margin: 0px; font-weight:bold">
+                  <a class="venue" href="{{ site.data.publications[i].venue_link }}" style="color:#{{ site.data.publications[i].color }};">
+                  {{ site.data.publications[i].venue }}</a></p>
+              {% else %}
+              <p style="color:#{{ site.data.publications[i].color }}; margin: 0px; font-weight:bold">
+                  {{ site.data.publications[i].venue }}</p>
+              {% endif %}
+
+              <a class="publication" href="{{ site.data.publications[i].link }}">{{ site.data.publications[i].title }}</a>
+              <p style="color:#696969;">{{ site.data.publications[i].authors }} </p>
+              <div>
+              {% for j in site.data.publications[i].pills %}
+              <a class="pill" href="{{ j.link }}">{{ j.title }}</a>
+              {% endfor %}
+              </div>
+          </div>
       </div>
+      {% endfor %}
+
+    </div>
     </main>
 
     {%- include footer.html -%}

@@ -1,0 +1,24 @@
+- - title: Optical Imaging
+    image: imaging.webp
+    width: res-card-narrow
+    font_color: res-card-text-neg
+  - title: Machine Learning + Computer Vision
+    image: mlcv.webp
+    width: res-card-wide
+    font_color: res-card-text-pos
+- - title: Augmenting Intraoperative Pathology
+    image: aug.webp
+    width: res-card-wide
+    font_color: res-card-text-neg
+  - title: Predicting Patient Outcomes
+    image: outcome.webp
+    width: res-card-narrow
+    font_color: res-card-text-neg
+- - title: Glioma Oncostreams
+    image: oncostream.webp
+    width: res-card-narrow
+    font_color: res-card-text-neg
+  - title: Automated brain segmentation
+    image: mri.webp
+    width: res-card-wide
+    font_color: res-card-text-neg

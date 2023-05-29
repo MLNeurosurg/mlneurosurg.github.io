@@ -3,36 +3,39 @@ layout: default
 ---
 <div class="post-content">
     <h2><b>Featured Publications</b></h2>
-    {% for i in site.data.publications %}
-    {% if i[1].featured %}
+    {% for i in site.data.featured_publications %}
     <div class="pubcard">
         <div class="publeft">
-            <img src="/assets/images/publications/{{ i[0] }}.png" class="pc-profile">
+            <img src="/assets/images/publications/{{ site.data.publications[i].im }}" class="pc-profile">
         </div>
         <div class="pubright">
             {% if i[1].venue_link %}
-            <p style="color:#{{ i[1].color }}; margin: 0px; font-weight:bold">
-                <a class="venue" href="{{ i[1].venue_link }}" style="color:#{{ i[1].color }};">
-                {{ i[1].venue }}</a></p>
+            <p style="color:#{{ site.data.publications[i].color }}; margin: 0px; font-weight:bold">
+                <a class="venue" href="{{ site.data.publications[i].venue_link }}" style="color:#{{ site.data.publications[i].color }};">
+                {{ site.data.publications[i].venue }}</a></p>
             {% else %}
-            <p style="color:#{{ i[1].color }}; margin: 0px; font-weight:bold">
-                {{ i[1].venue }}</p>
+            <p style="color:#{{ site.data.publications[i].color }}; margin: 0px; font-weight:bold">
+                {{ site.data.publications[i].venue }}</p>
             {% endif %}
 
-            <a class="publication" href="{{ i[1].link }}">{{ i[1].title }}</a>
-            <p style="color:#696969;">{{ i[1].authors }} </p>
-            {% for j in i[1].pills %}
+            <a class="publication" href="{{ site.data.publications[i].link }}">{{ site.data.publications[i].title }}</a>
+            <p style="color:#696969;">{{ site.data.publications[i].authors }} </p>
+            <div>
+            {% for j in site.data.publications[i].pills %}
             <a class="pill" href="{{ j.link }}">{{ j.title }}</a>
             {% endfor %}
+            </div>
         </div>
     </div>
+    {% if forloop.last == false %}
+    <hr>
     {% endif %}
     {% endfor %}
-    <h2 style="font-weight:bold;">Preprints</h2>
+    <!--h2 style="font-weight:bold;">Preprints</h2>
     {% for i in site.data.preprints %}
     <div class="pubcard">
         <div class="publeft">
-            <img src="/assets/images/publications/{{ i[0] }}.png" class="pc-profile">
+            <img src="/assets/images/publications/{{ i[1].im }}" class="pc-profile">
         </div>
         <div class="pubright">
             <p style="color:#{{ i[1].color }}; margin: 0px; font-weight:bold">
@@ -45,11 +48,12 @@ layout: default
         </div>
     </div>
     {% endfor %}
+    -->
     <h2><b>Publications</b></h2>
     {% for i in site.data.publications %}
-    <div class="pubcard">
+    <div id="{{ i[0] }}"  class="pubcard">
         <div class="publeft">
-            <img src="/assets/images/publications/{{ i[0] }}.png" class="pc-profile">
+            <img src="/assets/images/publications/{{ i[1].im }}" class="pc-profile">
         </div>
         <div class="pubright">
             {% if i[1].venue_link %}
@@ -63,11 +67,16 @@ layout: default
 
             <a class="publication" href="{{ i[1].link }}">{{ i[1].title }}</a>
             <p style="color:#696969;">{{ i[1].authors }} </p>
+            <div>
             {% for j in i[1].pills %}
             <a class="pill" href="{{ j.link }}">{{ j.title }}</a>
             {% endfor %}
+            </div>
         </div>
     </div>
+    {% if forloop.last == false %}
+    <hr>
+    {% endif %}
     {% endfor %}
 
 

@@ -1,7 +1,97 @@
----
-layout: default
----
-<div class="post-content">
-    <h2><b>Contact</b></h2>
-    <p>chengjia [AT] umich [DOT] edu</p>
-</div>
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+{%- include head.html -%}
+<body>
+    {%- include header.html -%}
+
+    <div class="narrow-banner-container">
+        <img class="narrow-banner-im" src="/assets/images/index/main_bg.webp">
+        <div class="banner-text">Contact</div>
+    </div>
+
+    <div class="page-content" aria-label="Contact"> <div class="wrapper">
+
+        <div class="contact-wrap">
+            <div class="contact-left">
+                <h2 style="margin: 0px"><b>Work with Us</b></h2>
+                <span> We are currently looking for new lab members! Master's,
+                doctoral, and post-doctoral students are encourage to contact us.
+                Medical students with a programming background are also welcome. Please
+                send your CV to eddyka AT med DOT umich DOT edu. We study a diverse set
+                of ML/AI topics and encourage students from a computer science or
+                medical background to contact us. </span>
+            </div>
+
+            <div class="contact-right">
+                <img src="/assets/images/contact/neurips22.webp" style="width:100%">
+            </div>
+        </div>
+
+        <div class="contact-wrap-reverse">
+            <div class="contact-left">
+                <img src="/assets/images/contact/medical_campus.webp" style="width:100%">
+            </div>
+
+            <div class="contact-right">
+                <h2 style="margin: 0px"><b>Giving</b></h2>
+                <p style="margin-bottom: 10px;">To donate to Dr. Hollon's research
+                in the latest advances in AI and machine learning please
+                contact:</p>
+
+                <div style="display:flex; align-items: center; justify-content: center;">
+                    <div style="width: 30%; margin-right:10px;">
+                        <img src="/assets/images/people/kagwiz.webp" style="border-radius:10px">
+                    </div>
+                    <div>
+                        <h3 style="margin:0px;">Kirsten Petriches</h3>
+                        <span>Associate Director of Development<br>
+                        Neurosciences<br>
+                        734-763-5240<br>
+                        kagwiz AT umich DOT edu</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="contact-wrap">
+            <div class="contact-left">
+                <h2 style="margin: 0px"><b>OpenSRH</b></h2>
+
+                <span> OpenSRH is the first and only publicly available stimulated
+                Raman histology (SRH) dataset and classification benchmark of the most
+                common brain tumor types. We hope OpenSRH will promote translational Al
+                research within the field of precision oncology and optimize the
+                surgical management of human cancers. <br><br>
+                To get access to OpenSRH, please visit the
+                <a href="https://opensrh.mlins.org">OpenSRH Website.</a></span>
+            </div>
+            <div class="contact-right">
+                <img src="/assets/images/contact/opensrh.webp" style="width:100%">
+            </div>
+        </div>
+
+        <div  class="contact-wrap-reverse">
+            <div class="contact-left">
+                <iframe width="100%"; height="300px" jsname="L5Fo6c" class="YMEQtf"
+                sandbox="allow-scripts allow-popups allow-forms allow-same-origin
+                allow-popups-to-escape-sandbox allow-downloads allow-modals"
+                frameborder="0" aria-label="Map, 1500 E Medical Center Dr SPC 5338"
+                src="https://maps-api-ssl.google.com/maps?hl=en-US&amp;ll=42.284949,-83.72851&amp;output=embed&amp;q=1500+E+Medical+Center+Dr+SPC+5338,+Ann+Arbor,+MI+48109,+USA+(1500+E+Medical+Center+Dr+SPC+5338)&amp;z=16"
+                allowfullscreen=""></iframe>
+            </div>
+            <div class="contact-right">
+                <h2><b>Our laboratory is located at</b></h2>
+                <span>
+                Department of Neurosurgery<br>
+                University of Michigan Medical School<br>
+                1500 E Medical Center Dr SPC 5338<br>
+                Ann Arbor, MI 48109</span>
+            </div>
+
+        </div>
+    </div> </div>
+    {%- include footer.html -%}
+</body>
+</html>
+

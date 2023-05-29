@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+{%- include head.html -%}
+<body>
+{%- include header.html -%}
+
+<div class="narrow-banner-container">
+    <img class="narrow-banner-im" src="/assets/images/index/the_team.webp">
+    <div class="banner-text">People</div>
+</div>
+
+<div class="page-content" aria-label="People Content">
+<div class="wrapper">
+    <h1> Faculty + Collaborators </h1>
+    <div class="exec-container">
+    {% for i in site.data.people.people %}
+    <div class="exec-card">
+        <img class="people-profile" src="/assets/images/people/{{ i.key }}.webp" alt="{{ i.name }}" >
+        <div class="exec-name">
+            {% if i.link  %}
+            <a href="{{ i.link }}">{{ i.name }}</a>
+            {% else %}
+            <span href="{{ i.link }}">{{ i.name }}</span>
+            {% endif %}
+        </div>
+        <div class="exec-position"> {{ i.position }} </div>
+    </div>
+    {% endfor %}
+    </div>
+
+    <h1> Staff </h1>
+
+    <div class="exec-container">
+    {% for i in site.data.people.staff %}
+    <div class="exec-card">
+        <img class="people-profile" src="/assets/images/people/{{ i.key }}.webp" alt="{{ i.name }}" >
+        <div class="exec-name">
+            {% if i.link  %}
+            <a href="{{ i.link }}">{{ i.name }}</a>
+            {% else %}
+            <span href="{{ i.link }}">{{ i.name }}</span>
+            {% endif %}
+        </div>
+        <div class="exec-position"> {{ i.position }} </div>
+    </div>
+    {% endfor %}
+    </div>
+
+    <h1> Students </h1>
+
+    <div class="exec-container">
+    {% for i in site.data.people.students %}
+    <div class="exec-card">
+        <img class="people-profile" src="/assets/images/people/{{ i.key }}.webp" alt="{{ i.name }}" >
+        <div class="exec-name">
+        {% if i.link  %}
+        <a href="{{ i.link }}">{{ i.name }}</a>
+        {% else %}
+        <span href="{{ i.link }}">{{ i.name }}</span>
+        {% endif %}
+        </div>
+        <div class="exec-position"> {{ i.position }} </div>
+    </div>
+    {% endfor %}
+    </div>
+
+    <h1> Alums </h1>
+
+    <div class="exec-container">
+    {% for i in site.data.people.alums %}
+    <div class="exec-card">
+        <div class="exec-name">
+        {% if i.link  %}
+        <a href="{{ i.link }}">{{ i.name }}</a>
+        {% else %}
+        <span href="{{ i.link }}">{{ i.name }}</span>
+        {% endif %}
+        </div>
+        {% if i.current  %}
+        <div class="exec-position" style="margin:0px;"> {{ i.position }} </div>
+        <div class="exec-position"> Next: {{ i.current }} </div>
+        {% else %}
+        <div class="exec-position"> {{ i.position }} </div>
+        {% endif %}
+
+    </div>
+    {% endfor %}
+    </div>
+</div>
+</div>
+
+{%- include footer.html -%}
+</body>
+</html>

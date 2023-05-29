@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<div class="post-content">
+    <h2><b>News + Press</b></h2>
+    {% for i in site.data.news %}
+    <div class="pubcard">
+        <div class="publeft">
+            <img src="/assets/images/news/{{ i.im }}" class="pc-profile">
+        </div>
+        <div class="pubright">
+            <span style="margin: 0px; font-weight:bold">{{ i.venue }}</span>
+            <a class="publication" href="{{ i.link }}">{{ i.title }}</a>
+        </div>
+    </div>
+    {% if forloop.last == false %}
+    <hr>
+    {% endif %}
+    {% endfor %}
+</div>
+

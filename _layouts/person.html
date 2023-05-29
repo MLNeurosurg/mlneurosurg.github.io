@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+{%- include head.html -%}
+
+{%- assign all_people = site.data.people.people | concat: site.data.people.staff | concat: site.data.people.students | concat: site.data.people.alums -%}
+
+
+<body>
+  {%- include header.html -%}
+  {% for i in all_people %}
+    {% if i.key == page.key %}
+      <div class="narrow-banner-container">
+        <img class="narrow-banner-im" src="/assets/images/index/main_bg.webp">
+        <div class="banner-text" style="flex-direction: column; background: rgba(0, 0, 0, 0.6);">
+          {{ i.name }}
+          <span class="person-title">{{ i.position }}</span>
+        </div>
+      </div>
+
+      <div class="page-content" aria-label="Research Content">
+      <div class="wrapper">
+        <div class="person-wrap">
+          <div class="person-desc">
+          <p>{{ i.bio }}</p>
+          </div>
+          <div class="person-profile">
+          <img class="people-profile" src="/assets/images/people/{{ i.key }}.jpg" alt="{{ i.name }}" >
+          </div>
+        </div>
+      </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+  {%- include footer.html -%}
+</body>
+
+</html>

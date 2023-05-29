@@ -172,7 +172,7 @@ a.venue {
   font-weight: 600;
   &:visited{
     color: inherit;
-  } 
+  }
   &:hover {
     text-decoration: underline;
   }
@@ -271,7 +271,7 @@ a.dots {
     height:16px;
     background-color:#bbbbbc;
     color: #696969;
-    
+
     &:visited {
     text-decoration: none;
     color: #696969;
@@ -352,14 +352,14 @@ pre {
   max-width: calc(#{$content-width} - (#{$spacing-unit}));
   margin-right: auto;
   margin-left: auto;
-  padding-right: $spacing-unit / 2;
-  padding-left: $spacing-unit / 2;
-  @extend %clearfix;
+  padding-right: $spacing-unit;
+  padding-left: $spacing-unit;
+  //@extend %clearfix;
 
-  @media screen and (min-width: $on-large) {
+  @media screen and (min-width: $on-palm) {
     max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
+    padding-right: $spacing-unit * 2;
+    padding-left: $spacing-unit * 2;
   }
 }
 
