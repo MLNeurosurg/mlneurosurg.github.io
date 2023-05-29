@@ -15,7 +15,7 @@ jiang2022hierarchical:
           link: https://arxiv.org/abs/2303.01605
         - title: Github
           link: https://github.com/MLNeurosurg/hidisc
-    im: jiang2023hierarchical.png
+    im: jiang2023hierarchical.webp
     recent: True
 hollon2023artificial:
     color: c92a2a
@@ -41,7 +41,7 @@ hollon2023artificial:
           link: https://doi.org/10.21203/rs.3.rs-1930236/v1
         - title: Github
           link: https://github.com/MLNeurosurg/deepglioma
-    im: hollon2023artificial.png
+    im: hollon2023artificial.webp
     recent: True
 alholou2023subclonal:
   color: 5c940d
@@ -58,7 +58,7 @@ alholou2023subclonal:
   pills:
   - title: PDF
     link: /assets/pdf/publications/alholou2023subclonal.pdf
-  im: alholou2023subclonal.png
+  im: alholou2023subclonal.webp
 jiang2022opensrh:
   color: 862e9c
   venue: NEURIPS DATASETS & BENCHMARKS | 2022
@@ -82,7 +82,7 @@ jiang2022opensrh:
     link: /assets/posters/jiang2022opensrh.pdf
   - title: OpenReview
     link: https://openreview.net/forum?id=2N8JzuiWZ25
-  im: jiang2022opensrh.png
+  im: jiang2022opensrh.webp
 gologorsky2022generating:
   color: 212529
   venue: PITUITARY | 2022
@@ -95,7 +95,7 @@ gologorsky2022generating:
   pills:
   - title: PDF
     link: /assets/pdf/publications/gologorsky2022generating.pdf
-  im: gologorsky2022generating.png
+  im: gologorsky2022generating.webp
 cheung2022methods:
   color: c92a2a
   venue: NEUROSURGERY | 2022
@@ -110,7 +110,7 @@ cheung2022methods:
   pills:
   - title: PDF
     link: /assets/pdf/publications/cheung2022methods.pdf
-  im: cheung2022methods.png
+  im: cheung2022methods.webp
 babajanian2022perigeniculate:
   color: 087f5b
   venue: CUREUS | 2022
@@ -122,7 +122,7 @@ babajanian2022perigeniculate:
   pills:
   - title: PDF
     link: /assets/pdf/publications/babajanian2022perigeniculate.pdf
-  im: babajanian2022perigeniculate.png
+  im: babajanian2022perigeniculate.webp
 fredrickson2022laminectomy:
   color: e67700
   venue: WORLD NEUROSURGERY | 2022
@@ -134,7 +134,7 @@ fredrickson2022laminectomy:
   pills:
   - title: PDF
     link: /assets/pdf/publications/fredrickson2022laminectomy.pdf
-  im: fredrickson2022laminectomy.png
+  im: fredrickson2022laminectomy.webp
 comba2022spatiotemporal:
   color: c92a2a
   venue: NATURE COMMUNICATIONS | 2022
@@ -149,7 +149,7 @@ comba2022spatiotemporal:
   pills:
   - title: PDF
     link: /assets/pdf/publications/comba2021uncovering.pdf
-  im: comba2022spatiotemporal.png
+  im: comba2022spatiotemporal.webp
 jiang2022rapid:
   color: c92a2a
   venue: NEUROSURGERY | 2022
@@ -171,7 +171,7 @@ jiang2022rapid:
     link: https://pubmed.ncbi.nlm.nih.gov/35343469/
   - title: Talk
     link: https://youtu.be/Y_VW_RL6ujk?t=2678
-  im: jiang2022rapid.png
+  im: jiang2022rapid.webp
 hollon2022extent:
   color: e67700
   venue: WORLD NEUROSURGERY | 2022
@@ -183,7 +183,7 @@ hollon2022extent:
   pills:
   - title: PDF
     link: /assests/pdf/publications/hollon2022extent.pdf
-  im: hollon2022extent.png
+  im: hollon2022extent.webp
 fredrickson2022cranio:
   color: 3472bd
   venue: OPERATIVE NEUROSURGERY | 2022
@@ -196,7 +196,7 @@ fredrickson2022cranio:
   pills:
   - title: PDF
     link: /assets/pdf/publications/fredrickson2022cranio.pdf
-  im: fredrickson2022cranio.png
+  im: fredrickson2022cranio.webp
 fredrickson2022microsurgical:
   color: e67700
   venue: WORLD NEUROSURGERY | 2022
@@ -208,7 +208,7 @@ fredrickson2022microsurgical:
   pills:
   - title: PDF
     link: /assets/pdf/publications/fredrickson2022microsurgical.pdf
-  im: mlins.png
+  im: mlins.webp
 comba2021uncovering:
   color: 862e9c
   venue: FRONTIERS IN ONCOLOGY | 2021
@@ -222,7 +222,7 @@ comba2021uncovering:
   pills:
   - title: PDF
     link: /assets/pdf/publications/comba2021uncovering.pdf
-  im: comba2021uncovering.png
+  im: comba2021uncovering.webp
 croci2021lateral:
   color: 3472bd
   venue: OPERATIVE NEUROSURGERY | 2021
@@ -236,7 +236,7 @@ croci2021lateral:
   pills:
   - title: PDF
     link: /assets/pdf/publications/croci2021lateral.pdf
-  im: croci2021lateral.png
+  im: croci2021lateral.webp
 hollon2021label:
   color: 1864ab
   venue: JOURNAL OF NEURO-ONCOLOGY | 2021
@@ -247,7 +247,7 @@ hollon2021label:
   pills:
   - title: PDF
     link: /assets/pdf/publications/hollon2021label.pdf
-  im: hollon2021label.png
+  im: hollon2021label.webp
 hollon2021rapid:
   color: 0b7285
   venue: NEURO-ONCOLOGY | 2021
@@ -263,7 +263,7 @@ hollon2021rapid:
   pills:
   - title: PDF
     link: /assets/pdf/publications/hollon2021rapid.pdf
-  im: hollon2021rapid.png
+  im: hollon2021rapid.webp
 orillac2021clinical:
   color: 5c940d
   venue: METHODS IN MOLECULAR BIOLOGY | 2021
@@ -274,7 +274,7 @@ orillac2021clinical:
   pills:
   - title: PDF
     link: /assets/pdf/publications/orillac2022clinical.pdf
-  im: mlins.png
+  im: mlins.webp
 talbotstetsko2021ventricular:
   color: e67700
   venue: WORLD NEUROSURGERY | 2021
@@ -288,7 +288,7 @@ talbotstetsko2021ventricular:
   pills:
   - title: PDF
     link: /assets/pdf/publications/talbotsketsko2021ventricular.pdf
-  im: talbotstetsko2021ventricular.png
+  im: talbotstetsko2021ventricular.webp
 agnoletto2021far:
   color: 1864ab
   venue: NEUROLOGY INDIA | 2021
@@ -300,7 +300,7 @@ agnoletto2021far:
   pills:
   - title: Paper
     link: https://doi.org/10.4103/0028-3886.333526
-  im: mlins.png
+  im: mlins.webp
 gamblin2021idiopathic:
   color: 364fc7
   venue: ACTA NEUROCHIRURGICA | 2021
@@ -312,7 +312,7 @@ gamblin2021idiopathic:
   pills:
   - title: PDF
     link: /assets/pdf/publications/gamblin2021idiopathic.pdf
-  im: gamblin2021idiopathic.png
+  im: gamblin2021idiopathic.webp
 daou2021volumetric:
   color: 3472bd
   venue: JOURNAL OF NEUROSURGERY | 2020
@@ -326,7 +326,7 @@ daou2021volumetric:
   pills:
   - title: PDF
     link: /assets/pdf/publications/daou2021volumetric.pdf
-  im: daou2021volumetric.png
+  im: daou2021volumetric.webp
 cutler2020normal:
   color: 3472bd
   venue: JOURNAL OF NEUROSURGERY PEDIATRICS | 2020
@@ -337,7 +337,7 @@ cutler2020normal:
   pills:
   - title: PDF
     link: /assets/pdf/publications/cutler2020normal.pdf
-  im: mlins.png
+  im: mlins.webp
 khalsa2020automated:
   color: 5f3dc4
   venue: CNS ONCOLOGY | 2020
@@ -350,7 +350,7 @@ khalsa2020automated:
   pills:
   - title: PDF
     link: /assets/pdf/publications/khalsa2020automated.pdf
-  im: khalsa2020automated.png
+  im: khalsa2020automated.webp
 hollon2020near:
   color: c92a2a
   venue: NATURE MEDICINE | 2020
@@ -375,7 +375,7 @@ hollon2020near:
     link: https://www.youtube.com/watch?v=UZZ08_fC7UU
   - title: NYTimes Article
     link: https://www.nytimes.com/2020/01/06/health/artificial-intelligence-brain-cancer.html
-  im: hollon2020near.png
+  im: hollon2020near.webp
 hollon2020automated:
   color: 1864ab
   venue: MOLECULAR & CELLULAR ONCOLOGY | 2020
@@ -387,7 +387,7 @@ hollon2020automated:
   pills:
   - title: PDF
     link: /assets/pdf/publications/hollon2020automated.pdf
-  im: hollon2020automated.png
+  im: hollon2020automated.webp
 urias2020denoising:
   color: 364fc7
   venue: MLHC | 2020
@@ -400,7 +400,7 @@ urias2020denoising:
   pills:
   - title: PDF
     link: /assets/pdf/publications/urias2020denoising.pdf
-  im: urias2020denoising.png
+  im: urias2020denoising.webp
 schultz2019synthetic:
   color: 0b7285
   venue: BMC MEDICINE | 2019
@@ -415,7 +415,7 @@ schultz2019synthetic:
   pills:
   - title: PDF
     link: /assets/pdf/publications/schultz2019synthetic.pdf
-  im: mlins.png
+  im: mlins.webp
 hollon2019surgical:
   color: 212529
   venue: NEUROSURGERY CLINICS OF NORTH AMERICA | 2019
@@ -427,7 +427,7 @@ hollon2019surgical:
   pills:
   - title: PDF
     link: /assets/pdf/publications/hollon2019surgical.pdf
-  im: mlins.png
+  im: mlins.webp
 hollon2018machine:
   color: 3472bd
   venue: JOURNAL OF NEUROSURGERY | 2018
@@ -440,7 +440,7 @@ hollon2018machine:
   pills:
   - title: PDF
     link: /assets/pdf/publications/hollon2018machine.pdf
-  im: mlins.png
+  im: mlins.webp
 franko2018clinical:
   color: 1864ab
   venue: CRITICAL CARE MEDICINE | 2018
@@ -454,7 +454,7 @@ franko2018clinical:
   pills:
   - title: PDF
     link: /assets/pdf/publications/franko2018clinical.pdf
-  im: mlins.png
+  im: mlins.webp
 hollon2018ventriculoscopic:
   color: 3472bd
   venue: OPERATIVE NEUROSURGERY | 2018
@@ -467,7 +467,7 @@ hollon2018ventriculoscopic:
   pills:
   - title: PDF
     link: /assets/pdf/publications/hollon2018ventriculoscopic.pdf
-  im: mlins.png
+  im: mlins.webp
 hollon2018shedding:
   color: a61e4d
   venue: CLINICAL CANCER RESEARCH | 2018
@@ -478,7 +478,7 @@ hollon2018shedding:
   pills:
   - title: PDF
     link: /assets/pdf/publications/hollon2018shedding.pdf
-  im: mlins.png
+  im: mlins.webp
 savastano2017korsakoff:
   color: 3472bd
   venue: JOURNAL OF NEUROSURGERY | 2017
@@ -490,7 +490,7 @@ savastano2017korsakoff:
   pills:
   - title: PDF
     link: /assets/pdf/publications/savastano2017korsakoff.pdf
-  im: mlins.png
+  im: mlins.webp
 wertz2018surgical:
   color: 1864ab
   venue: JOURNAL OF NEUROLOGICAL SURGERY | 2018
@@ -503,7 +503,7 @@ wertz2018surgical:
   pills:
   - title: PDF
     link: /assets/pdf/publications/wertz2018surgical.pdf
-  im: mlins.png
+  im: mlins.webp
 saadeh2018primary:
   color: 1864ab
   venue: JOURNAL OF CLINICAL NEUROSCIENCE | 2018
@@ -515,7 +515,7 @@ saadeh2018primary:
   pills:
   - title: PDF
     link: /assets/pdf/publications/saadeh2018primary.pdf
-  im: mlins.png
+  im: mlins.webp
 hollon2018microvascular:
   color: e67700
   venue: WORLD NEUROSURGERY | 2018
@@ -528,7 +528,7 @@ hollon2018microvascular:
   pills:
   - title: PDF
     link: /assets/pdf/publications/hollon2018microvascular.pdf
-  im: mlins.png
+  im: mlins.webp
 hollon2018rapid:
   color: 364fc7
   venue: CANCER RESEARCH | 2018
@@ -542,7 +542,7 @@ hollon2018rapid:
   pills:
   - title: PDF
     link: /assets/pdf/publications/hollon2018rapid.pdf
-  im: mlins.png
+  im: mlins.webp
 khalsa2017spontaneous:
   color: 862e9c
   venue: JOURNAL OF NEUROINTERVENTIONAL SURGERY | 2017
@@ -555,7 +555,7 @@ khalsa2017spontaneous:
   pills:
   - title: PDF
     link: /assets/pdf/publications/khalsa2017spontaneous.pdf
-  im: mlins.png
+  im: mlins.webp
 khalsa2017comparison:
   color: 3472bd
   venue: JOURNAL OF NEUROSURGERY PEDIATRICS | 2017
@@ -566,7 +566,7 @@ khalsa2017comparison:
   pills:
   - title: PDF
     link: /assets/pdf/publications/khalsa2017comparison.pdf
-  im: mlins.png
+  im: mlins.webp
 orringer2017rapid:
   color: 862e9c
   venue: NATURE BIOMEDICAL ENGINEERING | 2017
@@ -583,7 +583,7 @@ orringer2017rapid:
   pills:
   - title: PDF
     link: /assets/pdf/publications/orringer2017rapid.pdf
-  im: mlins.png
+  im: mlins.webp
 khalsa2017morphometric:
   color: 3472bd
   venue: JOURNAL OF NEUROSURGERY PEDIATRICS | 2017
@@ -594,7 +594,7 @@ khalsa2017morphometric:
   pills:
   - title: PDF
     link: /assets/pdf/publications/khalsa2017morphometric.pdf
-  im: mlins.png
+  im: mlins.webp
 hollon2016superatentorial:
   color: 3472bd
   venue: JOURNAL OF NEUROSURGERY | 2016
@@ -607,7 +607,7 @@ hollon2016superatentorial:
   pills:
   - title: PDF
     link: /assets/pdf/publications/hollon2016superatentorial.pdf
-  im: mlins.png
+  im: mlins.webp
 khalsa2016spontaneous:
   color: 1864ab
   venue: BMJ CASE REPORTS | 2016
@@ -620,7 +620,7 @@ khalsa2016spontaneous:
   pills:
   - title: PDF
     link: /assets/pdf/publications/khalsa2016spontaneous.pdf
-  im: mlins.png
+  im: mlins.webp
 guan2016delayed:
   color: 862e9c
   venue: PM&R | 2016
@@ -631,7 +631,7 @@ guan2016delayed:
   pills:
   - title: PDF
     link: /assets/pdf/publications/guan2016delayed.pdf
-  im: mlins.png
+  im: mlins.webp
 hollon2016improving:
   color: 3472bd
   venue: JOURNAL OF NEUROSURGERY | 2016
@@ -643,7 +643,7 @@ hollon2016improving:
   pills:
   - title: PDF
     link: /assets/pdf/publications/hollon2016improving.pdf
-  im: mlins.png
+  im: mlins.webp
 hollon2016surgical:
   color: e67700
   venue: WORLD NEUROSURGERY | 2016
@@ -655,7 +655,7 @@ hollon2016surgical:
   pills:
   - title: PDF
     link: /assets/pdf/publications/hollon2016surgical.pdf
-  im: mlins.png
+  im: mlins.webp
 chandler2016outcome:
   color: c92a2a
   venue: NEUROSURGERY | 2016
@@ -668,7 +668,7 @@ chandler2016outcome:
   pills:
   - title: PDF
     link: /assets/pdf/publications/chandler2016outcome.pdf
-  im: mlins.png
+  im: mlins.webp
 guan2015ruptured:
   color: 3472bd
   venue: JOURNAL OF NEUROSURGERY | 2015
@@ -680,7 +680,7 @@ guan2015ruptured:
   pills:
   - title: PDF
     link: /assets/pdf/publications/guan2015ruptured.pdf
-  im: mlins.png
+  im: mlins.webp
 hollon2015advances:
   color: 087f5b
   venue: SEMINARS IN RADIATION ONCOLOGY | 2015
@@ -691,7 +691,7 @@ hollon2015advances:
   pills:
   - title: PDF
     link: /assets/pdf/publications/hollon2015advances.pdf
-  im: mlins.png
+  im: mlins.webp
 hollon2015skull:
   color: 1864ab
   venue: "CHILD'S NERVOUS SYSTEM | 2015"
@@ -702,7 +702,7 @@ hollon2015skull:
   pills:
   - title: PDF
     link: /assets/pdf/publications/hollon2015skull.pdf
-  im: mlins.png
+  im: mlins.webp
 hollon2013mutations:
   color: 1864ab
   venue: ONCOIMMUNOLOGY | 2013
@@ -714,7 +714,7 @@ hollon2013mutations:
   pills:
   - title: PDF
     link: /assets/pdf/publications/hollon2013mutations.pdf
-  im: mlins.png
+  im: mlins.webp
 price2013cytomegalovirus:
   color: 364fc7
   venue: CANCER RESEARCH | 2013
@@ -729,4 +729,4 @@ price2013cytomegalovirus:
   pills:
   - title: PDF
     link: /assets/pdf/publications/price2013cytomegalovirus.pdf
-  im: mlins.png
+  im: mlins.webp
