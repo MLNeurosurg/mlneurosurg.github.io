@@ -14,7 +14,7 @@
   <div class="page-content" aria-label="Research Content"><div class="wrapper">
     {% for i in site.data.research %}
     <div>
-      <div class="research-wrap">
+      <div id="{{ i.id }}"class="research-wrap">
         <div class="research-sec-left">
           {% for j in i.im %}
             <img style="width:100%;" src="{{ j }}">

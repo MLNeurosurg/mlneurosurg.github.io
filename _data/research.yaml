@@ -13,6 +13,7 @@
   im:
     - /assets/images/research/srh1.webp
     - /assets/images/research/srh2.webp
+  id: optical_vision
 - title: Predicting patient outcomes
   desc: "Machine learning has the potential to revolutionize the way we predict patient outcomes. Electronic medical records (EMR) have streamlined data collection and made it easier than ever to use ML algorithms to assist in patient care. Our work has focused on predicting (1) how well patients will recover after surgery and (2) what will ultimately affect their long-term outcome and survival. We use ML algorithms that allow for transparency and interpretability, both of which are essential to trust the recommendations of ML decision-support tools in healthcare. By identifying the specific set of symptoms, radiographic findings, laboratory values, etc. that our models use for prediction, physicians can use ML  recommendations in the appropriate clinical context for personalized treatment decisions."
   publications:
@@ -25,6 +26,7 @@
     - /assets/images/research/outcome2.webp
     - /assets/images/research/outcome3.webp
     - /assets/images/research/outcome4.webp
+  id: outcome
 - title: Automated brain segmentation
   desc: "Computed tomography (CT) and magnetic resonance imaging (MRI) are an indispensable part of neurosurgery. Currently, interpretation of CT and MRI scans requires a skilled neuroradiologist and is mainly qualitative, meaning the radiologist provides a written narrative of their findings with little or no quantitative measurements. These measurements are time- and labor-intensive, making it infeasible to have neuroradiologists perform them in the vast majority of scans. Therefore, the MLiNS lab has set out to automate the process of measuring specific features of MR and CT scans that can affect treatment decisions and patient outcomes. For example, the volume of the cerebral ventricles is an essential part of the diagnosis and long-term management of hydrocephalus. The problem is that (1) cerebral ventricle volumes can vary widely between patients and (2) detecting subtle changes in ventricle volume can be challenging, even by trained neuroradiologists and neurosurgeons. We have developed a method for automated segmentation and volumetric assessment of cerebral ventricles in both normal controls and hydrocephalus patients to assist in treatment decisions. We have applied similar methods to measure the hematoma burden in subarachnoid hemorrhage patients and morphologic assessment of the posterior fossa in Chiari malformations."
   publications:
@@ -37,12 +39,14 @@
     - /assets/images/research/mri1.webp
     - /assets/images/research/mri2.webp
     - /assets/images/research/mri3.webp
+  id: seg
 - title: Augmenting intraoperative pathology
   desc: "The use of AI in digital pathology has grown significantly over the previous decade. The majority of research in this area has focused on the automated interpretation of formalin-fixed, paraffin-embedded permanent specimens. However, our lab has focused on applying AI to frozen sections performed during surgery, which is a much more challenging computer vision task. Accurate intraoperative diagnosis is essential for providing safe and effective care for brain tumor patients. Surgical goals are divergent depending on intraoperative diagnosis, which necessitates a pathology workflow that is timely and accurate. Conventional intraoperative pathology requires freezing and sectioning, which introduces artifacts into the specimen and can make interpretation challenging and decrease accuracy. Moreover, each fresh intraoperative specimen must be individually reviewed by a neuropathologist, which can be time-consuming. Our lab aims to provide decision support and computer-augmented diagnostic tools to improve the speed and accuracy intraoperative diagnosis. Specifically, we have trained deep neural networks to classify the most common brain tumor types using frozen sections alone. Because the availability of frozen whose-slide images is limited, we use synthetic images for data augmentation to improve classification performance. We train a neural network model, called a generative adversarial network, to generate 'fake' images that can be used to train a classifier network to improve diagnostic accuracy.  We have worked closely on this project with our collaborators at <i>Synthetaic,</i>  a start-up AI company that uses synthetic data to improve AI for real-world applications. <br><br> The images on the left are real images sampled from the The Cancer Genome Atlas. The images on the right are synthetic, or fake, images created using generative adversarial networks. We use the fake images to improve brain tumor diagnosis. "
   publications:
     - khalsa2020automated
   im:
     - /assets/images/research/aug1.webp
+  id: aug
 - title: Finding oncostreams in gliomas
   desc: "Our collaborators, Drs. Pedro Lowenstein and Maria Castro, have discovered that within gliomas are self-organizing structures, called oncostreams, which determine the spatial heterogeneity and malignant behavior of these deadly tumors. The MLiNS lab was able to assist in this discovery by developing deep neural networks that can detect and quantify oncostreams in whole-slide images from glioma mouse models and patient's tumors. Using the latest computer vision methods for biomedical image segmentation, we were able to demonstrate that a higher density of oncostreams, detected using our trained model, correlates with tumor grade and decreased survival. These results were confirmed using whole-slide images from The Cancer Genome Atlas (TCGA)."
   publications:
@@ -52,3 +56,4 @@
     - /assets/images/research/oncostream1.webp
     - /assets/images/research/oncostream2.webp
     - /assets/images/research/oncostream3.webp
+  id: oncostream

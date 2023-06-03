@@ -755,15 +755,14 @@ div.res-card-text-pos, div.res-card-text-neg  {
   display: flex;
   align-items:center;
   justify-content:center;
-  background: rgba(0, 0, 0, 0.3);
 }
 div.res-card-text-pos  {
   color:black;
-  background: rgba(255,255,255, 0.3);
+  background: rgba(255,255,255, 0.1);
 }
 div.res-card-text-neg  {
   color:white;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.1);
 }
 @media only screen and (max-width: $on-laptop) {
   .res-card-wide {
@@ -833,7 +832,7 @@ div.banner-text {
   display:flex;
   align-items:center;
   justify-content:center;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.2);
 }
 
 @media only screen and (max-width: $on-palm) {
@@ -852,7 +851,6 @@ div.banner-text {
   div.banner-text {
     font-size:36px;
   }
-
 }
 
 div.main-desc {
