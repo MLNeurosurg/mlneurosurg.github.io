@@ -80,12 +80,12 @@ students:
   position: Medical Student
   key: eharakej
   link: null
-- name: Julia Rosander
-  position: PhD Student
-  key: juliaros
-  bio: "Julia is a PhD student in Computational Medicine and Bioinformatics at the University of Michigan. Her interests include the application of bioinformatics and machine learning to neuroscience discovery. Julia completed her undergraduate studies in Neuroscience at the University of Michigan."
-  link: /people/juliaros
 alums:
+- name: Julia Rosander
+  position: Graduate Student (2023)
+  #key: juliaros
+  #bio: "Julia is a PhD student in Computational Medicine and Bioinformatics at the University of Michigan. Her interests include the application of bioinformatics and machine learning to neuroscience discovery. Julia completed her undergraduate studies in Neuroscience at the University of Michigan."
+  link: null
 - name: Esteban Urias, MD
   position: Medical Student (2021)
   current: Internal medicine resident, University of Michigan

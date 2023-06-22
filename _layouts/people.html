@@ -28,23 +28,6 @@
     {% endfor %}
     </div>
 
-    <h1> Staff </h1>
-
-    <div class="exec-container">
-    {% for i in site.data.people.staff %}
-    <div class="exec-card">
-        <img class="people-profile" src="/assets/images/people/{{ i.key }}.webp" alt="{{ i.name }}" >
-        <div class="exec-name">
-            {% if i.link  %}
-            <a href="{{ i.link }}">{{ i.name }}</a>
-            {% else %}
-            <span href="{{ i.link }}">{{ i.name }}</span>
-            {% endif %}
-        </div>
-        <div class="exec-position"> {{ i.position }} </div>
-    </div>
-    {% endfor %}
-    </div>
 
     <h1> Students </h1>
 
@@ -58,6 +41,24 @@
         {% else %}
         <span href="{{ i.link }}">{{ i.name }}</span>
         {% endif %}
+        </div>
+        <div class="exec-position"> {{ i.position }} </div>
+    </div>
+    {% endfor %}
+    </div>
+
+    <h1> Staff </h1>
+
+    <div class="exec-container">
+    {% for i in site.data.people.staff %}
+    <div class="exec-card">
+        <img class="people-profile" src="/assets/images/people/{{ i.key }}.webp" alt="{{ i.name }}" >
+        <div class="exec-name">
+            {% if i.link  %}
+            <a href="{{ i.link }}">{{ i.name }}</a>
+            {% else %}
+            <span href="{{ i.link }}">{{ i.name }}</span>
+            {% endif %}
         </div>
         <div class="exec-position"> {{ i.position }} </div>
     </div>
