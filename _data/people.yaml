@@ -8,7 +8,7 @@ people:
   position: Professor of Neuropathology
   key: sandraca
   link: https://www.pathology.med.umich.edu/faculty/sandraca
-- name: Honglak Lee
+- name: Honglak Lee, PhD
   position: Associate Professor of Computer Science<br>Senior VP and Chief Scientist, LG AI Research
   key: honglak
   link: https://web.eecs.umich.edu/~honglak/
@@ -58,10 +58,14 @@ students:
   bio: Yiwei Lyu is a Ph.D. student of Computer Science and Engineering at the University of Michigan. His research focuses on Multimodal Machine Learning, Computer Vision, Natural Language Processing, and their applications in the real world (including medical domain). Yiwei completed his undergraduate and master's studies at Carnegie Mellon University's School of Computer Science.
   link: https://lvyiwei1.github.io/
 - name: Akhil Kondepudi
-  position: MD-PhD Student
+  position: MD/PhD Student
   key: akhilk
   bio: "Akhil Kondepudi is a research fellow interested in the field of biomedical informatics: specifically, how AI can be applied to gain insights into multimodal medical data and improve clinical workflows. He recently completed in his undergraduate studies at the University of Michigan, where he studied neuroscience and computer science."
   link: https://avkondepudi.me
+- name: Samir Harake
+  position: Medical Student
+  key: eharakej
+  link: null
 - name: Abhishek Bhattacharya
   position: Medical Student
   key: abhishbh
@@ -76,9 +80,9 @@ students:
   key: gologors
   bio: "Rachel is interested in applying machine learning techniques to advance medicine. She completed her undergraduate studies at Harvard University, graduating summa cum laude with a joint degree in Computer Science & Mathematics. "
   link: /people/gologors
-- name: Samir Harake
-  position: Medical Student
-  key: eharakej
+- name: Akshay Rao
+  position: MD/PhD Student
+  key: akshayro
   link: null
 alums:
 - name: Julia Rosander

@@ -1,0 +1,31 @@
+- date: August 2023
+  update: Happy Birthday to Dr. Hollon!
+  image:
+  - /assets/images/updates/birthday.webp
+- date: August 2023
+  update: MLiNS lab out to see Openheimer today. Great storytelling!
+  image: null
+- date: August 2023
+  update: Congrats to Akhil for his admission into the MSTP program and the white coat ceremony!
+  image: null
+- date: June 2023
+  update: MLiNS lab presented <a href="https://hidisc.mlins.org"><b>HiDisc</b></a> at <b>CVPR 2023</b>!
+  image:
+  - /assets/images/updates/cvpr0.webp
+  - /assets/images/updates/cvpr1.webp
+- date: May 2023
+  update: Samir receives the MICHR NIH T32 Award to support his dedicated research year. 
+  image: null
+- date: March 2023
+  update: We introduce <b>DeepGlioma</b>, the first AI-based molecular classification system for diffuse gliomas. Check out the paper featured in <a href="https://nature.com/articles/s41591-023-02252-4"> <b>Nature Medicine</b></a>!
+- date: January 2023
+  update: Exciting news from the MLiNS Lab and collaborators! Big thanks to the Chan Zuckerberg Initiative for awarding our group the Advancing Imaging Through Collaborative Projects Award.
+  image: null
+- date: December 2022
+  update: MLiNS lab presented <a href="https://opensrh.mlins.org"><b>OpenSRH</b></a> at <b>NeurIPS 2022</b>! 
+  image:
+  - /assets/images/contact/neurips22.webp
+  - /assets/images/updates/neurips22_present.webp
+- date: February 2022
+  update: Abhishek is awarded the NIH T35 Short Term Training Grant for Medical Students!
+  image: null

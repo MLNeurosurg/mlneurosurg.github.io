@@ -38,7 +38,7 @@ hollon2023artificial:
         - title: Paper
           link: https://doi.org/10.1038/s41591-023-02252-4
         - title: arXiv
-          link: https://arxiv.org/pdf/2303.13610.pdf #https://doi.org/10.21203/rs.3.rs-1930236/v1
+          link: https://arxiv.org/abs/2303.13610
         - title: Github
           link: https://github.com/MLNeurosurg/deepglioma
     im: hollon2023artificial.webp

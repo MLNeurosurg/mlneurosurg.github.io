@@ -13,10 +13,11 @@
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
 
-        <div style="display: flex;">
+        <div class="main-wrap">
         <div class="main-desc">
             <h2 style="font-weight:bold;">Welcome to the Machine Learning in Neurosurgery Laboratory at Michigan Medicine</h2>
-            <p class="main">The MLiNS Lab, led by Dr. Todd Hollon, works at the
+            <p class="main" style="text-align: justify;">
+            The MLiNS Lab, led by Dr. Todd Hollon, works at the
             intersection of AI, biomedical research, and clinical medicine. The
             applications of AI in medicine have grown tremendously over the
             previous decade. AI systems are now being used for early cancer
@@ -25,19 +26,23 @@
             translate the latest advances in AI, machine learning, and computer
             science to improve the diagnosis and treatment of patients with
             neurological and neurosurgical diseases.</p>
-            <p><b><i>What is the background?</i></b>  We use a special kind of
-            neural network, called a generative adversarial network, to
-            synthesize 'fake' images to improve how well we are able to
-            diagnose brain tumors from real patients during surgery. Our
-            background contains a mix of real and fake images: can you spot the
-            fakes?</p>
         </div>
-        <div class="main-tweet no-palm">
-            <a class="twitter-timeline" data-height="500" data-dnt="true"
-            href="https://twitter.com/ToddCHollon?ref_src=twsrc%5Etfw">Tweets
-            by ToddCHollon</a> <script async
-            src="https://platform.twitter.com/widgets.js"
-            charset="utf-8"></script>
+        <div class="main-tweet">
+            <h3 style="font-weight:bold;padding-left:10px; padding-right:10px;">Lab News</h3>
+            <div style="height:100%; width:100%; overflow-y:scroll; padding-left:10px; padding-right:10px;">
+    
+            {% for i in site.data.updates %}
+                <div style="display=flex; margin-bottom:20px;">
+                    <p style="font-weight:bold;margin-bottom:0px;">{{ i.date }}</p>
+                    <p>{{ i.update }}</p>
+                    {% if i.image %}
+                        {% for j in i.image %}
+                            <img class="update" src="{{ j }}">
+                        {% endfor %}
+                    {% endif %}
+                </div>
+            {% endfor %}
+            </div>
         </div>
         </div>
 
