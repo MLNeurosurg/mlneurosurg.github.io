@@ -337,7 +337,7 @@ cutler2020normal:
   pills:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/cutler2020normal.pdf
-  im: mlins.webp
+  im: cutler2020normal.webp
 khalsa2020automated:
   color: 5f3dc4
   venue: CNS ONCOLOGY | 2020
@@ -412,10 +412,10 @@ schultz2019synthetic:
     Thaddeus J Kunkel, Troy A Halseth, Kelsey L Krus, Ran Ming, Emily E Morin, Hayley
     S McLoughlin, David D Bushart, Henry L Paulson, Vikram G Shakkottai, Daniel A
     Orringer, Anna S Schwendeman, Andrew P Lieberman
-  #pills:
-  #- title: PDF
-  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/schultz2019synthetic.pdf
-  im: mlins.webp
+  pills:
+  - title: PDF
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/schultz2019synthetic.pdf
+  im: schultz2019synthetic.webp
 hollon2019surgical:
   color: 212529
   venue: NEUROSURGERY CLINICS OF NORTH AMERICA | 2019
@@ -424,9 +424,9 @@ hollon2019surgical:
   title: 'Surgical Adjuncts to Increase the Extent of Resection: Intraoperative MRI,
     Fluorescence, and Raman Histology'
   authors: Todd Hollon, Walter Stummer, Daniel Orringer, Eric Suero Molina
-  #pills:
-  #- title: PDF
-  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2019surgical.pdf
+  # pills:
+  # - title: PDF
+  #   link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2019surgical.pdf
   im: mlins.webp
 hollon2018machine:
   color: 3472bd
@@ -437,10 +437,10 @@ hollon2018machine:
     surgery
   authors: Todd C Hollon, Adish Parikh, Balaji Pandian, Jamaal Tarpeh, Daniel A Orringer,
     Ariel L Barkan, Erin L McKean, Stephen E Sullivan
-  #pills:
-  #- title: PDF
-  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2018machine.pdf
-  im: mlins.webp
+  pills:
+  - title: PDF
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2018machine.pdf
+  im: hollon2018machine.webp
 franko2018clinical:
   color: 1864ab
   venue: CRITICAL CARE MEDICINE | 2018
@@ -451,23 +451,23 @@ franko2018clinical:
   authors: Lynze R Franko, Todd Hollon, Joseph Linzey, Christopher Roark, Venkatakrishna
     Rajajee, Kyle Sheehan, Magnus Teig, Shawn Hervey-Jumper, Jason Heth, Daniel Orringer,
     Craig A Williamson
-  #pills:
-  #- title: PDF
-  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/franko2018clinical.pdf
-  im: mlins.webp
-hollon2018ventriculoscopic:
+  pills:
+  - title: PDF
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/franko2018clinical.pdf
+  im: franko2018clinical.webp
+hollon2017ventriculoscopic:
   color: 3472bd
-  venue: OPERATIVE NEUROSURGERY | 2018
+  venue: OPERATIVE NEUROSURGERY | 2017
   venue_link: https://journals.lww.com/onsonline/pages/default.aspx
   link: https://doi.org/10.1093/ons/opx220
   title: "Ventriculoscopic Surgery for Cystic Retrochiasmatic Craniopharyngiomas: Indications,
     Surgical Technique, and Short-Term Patient Outcomes"
   authors: Todd C Hollon, Luis E Savastano, David Altshuler, Ariel L Barkan, Stephen
     E Sullivan
-  #pills:
-  #- title: PDF
-  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2018ventriculoscopic.pdf
-  im: mlins.webp
+  pills:
+  - title: PDF
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2017ventriculoscopic.pdf
+  im: hollon2017ventriculoscopic.webp
 hollon2018shedding:
   color: a61e4d
   venue: CLINICAL CANCER RESEARCH | 2018
@@ -475,10 +475,10 @@ hollon2018shedding:
   link: https://doi.org/10.1158/1078-0432.ccr-18-0011
   title: Shedding Light on IDH1 Mutation in Gliomas
   authors: 'Todd C Hollon, Daniel A Orringer'
-  #pills:
-  #- title: PDF
-  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2018shedding.pdf
-  im: mlins.webp
+  pills:
+  - title: PDF
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2018shedding.pdf
+  im: hollon2018shedding.webp
 savastano2017korsakoff:
   color: 3472bd
   venue: JOURNAL OF NEUROSURGERY | 2017
@@ -487,10 +487,10 @@ savastano2017korsakoff:
   title: 'Korsakoff syndrome from retrochiasmatic suprasellar lesions: rapid reversal
     after relief of cerebral compression in 4 cases'
   authors: Luis E Savastano, Todd C Hollon, Ariel L Barkan, Stephen E Sullivan
-  #pills:
-  #- title: PDF
-  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/savastano2017korsakoff.pdf
-  im: mlins.webp
+  pills:
+  - title: PDF
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/savastano2017korsakoff.pdf
+  im: savastano2017korsakoff.webp
 wertz2018surgical:
   color: 1864ab
   venue: JOURNAL OF NEUROLOGICAL SURGERY | 2018
@@ -500,10 +500,10 @@ wertz2018surgical:
     Progression Free and Overall Survival'
   authors: Aileen Wertz, Todd Hollon, Lawrence J Marentette, Stephen E Sullivan, Jonathan
     B McHugh, Erin L McKean
-  #pills:
-  #- title: PDF
-  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/wertz2018surgical.pdf
-  im: mlins.webp
+  pills:
+  - title: PDF
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/wertz2018surgical.pdf
+  im: wertz2018surgical.webp
 saadeh2018primary:
   color: 1864ab
   venue: JOURNAL OF CLINICAL NEUROSCIENCE | 2018
@@ -512,10 +512,10 @@ saadeh2018primary:
   title: 'Primary diffuse leptomeningeal melanomatosis: Description and recommendations'
   authors: "Yamaan S Saadeh, Todd C Hollon, Amanda Fisher-Hubbard, Luis E Savastano,
     Paul E McKeever, Daniel A Orringer"
-  #pills:
-  #- title: PDF
-  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/saadeh2018primary.pdf
-  im: mlins.webp
+  pills:
+  - title: PDF
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/saadeh2018primary.pdf
+  im: saadeh2018primary.webp
 hollon2018microvascular:
   color: e67700
   venue: WORLD NEUROSURGERY | 2018
@@ -525,10 +525,10 @@ hollon2018microvascular:
     Clinical and Microanatomic Study'
   authors: Todd C Hollon, Luis E Savastano, Davis P Argersinger, Douglas J Quint,
     B Gregory Thompson
-  #pills:
-  #- title: PDF
-  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2018microvascular.pdf
-  im: mlins.webp
+  pills:
+  - title: PDF
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2018microvascular.pdf
+  im: hollon2018microvascular.webp
 hollon2018rapid:
   color: 364fc7
   venue: CANCER RESEARCH | 2018
@@ -539,23 +539,23 @@ hollon2018rapid:
   authors: "Todd C Hollon, Spencer Lewis, Balaji Pandian, Yashar S Niknafs, Mia R
     Garrard, Hugh Garton, Cormac O Maher, Kathryn McFadden, Matija Snuderl, Andrew
     P Lieberman, Karin Muraszko, Sandra Camelo-Piragua, Daniel A Orringer"
-  #pills:
-  #- title: PDF
-  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2018rapid.pdf
-  im: mlins.webp
-khalsa2017spontaneous:
+  pills:
+  - title: PDF
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2018rapid.pdf
+  im: hollon2018rapid.webp
+khalsa2016spontaneous:
   color: 862e9c
-  venue: JOURNAL OF NEUROINTERVENTIONAL SURGERY | 2017
+  venue: JOURNAL OF NEUROINTERVENTIONAL SURGERY | 2016
   venue_link: https://jnis.bmj.com/
   link: https://doi.org/10.1136/neurintsurg-2016-012446.rep
   title: Spontaneous subarachnoid hemorrhage due to ruptured cavernous internal carotid
     artery aneurysm after medical prolactinoma treatment
   authors: Siri Sahib Khalsa, Todd C Hollon, Ravi Shastri, Jonathan D Trobe, Joseph
     J Gemmete, and Aditya S Pandey
-  #pills:
-  #- title: PDF
-  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/khalsa2017spontaneous.pdf
-  im: mlins.webp
+  pills:
+  - title: PDF
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/khalsa2016spontaneous.pdf
+  im: khalsa2016spontaneous.webp
 khalsa2017comparison:
   color: 3472bd
   venue: JOURNAL OF NEUROSURGERY PEDIATRICS | 2017
@@ -563,10 +563,10 @@ khalsa2017comparison:
   link: https://doi.org/10.3171/2016.11.PEDS16263
   title: Comparison of posterior fossa volumes and clinical outcomes after decompression of Chiari malformation Type I
   authors: Siri Sahib S Khalsa, Alan Siu, Tiffani A DeFreitas, Justin M Cappuzzo, John S Myseros, Suresh N Magge, Chima O Oluigbo, and Robert F Keating
-  #pills:
-  #- title: PDF
-  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/khalsa2017comparison.pdf
-  im: mlins.webp
+  pills:
+  - title: PDF
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/khalsa2017comparison.pdf
+  im: khalsa2017comparison.webp
 orringer2017rapid:
   color: 862e9c
   venue: NATURE BIOMEDICAL ENGINEERING | 2017
@@ -591,10 +591,10 @@ khalsa2017morphometric:
   link: https://doi.org/10.3171/2017.8.PEDS17345
   title: Morphometric and volumetric comparison of 102 children with symptomatic and asymptomatic Chiari malformation Type I
   authors: Siri Sahib S Khalsa, Ndi Geh, Bryn A Martin, Philip A Allen, Jennifer Strahle, Francis Loth, Desale Habtzghi, Aintzane Urbizu Serrano, Daniel McQuaide, Hugh J L Garton, Karin M Muraszko, Cormac O Maher
-  #pills:
-  #- title: PDF
-  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/khalsa2017morphometric.pdf
-  im: mlins.webp
+  pills:
+  - title: PDF
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/khalsa2017morphometric.pdf
+  im: khalsa2017morphometric.webp
 hollon2016superatentorial:
   color: 3472bd
   venue: JOURNAL OF NEUROSURGERY | 2016
@@ -604,23 +604,23 @@ hollon2016superatentorial:
     and prognostic factors'
   authors: 'Todd Hollon, Vincent Nguyen, Brandon W Smith, Spencer Lewis, Larry Junck,
     Daniel A Orringer'
-  #pills:
-  #- title: PDF
-  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2016superatentorial.pdf
-  im: mlins.webp
-khalsa2016spontaneous:
-  color: 1864ab
-  venue: BMJ CASE REPORTS | 2016
-  venue_link: https://casereports.bmj.com/
-  link: https://doi.org/10.1136/bcr-2016-012446
-  title: Spontaneous subarachnoid hemorrhage due to ruptured cavernous internal carotid
-    artery aneurysm after medical prolactinoma treatment
-  authors: ' Siri Sahib Khalsa, Todd C Hollon, Ravi Shastri, Jonathan D Trobe, Joseph
-    J Gemmete, Aditya S Pandey'
-  #pills:
-  #- title: PDF
-  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/khalsa2016spontaneous.pdf
-  im: mlins.webp
+  pills:
+  - title: PDF
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2016superatentorial.pdf
+  im: hollon2016superatentorial.webp
+# khalsa2016spontaneous:
+#   color: 1864ab
+#   venue: BMJ CASE REPORTS | 2016
+#   venue_link: https://casereports.bmj.com/
+#   link: https://doi.org/10.1136/bcr-2016-012446
+#   title: Spontaneous subarachnoid hemorrhage due to ruptured cavernous internal carotid
+#     artery aneurysm after medical prolactinoma treatment
+#   authors: ' Siri Sahib Khalsa, Todd C Hollon, Ravi Shastri, Jonathan D Trobe, Joseph
+#     J Gemmete, Aditya S Pandey'
+#   #pills:
+#   #- title: PDF
+#   #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/khalsa2016spontaneous.pdf
+#   im: mlins.webp
 guan2016delayed:
   color: 862e9c
   venue: PM&R | 2016
@@ -628,10 +628,10 @@ guan2016delayed:
   link: https://doi.org/10.1016/j.pmrj.2015.10.011
   title: Delayed Sciatic Nerve Injury Resulting From Myositis Ossificans Traumatica
   authors: Zhe Guan, Thomas J Wilson, Jon A Jacobson, Todd C Hollon, Lynda J-S Yang
-  #pills:
-  #- title: PDF
-  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/guan2016delayed.pdf
-  im: mlins.webp
+  pills:
+  - title: PDF
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/guan2016delayed.pdf
+  im: guan2016delayed.webp
 hollon2016improving:
   color: 3472bd
   venue: JOURNAL OF NEUROSURGERY | 2016
@@ -640,10 +640,10 @@ hollon2016improving:
   title: Improving the accuracy of brain tumor surgery via Raman-based technology
   authors: 'Todd Hollon, Spencer Lewis, Christian W Freudiger, X Sunney Xie, Daniel
     A Orringer'
-  #pills:
-  #- title: PDF
-  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2016improving.pdf
-  im: mlins.webp
+  pills:
+  - title: PDF
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2016improving.pdf
+  im: hollon2016improving.webp
 hollon2016surgical:
   color: e67700
   venue: WORLD NEUROSURGERY | 2016
@@ -652,10 +652,10 @@ hollon2016surgical:
   title: Surgical Management of Skull Base Rosai-Dorfman Disease
   authors: 'Todd Hollon, Sandra I Camelo-Piragua, Erin L McKean, Stephen E Sullivan,
     Hugh J L Garton'
-  #pills:
-  #- title: PDF
-  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2016surgical.pdf
-  im: mlins.webp
+  pills:
+  - title: PDF
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2016surgical.pdf
+  im: hollon2016surgical.webp
 chandler2016outcome:
   color: c92a2a
   venue: NEUROSURGERY | 2016
@@ -665,10 +665,10 @@ chandler2016outcome:
     Experience Over 32 Years'
   authors: William F Chandler, Ariel L Barkan, Todd Hollon, Alla Sakharova, Jayson
     Sack, Barunashish Brahma, David E Schteingart
-  #pills:
-  #- title: PDF
-  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/chandler2016outcome.pdf
-  im: mlins.webp
+  pills:
+  - title: PDF
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/chandler2016outcome.pdf
+  im: chandler2016outcome.webp
 guan2015ruptured:
   color: 3472bd
   venue: JOURNAL OF NEUROSURGERY | 2015
@@ -677,10 +677,10 @@ guan2015ruptured:
   title: 'Ruptured pediatric cerebellopontine angle epidermoid cyst: a case report
     detailing radiographic evolution and clinical course'
   authors: Zhe Guan, Todd Hollon, J Nicole Bentley, Hugh J L Garton
-  #pills:
-  #- title: PDF
-  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/guan2015ruptured.pdf
-  im: mlins.webp
+  pills:
+  - title: PDF
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/guan2015ruptured.pdf
+  im: guan2015ruptured.webp
 hollon2015advances:
   color: 087f5b
   venue: SEMINARS IN RADIATION ONCOLOGY | 2015
@@ -688,10 +688,10 @@ hollon2015advances:
   link: https://doi.org/10.1016/j.semradonc.2015.02.007
   title: Advances in the Surgical Management of Low-Grade Glioma
   authors: 'Todd Hollon, Shawn L Hervey-Jumper, Oren Sagher, Daniel A Orringer'
-  #pills:
-  #- title: PDF
-  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2015advances.pdf
-  im: mlins.webp
+  pills:
+  - title: PDF
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2015advances.pdf
+  im: hollon2015advances.webp
 hollon2015skull:
   color: 1864ab
   venue: "CHILD'S NERVOUS SYSTEM | 2015"
@@ -699,10 +699,10 @@ hollon2015skull:
   link: https://doi.org/10.1007/s00381-015-2676-8
   title: Skull fracture mimicking eosinophilic granuloma
   authors: Todd Hollon, Paul E McKeever, Hugh J L Garton, Cormac O Maher
-  #pills:
-  #- title: PDF
-  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2015skull.pdf
-  im: mlins.webp
+  pills:
+  - title: PDF
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2015skull.pdf
+  im: hollon2015skull.webp
 hollon2013mutations:
   color: 1864ab
   venue: ONCOIMMUNOLOGY | 2013
@@ -711,10 +711,10 @@ hollon2013mutations:
   title: Mutations in glioblastoma oncosuppressive pathways pave the way for oncomodulatory
     activity of cytomegalovirus
   authors: Todd C Hollon, Richard L Price, Chang-Hyuk Kwon, E Antonio Chiocca
-  #pills:
-  #- title: PDF
-  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2013mutations.pdf
-  im: mlins.webp
+  pills:
+  - title: PDF
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2013mutations.pdf
+  im: hollon2013mutations.webp
 price2013cytomegalovirus:
   color: 364fc7
   venue: CANCER RESEARCH | 2013
@@ -726,7 +726,7 @@ price2013cytomegalovirus:
     Yi, Michal O Nowicki, Xiaokui Mo, Todd Hollon, Eric Murnan, Christopher Alvarez-Breckenridge,
     Soledad Fernandez, Balveen Kaur, Andreana Rivera, Michael Oglesbee, Charles Cook,
     E Antonio Chiocca, Chang-Hyuk Kwon
-  #pills:
-  #- title: PDF
-  #  link: https://mlins-site.s3.amazonaws.com/pdf/papers/price2013cytomegalovirus.pdf
-  im: mlins.webp
+  pills:
+  - title: PDF
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/price2013cytomegalovirus.pdf
+  im: price2013cytomegalovirus.webp
