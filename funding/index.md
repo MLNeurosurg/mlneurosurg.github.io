@@ -1,0 +1,4 @@
+---
+layout: funding
+title: Funding
+---

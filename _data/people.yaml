@@ -80,6 +80,10 @@ students:
   key: gologors
   bio: "Rachel is interested in applying machine learning techniques to advance medicine. She completed her undergraduate studies at Harvard University, graduating summa cum laude with a joint degree in Computer Science & Mathematics. "
   link: /people/gologors
+- name: Lisa Walsh
+  position: Medical Student
+  key: liwalsh
+  link: /people/liwalsh
 - name: Akshay Rao
   position: MD/PhD Student
   key: akshayro

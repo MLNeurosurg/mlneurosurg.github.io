@@ -996,3 +996,122 @@ div.research-sec-right{
     padding:10px;
   }
 }
+
+// funding
+.fundcard {
+  display: flex;
+  flex-direction: row;
+  //background-color: #eeeef0;
+  //background-clip: content-box;
+}
+
+.fundcard .fundleft,
+.fundcard .fundright,
+.fundcard .fundpre {
+  margin-right: 0;
+  padding: $spacing-unit;
+  background-color: default;
+}
+
+.fundcard .fundleft {
+  width: 30%;
+  height:auto;
+  // height:auto;
+  // width:auto;
+  border-radius: 10px 0 0 10px;
+  padding: $spacing-unit;
+  // justify-items: center;
+  align-items: center;
+  display: flex;
+}
+
+.fundcard .fundright {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  text-align: left;
+  align-content: bottom;
+  justify-content: center;
+  border-radius: 0 10px 10px 0;
+}
+
+.fundcard .fundpre {
+  width: 100%;
+  text-align: left;
+}
+
+.fc-profile {
+  width: 100%;
+  //border-radius: 10px 0 0 10px;
+  //border-radius: 10px;
+}
+
+@media only screen and (max-width: $on-palm) {
+  .fundcard {
+    display: flex;
+    flex-direction: column;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+  }
+
+  .fundcard .fundleft,
+  .fundcard .fundright,
+  .fundcard .fundpre {
+    width: 100%;
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+
+  .fundcard .fundleft {
+    text-align: center;
+    margin-top: $spacing-unit;
+    margin-bottom: 0%;
+    padding: 0px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .fundcard .fundright {
+    text-align: left;
+    margin-top: 0%;
+    margin-bottom: $spacing-unit;
+    padding: $spacing-unit;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /*
+    border-top: 0px;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    border-color: #696969;
+    */
+  }
+
+  .fundcard .fundpre {
+    text-align: left;
+    margin-top: $spacing-unit;
+    margin-bottom: $spacing-unit;
+    padding: $spacing-unit;
+    border-radius: 10px;
+  }
+
+  .fc-profile {
+    min-width: 160px;
+    width: 100%;
+    border-radius: 10px;
+  }
+}
+// img.update {
+//   display:block;
+//   margin-left:auto;
+//   margin-right:auto;
+//   margin-bottom:$spacing-unit;
+//   max-width:100%;
+//   max-height:300px;
+//   height:auto;
+//   width:auto;
+// }

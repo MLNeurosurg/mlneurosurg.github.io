@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<div class="post-content">
+    <h2><b>Funding</b></h2>
+    <div>
+        <p>Thanks to our amazing donors for supporting our research. </p>
+    </div>
+    {% for i in site.data.funding %}
+    <div class="fundcard">
+        <div class="fundleft">
+            <img src="/assets/images/funding/{{ i.im }}" class="fc-profile">
+        </div>
+        <div class="fundright">
+            <!-- <span style="margin: 0px; font-weight:bold">{{ i.title }}</span> -->
+            <a class="publication" href="{{ i.link }}">{{ i.title }}</a>
+            <span style="margin: 0px; font-weight:bold">{{ i.name }}</span>
+        </div>
+    </div>
+    {% if forloop.last == false %}
+    <hr>
+    {% endif %}
+    {% endfor %}
+</div>
