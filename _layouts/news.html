@@ -11,6 +11,9 @@ layout: default
         <div class="pubright">
             <span style="margin: 0px; font-weight:bold">{{ i.venue }}</span>
             <a class="publication" href="{{ i.link }}">{{ i.title }}</a>
+            {% if i.also %}
+            <p style="margin-top: 10px; margin-bottom: 0px;">{{ i.also }}</p>
+            {% endif %}
         </div>
     </div>
     {% if forloop.last == false %}
