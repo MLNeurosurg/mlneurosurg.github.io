@@ -1,3 +1,8 @@
+- venue: University of Michigan Computer Science and Engineering | 2023
+  title: New computer vision technique enhances microscopy image analysis for improved cancer diagnosis
+  link: https://cse.engin.umich.edu/stories/new-computer-vision-technique-enhances-microscopy-image-analysis-for-improved-cancer-diagnosis
+  im: 6e3b542d.webp
+  also: Featured in <a href="https://technews.acm.org/archives.cfm?fo=2023-06-jun/jun-19-2023.html#1249179">ACM TechNews</a>!
 - venue: Michigan Medicine Health Lab | 2023
   title: Artificial intelligence predicts genetics of cancerous brain tumors in under 90 seconds
   link: https://www.michiganmedicine.org/health-lab/artificial-intelligence-predicts-genetics-cancerous-brain-tumors-under-90-seconds
@@ -11,7 +16,7 @@
   link: https://www.sciencedaily.com/releases/2022/06/220628170137.htm
   im: f749b8e0.webp
 - venue: Neurosurgery | 2022
-  title: Rapid automated analysis of skull base tumor specimens using intraoperative optical imaging and artificial intelligence featured on the cover of Neurosurgery.
+  title: <i>Rapid automated analysis of skull base tumor specimens using intraoperative optical imaging and artificial intelligence</i> featured on the cover of <i>Neurosurgery!</i>
   link: https://doi.org/10.1227/neu.0000000000001929
   im: 19521337.webp
 - venue: University of Michigan Rackham Graduate School | 2022
