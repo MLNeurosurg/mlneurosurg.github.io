@@ -178,6 +178,13 @@ a.venue {
   }
 }
 
+span.publication {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 600;
+  @include relative-font-size(1.25);
+  font-weight: 600;
+}
 a.publication,
 a.award,
 a.classname {

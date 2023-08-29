@@ -83,7 +83,7 @@ students:
 - name: Lisa Walsh
   position: Medical Student
   key: liwalsh
-  link: /people/liwalsh
+  link: null
 - name: Akshay Rao
   position: MD/PhD Student
   key: akshayro
