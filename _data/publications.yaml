@@ -1,3 +1,22 @@
+umemura2023combined:
+    color: c92a2a
+    venue: The Lancet Oncology | 2023
+    venue_link: https://www.sciencedirect.com/journal/the-lancet-oncology
+    link: https://doi.org/10.1016/S1470-2045(23)00347-9
+    title: "Combined cytotoxic and immune-stimulatory gene therapy for primary
+        adult high-grade glioma: a phase 1, first-in- human trial"
+    authors: Yoshie Umemura, Daniel Orringer, Larry Junck, Maria L Varela,
+        Molly E J West, Syed M Faisal, Andrea Comba, Jason Heth, Oren Sagher,
+        Denise Leung, Aaron Mammoser, Shawn Hervey-Jumper, Daniel Zamler,
+        Viveka N Yadav, Patrick Dunn, Wajd Al-Holou, Todd Hollon,
+        Michelle M Kim, Daniel R Wahl, Sandra Camelo-Piragua, Andrew P
+        Lieberman, Sriram Venneti, Paul McKeever, Theodore Lawrence, Ryo
+        Kurokawa, Karen Sagher, David Altshuler, Lili Zhao, Karin Muraszko,
+        Maria G Castro, and Pedro R Lowenstein
+    pills:
+        - title: PDF
+          link: https://mlins-site.s3.amazonaws.com/pdf/papers/umemura2023combined.pdf
+    im: umemura2023combined.webp
 jiang2022hierarchical:
     color: 3472bd
     venue: CVPR | 2023
@@ -123,6 +142,17 @@ babajanian2022perigeniculate:
   - title: PDF
     link: https://mlins-site.s3.amazonaws.com/pdf/papers/babajanian2022perigeniculate.pdf
   im: babajanian2022perigeniculate.webp
+bhattacharya2022single:
+  color: 364fc7
+  venue: MLHC | 2022
+  venue_link: https://www.mlforhc.org
+  link: https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/62e97e74502c534f3b5585ae/1659469428255/109+Single+Cell+Clinical+Abstract+%5BFINAL%5D.pdf
+  title: Single-cell phenotyping using optical imaging and artificial intelligence
+  authors: Abhishek Bhattacharya, Daniel Alber, and Todd Hollon
+  pills:
+  - title: PDF
+    link: https://mlins-site.s3.amazonaws.com/pdf/papers/bhattacharya2022single.pdf
+  im: bhattacharya2022single.webp
 fredrickson2022laminectomy:
   color: e67700
   venue: WORLD NEUROSURGERY | 2022
