@@ -1,0 +1,151 @@
+---
+layout: default
+title: HiDisc
+---
+<div class="post-content">
+<div style="border-radius:10px;padding:20px;margin:20px 0 10px 0">
+    <p style="margin-bottom:0px; color: #005493; font-weight:bold;">
+        Selected as a <span style="font-weight:bold;background-color:#FEAE00;color:#000000;border-radius:3px;padding:1px 3px 1px 3px;">highlight</span> at CVPR 2023
+    </p>
+    <h3 style="font-weight:bold; margin:0px">
+        Hierarchical Discriminative (HiDisc) Learning Improves Visual Representations of Biomedical Microscopy
+    </h3>
+    <p style="margin-bottom:0px; color: #696969; font-weight:bold;">
+        <a href="https://chengjia.me"> Cheng Jiang</a><sup>1*</sup>,
+        <a href="https://medicine.umich.edu/dept/dcmb/xinhai-hou">Xinhai Hou</a><sup>1*</sup>,
+        <a href="https://avkondepudi.me/">Akhil Kondepudi</a><sup>1</sup>,
+        <a href="https://www.linkedin.com/in/asadurchowdury">Asadur Chowdury</a><sup>1</sup>,
+        <a href="https://www.invenio-imaging.com">Christian W. Freudiger</a><sup>2</sup>,
+        <a href="https://nyulangone.org/doctors/1124141296/daniel-a-orringer">Daniel A. Orringer</a><sup>3</sup>,
+        <a href="https://web.eecs.umich.edu/~honglak/">Honglak Lee</a><sup>1,4</sup>,
+        and <a href="https://medicine.umich.edu/dept/neurosurgery/todd-hollon-md">Todd C. Hollon</a><sup>1</sup>
+    </p>
+    <p style="margin-bottom:10px; color: #696969;">
+        <sup>1</sup>University of Michigan
+        <sup>2</sup><a href="https://www.invenio-imaging.com">Invenio Imaging</a>
+        <sup>3</sup>New York University
+        <sup>4</sup>LG AI Research
+        <sup>*</sup>Equal Contribution
+    </p>
+    <div>
+        <a class="pill" href="https://arxiv.org/abs/2303.01605">arXiv</a>
+        <a class="pill" href="https://github.com/MLNeurosurg/hidisc">Github</a>
+        <a class="pill" href="https://www.youtube.com/watch?v=PkXki83vQqg">Video</a>
+        <a class="pill" href="https://mlins-site.s3.amazonaws.com/images/papers/hidisc/hidisc_poster.png">Poster</a>
+        <a class="pill" href="https://openaccess.thecvf.com/content/CVPR2023/html/Jiang_Hierarchical_Discriminative_Learning_Improves_Visual_Representations_of_Biomedical_Microscopy_CVPR_2023_paper.html">CVPR Open Access</a>
+    </div>
+    <!--hr class="carddiv"-->
+</div>
+<div style="background-color: #f7f7f7; border-radius:10px;padding:15px;margin-top:15px; margin-bottom:15px">
+    <h3 style="font-size: 25px; font-weight:bold; margin: 0px 0px 0px 0px;"> Abstract </h3>
+    <p style="margin: 0px;"> Learning high-quality, self-supervised, visual
+    representations is essential to advance the role of computer vision in
+    biomedical microscopy and clinical medicine. Previous work has focused on
+    self-supervised representation learning (SSL) methods developed for
+    instance discrimination and applied them directly to image patches, or
+    fields-of-view, sampled from gigapixel whole-slide images (WSIs) used for
+    cancer diagnosis. However, this strategy is limited because it (1) assumes
+    patches from the same patient are independent, (2) neglects the
+    patient-slide-patch hierarchy of clinical biomedical microscopy, and (3)
+    requires strong data augmentations that can degrade downstream performance.
+    Importantly, sampled patches from WSIs of a patient's tumor are a diverse
+    set of image examples that capture the same underlying cancer diagnosis.
+    This motivated HiDisc, a method that leverages the inherent
+    patient-slide-patch hierarchy of clinical biomedical microscopy to define a
+    hierarchical discriminative learning task that implicitly learns features
+    of the underlying diagnosis. HiDisc uses a self-supervised contrastive
+    learning framework in which positive patch pairs are defined based on a
+    common ancestry in the data hierarchy, and a unified patch, slide, and
+    patient discriminative learning objective is used for visual SSL. We
+    benchmark HiDisc visual representations on two vision tasks using two
+    biomedical microscopy datasets, and demonstrate that (1) HiDisc pretraining
+    outperforms current state-of-the-art self-supervised pretraining methods
+    for cancer diagnosis and genetic mutation prediction, and (2) HiDisc learns
+    high-quality visual representations using natural patch diversity without
+    strong data augmentations.</p>
+</div>
+<div class="paper-halfcard-container">
+<div class="halfcard1">
+    <div style="margin:15px">
+    <h3 style="font-size: 25px; font-weight:bold; margin: 0px 0px 0px 0px;"> Motivation</h3>
+    <img src="https://mlins-site.s3.amazonaws.com/images/papers/hidisc/intro.png" alt="intro">
+    <p style="margin-top: 10px; margin-bottom:0px;">
+    Clinical biomedical microscopy has
+    a hierarchical patch-slide-patient data structure. HiDisc combines patch,
+    slide, and patient discrimination into a unified self-supervised learning
+    task.</p>
+    </div>
+</div>
+<div class="halfcard2">
+    <div style="margin:15px">
+    <h3 style="font-size: 25px; font-weight:bold; margin: 0px 0px 0px 0px;">
+    Algorithm pseudocode</h3>
+    <img src="https://mlins-site.s3.amazonaws.com/images/papers/hidisc/algorithm.png" alt="algorithm">
+    </div>
+</div>
+</div>
+
+<div style="position: relative; border-radius:10px; padding:0px;
+padding-bottom: 56.25%; margin-top:20px">
+    <iframe src="https://www.youtube.com/embed/PkXki83vQqg"
+    style="border-radius:10px;position:absolute;top:0;left:0;width:100%;
+    height:100%" title="HiDisc Presentation" frameborder="0px"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+    picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div style="background-color: #f7f7f7; border-radius:10px;padding:15px;margin-top:15px; margin-bottom:15px">
+    <h3 style="font-size: 25px; font-weight:bold; margin: 0px 0px 0px 0px;">
+        Hierarchical discriminative learning overview</h3>
+    <img src="https://mlins-site.s3.amazonaws.com/images/papers/hidisc/positive_pairs.png" alt="workflow">
+    <p style="margin-top: 10px; margin-bottom:0px;">
+    Motivated by the
+    patient-slide-patch data hierarchy of clinical biomedical microscopy,
+    HiDisc defines a patient, slide, and patch discriminative learning
+    objective to improve visual representations. Because WSI and microscopy
+    data are inherently hierarchical, defining a unified hierarchical loss
+    function does not require additional annotations or supervision. Positive
+    patch pairs are defined based on a common ancestry in the data hierarchy. A
+    major advantage of HiDisc is the ability to define positive pairs
+    <i>without</i> the need to sample from or learn a set of strong image
+    augmentations, such as random erasing, shears, color inversion, etc.
+    Because each field-of-view in a WSI is a different view of a patient's
+    underlying cancer diagnosis, HiDisc implicitly learns image features that
+    predict that diagnosis.</p>
+</div>
+
+<div style="background-color: #f7f7f7; border-radius:10px;padding:15px;margin-top:15px; margin-bottom:15px">
+    <h3 style="font-size: 25px; font-weight:bold; margin: 0px 0px 0px 0px;">
+        Visualization of learned SRH representations using SimCLR and HiDisc</h3>
+    <img src="https://mlins-site.s3.amazonaws.com/images/papers/hidisc/tsne.png" alt="tsne">
+    <p style="margin-top: 10px; margin-bottom:0px;">
+    <b>Top. </b>Randomly sampled patch representations are visualized after
+    SimCLR versus HiDisc pretraining using tSNE. Representations are colored
+    based on brain tumor diagnosis. HiDisc qualitatively achieves higher
+    quality feature learning and class separation compared to SimCLR.
+    Expectedly, HiDisc shows within- diagnosis clustering that corresponds to
+    patient discrimination. <b>Bottom. </b>Magnified cropped regions of the
+    above visualizations show subclusters that correspond to individual
+    patients. Patch representations in magnified crops are colored according to
+    patient membership. We see patient discrimination within the different
+    tumor diagnoses. Importantly, we do not see patient discrimination within
+    normal brain tissue because there are minimal-to-no differentiating
+    microscopic features between patients. This demonstrates that in the
+    absence of discriminative features at the slide- or patient-level, HiDisc
+    can achieve good feature learning using patch discrimination without
+    overfitting the other discrimination tasks.
+    </p>
+</div>
+<div style="background-color: #f7f7f7; border-radius:10px;padding:15px;margin-top:15px; margin-bottom:15px">
+    <h3 style="font-size: 25px; font-weight:bold; margin: 0px 0px 0px 0px;">Bibtex</h3>
+    <pre style="margin-bottom:0px; background-color: #dddddd; border-color: #aaaaaa">
+@inproceedings{jiang2023hierarchical,
+  title={Hierarchical discriminative learning improves visual representations of biomedical microscopy},
+  author={Jiang, Cheng and Hou, Xinhai and Kondepudi, Akhil and Chowdury, Asadur Zaman and Freudiger, Christian and Orringer, Daniel A and Lee, Honglak and Hollon, Todd},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2023}
+}
+</pre>
+</div>
+</div>
+

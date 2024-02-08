@@ -4,7 +4,7 @@
   {%- if page.ispub == true -%}
   <title>{{ site.data.publications[page.title].title }}</title>
   {%- elsif page.notitle != true -%}
-  <title>{{ site.title }} | {{ page.title }}</title>
+  <title>{{ page.title }} | {{ site.title }}</title>
   {%- else -%}
   <title>{{ site.title }}</title>
   {%- endif -%}

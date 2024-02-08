@@ -1096,3 +1096,55 @@ div.research-sec-right{
 //   height:auto;
 //   width:auto;
 // }
+
+
+
+.paper-halfcard-container {
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  margin: calc(#{$spacing-unit} / 2) 0 calc(#{$spacing-unit} / 2) 0;
+}
+
+.halfcard1 {
+  width: 50%;
+  background-color: #f7f7f7;
+  border-radius:10px;
+  margin: 0 7.5px 0 0;
+}
+
+.halfcard2 {
+  width: 50%;
+  text-align: justify;
+  background-color: #f7f7f7;
+  border-radius:10px;
+  margin: 0 0 0 7.5px;
+}
+
+
+
+@include media-query($on-laptop) {
+.paper-halfcard-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0px;
+  margin: calc(#{$spacing-unit} / 2) 0 calc(#{$spacing-unit} / 2) 0;
+}
+
+.halfcard1 {
+  width: 100%;
+  text-align: justify;
+  border-radius:10px;
+  padding: 0px;
+  margin: 0 0 7.5px 0;
+}
+
+.halfcard2 {
+  width: 100%;
+  text-align: justify;
+  padding: 0px;
+  border-radius:10px;
+  margin: 7.5px 0 0 0;
+}
+}

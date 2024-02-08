@@ -1,0 +1,93 @@
+---
+layout: default
+title: SpinePose
+---
+<div class="post-content">
+<div style="border-radius:10px;padding:20px;margin:20px 0 10px 0">
+    <p style="margin-bottom:0px; color: #74b816; font-weight:bold;">
+        To appear in Journal of Neurosurgery: Spine
+    </p>
+    <h3 style="font-weight:bold; margin:0px">
+        Development and validation of an artificial intelligence model to accurately predict spinopelvic parameters
+    </h3>
+    <p style="margin-bottom:0px; color: #696969; font-weight:bold;">
+        Edward S. Harake<sup>1</sup>,
+        Joseph R. Linzey<sup>1</sup>, 
+        <a href="https://chengjia.me"> Cheng Jiang</a><sup>1</sup>,
+        Rushikesh S. Joshi<sup>1</sup>, 
+        Mark M. Zaki<sup>1</sup>, 
+        Jaes C. Jones<sup>1</sup>, 
+        Siri S. Khalsa<sup>2</sup>, 
+        John H. Lee<sup>1</sup>, 
+        Zachary Wilseck<sup>1</sup>, 
+        Jacob R. Joseph<sup>1</sup>, 
+        <a href="https://medicine.umich.edu/dept/neurosurgery/todd-hollon-md">Todd C. Hollon</a><sup>1</sup>, and
+        <a href="https://www.semmes-murphey.com/paul-park">Paul Park</a><sup>3</sup>
+    </p>
+    <p style="margin-bottom:10px; color: #696969;">
+        <sup>1</sup>University of Michigan
+        <sup>2</sup>Ohio State University
+        <sup>3</sup>University of Tennessee
+    </p>
+    <div>
+        <a class="pill" href="/spinepose/">arXiv (Coming soon!)</a>
+        <a class="pill" href="/spinepose/">Talk (Coming soon!)</a>
+    </div>
+    <!--hr class="carddiv"-->
+</div>
+<div style="background-color: #f7f7f7; border-radius:10px;padding:15px;margin-top:15px; margin-bottom:15px">
+    <h3 style="font-size: 25px; font-weight:bold; margin: 0px 0px 0px 0px;"> Abstract </h3>
+    <p><b>Objective.</b> Achieving appropriate spinopelvic alignment has been shown to be associated with improved clinical symptoms. However, measurement of spinopelvic radiographic parameters is time-intensive and interobserver reliability is a concern. Automated measurement tools have the promise of rapid and consistent measurements, but existing tools are still limited by some degree of manual user-entry requirements. This study presents a novel artificial intelligence (AI) tool called <b>SpinePose</b> that automatically predicts spinopelvic parameters with high accuracy without the need for manual entry.</p>
+    <p><b>Methods.</b> SpinePose was trained and validated on 761 sagittal whole-spine X-rays to predict sagittal vertical axis (SVA), pelvic tilt (PT), pelvic incidence (PI), sacral slope (SS), lumbar lordosis (LL), T1-pelvic angle (T1PA), and L1-pelvic angle (L1PA). A separate test set of 40 X-rays was labeled by 4 reviewers, including fellowship-trained spine surgeons and a fellowship-trained radiologist with neuroradiology subspecialty certification. Median errors relative to the most senior reviewer were calculated to determine model accuracy on test images. Intraclass correlation coefficients (ICC) were used to assess inter-rater reliability.</p>
+    <p><b>Results.</b> SpinePose exhibited the following median (interquartile range) parameter errors: SVA: 2.2 mm (2.3 mm), p = 0.93; PT: 1.3° (1.2°), p = 0.48; SS: 1.7° (2.2°), p = 0.64; PI: 2.2° (2.1°), p = 0.24; LL: 2.6° (4.0°), p = 0.89; T1PA: 1.1° (0.9°), p = 0.42; and L1PA: 1.4° (1.6°), p = 0.49. Model predictions also exhibited excellent reliability at all parameters (ICC: 0.91 - 1.0).</p>
+    <p><b>Conclusions.</b> SpinePose accurately predicted spinopelvic parameters with excellent reliability comparable to fellowship-trained spine surgeons and neuroradiologists. Utilization of predictive AI tools in spinal imaging can substantially aid in patient selection and surgical planning. </p>
+</div>
+
+<!--div style="position: relative; border-radius:10px; padding:0px;
+padding-bottom: 56.25%; margin-top:20px">
+    <iframe src="https://www.youtube.com/embed/PkXki83vQqg"
+    style="border-radius:10px;position:absolute;top:0;left:0;width:100%;
+    height:100%" title="HiDisc Presentation" frameborder="0px"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+    picture-in-picture" allowfullscreen></iframe>
+</div-->
+
+<div style="background-color: #f7f7f7; border-radius:10px;padding:15px;margin-top:15px; margin-bottom:15px">
+    <h3 style="font-size: 25px; font-weight:bold; margin: 0px 0px 0px 0px;">
+        SpinePose overview</h3>
+    <img src="https://mlins-site.s3.amazonaws.com/images/papers/spinepose/overview.webp" alt="SpinePose overview">
+    <p style="margin-top: 10px; margin-bottom:0px;">
+    SpinePose training pipeline. (A) Standing whole-spine X-rays taken at a single academic institution were searched via an intra-institutional free-text search tool (EMERSE) and subsequently processed at the University of Michigan Radiology IT department. (B) Following image pre-processing, a senior Neurosurgery resident annotated each image with 9 total spinal keypoints at levels C7, T1, L1, S1, and both femoral heads. Bounding boxes were placed around regions L1 and S1 since their corresponding keypoints would be fed through their own convolutional neural network (CNN). (C) Each input image was fed through 3 parallel CNNs: L1-model, S1-model, and R model. The L1 and S1 models utilized a “top-down” region-based approach, whereas the R model used a “bottom-up” approach. Each of the 3 models output a set of predicted keypoint masks whose coordinates were compared with those of the ground truth keypoints to generate a keypoint loss (LKeypoint). In addition to the LKeypoint, the  L1 and S1 models also predicted bounding boxes around the respective spinal levels with a loss value for the box coordinates (LBox) and classification (LClass). A reduction in loss values at each iteration of training corresponded to more accurate model predictions. (D) After training and model optimization, the respective outputs of each of the 3 models were combined into 1 aggregate output, and spinopelvic parameters of interest were automatically calculated.
+    </p>
+</div>
+
+<div class="paper-halfcard-container">
+<div class="halfcard1">
+    <div style="margin:15px">
+    <h3 style="font-size: 25px; font-weight:bold; margin: 0px 0px 0px 0px;"> Visualizing predictions</h3>
+    <img src="https://mlins-site.s3.amazonaws.com/images/papers/spinepose/pred_vis.webp" alt="intro">
+    <p style="margin-top: 10px; margin-bottom:0px;">
+    Images A and B show a whole-spine and lumbosacral X-ray, respectively, without instrumentation. Images C and D show the same modalities with spinal instrumentation.
+    </p>
+    </div>
+</div>
+<div class="halfcard2">
+    <div style="margin:15px">
+    <h3 style="font-size: 25px; font-weight:bold; margin: 0px 0px 0px 0px;">
+    ICC heatmap</h3>
+    <img src="https://mlins-site.s3.amazonaws.com/images/papers/spinepose/icc.webp" alt="algorithm">
+    <p style="margin-top: 10px; margin-bottom:0px;">
+    An Intraclass correlation coefficient (ICC) was calculated at each parameter between 2 separate raters. On a scale of 0-1, the ICC reflects inter-rater similarity among scores within a given class. SpinePose (AI) shows excellent reliability at all parameters when compared to ground truth (GT) as well as to each of the 3 remaining raters
+    </p>
+    </div>
+</div>
+</div>
+
+<div style="background-color: #f7f7f7; border-radius:10px;padding:15px;margin-top:15px; margin-bottom:15px">
+    <h3 style="font-size: 25px; font-weight:bold; margin: 0px 0px 0px 0px;">Bibtex</h3>
+    <pre style="margin-bottom:0px; background-color: #dddddd; border-color: #aaaaaa">
+Coming soon!
+</pre>
+</div>
+</div>
+
