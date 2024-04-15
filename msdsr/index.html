@@ -1,0 +1,96 @@
+---
+layout: default
+title: MSDSR
+---
+<div class="post-content">
+<div style="border-radius:10px;padding:20px;margin:20px 0 10px 0">
+    <p style="margin-bottom:0px; color: #005493; font-weight:bold;">
+        CVPR WORKSHOP ON COMPUTER VISION FOR MICROSCOPY IMAGE ANALYSIS | 2024
+    </p>
+    <h3 style="font-weight:bold; margin:0px">
+        Super-resolution of biomedical volumes with 2D supervision
+    </h3>
+    <p style="margin-bottom:0px; color: #696969; font-weight:bold;">
+        <a href="https://chengjia.me"> Cheng Jiang<sup>1*</sup>,</a>
+        Alexander Gedeon<sup>1*</sup>,
+        <a href="https://lvyiwei1.github.io/">Yiwei Lyu<sup>1</sup>,</a>
+        Eric Landgraf<sup>1</sup>,
+        <a href="https://medicine.umich.edu/dept/dcmb/yufeng-zhang">Yufeng Zhang<sup>1</sup>,</a>
+        <a href="https://medicine.umich.edu/dept/dcmb/xinhai-hou">Xinhai Hou<sup>1</sup>,</a>
+        <a href="https://avkondepudi.me"> Akhil Kondepudi<sup>1</sup>,</a>
+        Asadur Chowdury<sup>1</sup>,
+        <a href="https://web.eecs.umich.edu/~honglak/">Honglak Lee<sup>1</sup>,</a> and
+        <a href="https://medicine.umich.edu/dept/neurosurgery/todd-hollon-md">Todd C. Hollon</a><sup>1</sup>
+    </p>
+    <p style="margin-bottom:10px; color: #696969;">
+        <sup>1</sup>University of Michigan
+        <sup>*</sup>Equal contribution
+    </p>
+    <div>
+        <a class="pill" href="https://arxiv.org/">arXiv (Coming soon!)</a>
+    </div>
+</div>
+
+<div style="background-color: #f7f7f7; border-radius:10px;padding:15px;margin-top:15px; margin-bottom:15px">
+    <p style="font-size: 25px; text-align: center; font-weight:bold; margin: 0px 0px 0px 0px;"> <i>Motivation:</i> volumetric microscopy images have a data distribution agnostic to tissue orientation and spatial dimension.</p>
+</div>
+
+<div class="paper-halfcard-container">
+<div class="halfcard1">
+    <div style="margin:15px">
+    <h3 style="font-size: 25px; font-weight:bold; margin: 0px 0px 0px 0px;"> Abstract</h3>
+    <p style="text-align: justify;">Volumetric biomedical microscopy has the potential to increase the diagnostic information extracted from clinical tissue specimens and improve the diagnostic accuracy of both human pathologists and computational pathology models. Unfortunately, barriers to integrating 3-dimensional (3D) volumetric microscopy into clinical medicine include long imaging times, poor depth/z-axis resolution, and an insufficient amount of high-quality volumetric data. Leveraging the abundance of high-resolution 2D microscopy data, we introduce masked slice diffusion for super-resolution (MSDSR), which exploits the inherent equivalence in the data-generating distribution across all spatial dimensions of biological specimens. This intrinsic characteristic allows for super-resolution models trained on high-resolution images from one plane (e.g., XY) to effectively generalize to others (XZ, YZ), overcoming the traditional dependency on orientation. We focus on the application of MSDSR to stimulated Raman histology (SRH), an optical imaging modality for biological specimen analysis and intraoperative diagnosis, characterized by its rapid acquisition of high-resolution 2D images but slow and costly optical z-sectioning. To evaluate MSDSR's efficacy, we introduce a new performance metric, SliceFID, and demonstrate MSDSR's superior performance over baseline models through extensive evaluations. Our findings reveal that MSDSR not only significantly enhances the quality and resolution of 3D volumetric data, but also addresses major obstacles hindering the broader application of 3D volumetric microscopy in clinical diagnostics and biomedical research.</p>
+    </div>
+</div>
+<div style="align-content: center;" class="halfcard2">
+    <div style="margin:15px;">
+    <img style="margin-bottom:15px;" src="https://mlins-site.s3.amazonaws.com/images/papers/msdsr/msdsr_teaser.webp" alt="motivation">
+    <p> <b>Super-resolution of biomedical volumes with 2D supervision.</b> Volumetric microscopy images have a data distribution agnostic to tissue orientation and spatial dimension. This intrinsic characteristic allows for super-resolution models trained on high-resolution images from one plane (e.g., XY) to effectively generalize to others (XZ, YZ), overcoming the traditional dependency on orientation. Here, we present a method for leveraging this intrinsic characteristic by super-resolving low-resolution volumes using a conditional diffusion model trained on 2D high-resolution images.
+    </p>
+    </div>
+</div>
+</div>
+
+<!--div style="position: relative; border-radius:10px; padding:0px;
+padding-bottom: 56.25%; margin-top:20px">
+    <iframe src="https://www.youtube.com/embed/PkXki83vQqg"
+    style="border-radius:10px;position:absolute;top:0;left:0;width:100%;
+    height:100%" title="HiDisc Presentation" frameborder="0px"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+    picture-in-picture" allowfullscreen></iframe>
+</div-->
+
+<div style="background-color: #f7f7f7; border-radius:10px;padding:15px;margin-top:15px; margin-bottom:15px">
+    <h3 style="font-size: 25px; font-weight:bold; margin: 0px 0px 0px 0px;">
+        MSDSR overview</h3>
+    <img src="https://mlins-site.s3.amazonaws.com/images/papers/msdsr/msdsr_mech.webp" style="width: 100%" alt="MSDSR overview">
+</div>
+
+<div class="paper-halfcard-container">
+<div class="halfcard1">
+    <div style="margin:15px">
+    <h3 style="font-size: 25px; font-weight:bold; margin: 0px 0px 0px 0px;">2D evaluation results</h3>
+    <img style="margin-bottom:15px;" src="https://mlins-site.s3.amazonaws.com/images/papers/msdsr/msdsr_2d_eval.webp" alt="2d evaluation">
+    </div>
+</div>
+<div style="align-content: center;" class="halfcard2">
+    <div style="margin:15px;">
+    <h3 style="font-size: 25px; font-weight:bold; margin: 0px 0px 0px 0px;">3D evaluation results</h3>
+    <img style="margin-bottom:15px;" src="https://mlins-site.s3.amazonaws.com/images/papers/msdsr/msdsr_3d_eval.webp" alt="3d evaluation">
+    </div>
+</div>
+</div>
+
+<div style="background-color: #f7f7f7; border-radius:10px;padding:15px;margin-top:15px; margin-bottom:15px">
+    <h3 style="font-size: 25px; font-weight:bold; margin: 0px 0px 0px 0px;">Bibtex</h3>
+    <pre style="margin-bottom:0px; background-color: #dddddd; border-color: #aaaaaa">
+@inproceedings{jiang2024super,
+  title={Super-resolution of biomedical volumes with 2D supervision},
+  author={Jiang, Cheng and Gedeon, Alexander and Lyu, Yiwei and Landgraf, Eric and Zhang, Yufeng and Hou, Xinhai and Kondepudi, Akhil and Chowdury, Asadur and Lee, Honglak and Hollon, Todd},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops},
+  year={2024}
+}
+</pre>
+</div>
+</div>
+
