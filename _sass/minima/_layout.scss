@@ -20,11 +20,7 @@
   //text-transform: uppercase;
   color: #fefeff;
 
-  //@include media-query($on-palm) {
-  //  padding-right: 45px;
-  //}
-
-  &,
+  &:hover,
   &:visited {
     color: #fefeff; // $site-title-color;
   }
