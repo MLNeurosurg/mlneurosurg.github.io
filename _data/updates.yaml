@@ -1,10 +1,12 @@
-#- date: August 2023
-#  update: Happy Birthday to Dr. Hollon!
-#  image:
-#  - /assets/images/updates/birthday.webp
-#- date: August 2023
-#  update: MLiNS lab out to see Oppenheimer today. Great storytelling!
-#  image: null
+- date: February 2024
+  update: 'Congratulations to Samir for winning the Kuntz award at Spine Summit and being nominated for the Whitecloud Award at IMAST! SpinePose is now available on <a href="https://doi.org/10.3171/2024.1.SPINE231252"><b>JNS Spine</b></a>!'
+  image: /assets/images/updates/spine_conference.webp
+- date: December 2023
+  update: Congrats to Cheng for receiving his F31!
+- date: November 2023
+  update: Congratulations to Akhil for receiving the <b>Neurosurgery Award</b> at the SNO Annual Meeting!
+  image:
+  - /assets/images/updates/sno_award.webp
 - date: August 2023
   update: Congrats to Akhil for his admission into the UM MSTP program and the white coat ceremony!
   image: null
@@ -21,6 +23,8 @@
   image: null
 - date: March 2023
   update: We introduce <b>DeepGlioma</b>, the first AI-based molecular classification system for diffuse gliomas. Check out the paper featured in <a href="https://nature.com/articles/s41591-023-02252-4"> <b>Nature Medicine</b></a>!
+  image:
+  - /assets/images/updates/deepglioma.webp
 - date: January 2023
   update: Exciting news from the MLiNS Lab and collaborators! Big thanks to the Chan Zuckerberg Initiative for awarding our group the Advancing Imaging Through Collaborative Projects Award.
   image: null
