@@ -24,7 +24,7 @@ hou2024self:
     color: 111
     venue: ARXIV | 2024
     link: https://arxiv.org/abs/2402.06188
-    title: A self-supervised whole-slide learning framework for histopathology analysis
+    title: A self-supervised framework for learning whole slide representations
     authors: Xinhai Hou <sup>*</sup>, Cheng Jiang<sup>*</sup>, Akhil Kondepudi, Yiwei Lyu, Asadur Zaman Chowdury, Honglak Lee, and Todd C. Hollon
     im: hou2024self.webp
     pills:
