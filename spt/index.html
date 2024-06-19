@@ -1,0 +1,84 @@
+---
+layout: default
+title: HiDisc
+---
+<div class="post-content">
+<div style="border-radius:10px;padding:20px;margin:20px 0 10px 0">
+    <h3 style="font-weight:bold; margin:0px">
+    A self-supervised framework for learning whole slide representations
+    </h3>
+    <p style="margin-bottom:0px; color: #696969; font-weight:bold;">
+        <a href="https://medicine.umich.edu/dept/dcmb/xinhai-hou">Xinhai Hou</a><sup>*</sup>,
+        <a href="https://chengjia.me"> Cheng Jiang</a><sup>*</sup>,
+        <a href="https://avkondepudi.me/">Akhil Kondepudi</a>,
+        <a href="https://lvyiwei1.github.io/">Yiwei Lyu,</a>
+        Asadur Chowdury,
+        <a href="https://web.eecs.umich.edu/~honglak/">Honglak Lee</a>,
+        and <a href="https://medicine.umich.edu/dept/neurosurgery/todd-hollon-md">Todd C. Hollon</a>
+    </p>
+    <p style="margin-bottom:10px; color: #696969;">
+        University of Michigan,
+        <sup>*</sup>Equal Contribution
+    </p>
+    <div>
+        <a class="pill" href="https://arxiv.org/abs/2402.06188">arXiv</a>
+    </div>
+    <!--hr class="carddiv"-->
+</div>
+<div style="background-color: #f7f7f7; border-radius:10px;padding:15px;margin-top:15px; margin-bottom:15px">
+    <h3 style="font-size: 25px; font-weight:bold; margin: 0px 0px 0px 0px;"> Abstract </h3>
+    <p style="margin: 0px;"> 
+    Whole slide imaging is fundamental to biomedical microscopy and
+    computational pathology. Previously, learning representations for
+    gigapixel-sized whole slide images (WSIs) has relied on multiple instance
+    learning with weak labels, which do not annotate the diverse morphologic
+    features and spatial heterogeneity of WSIs. A high-quality self-supervised
+    learning method for WSIs would provide transferable visual representations
+    for downstream computational pathology tasks, without the need for dense
+    annotations. We present Slide Pre-trained Transformers (SPT) for
+    gigapixel-scale self-supervision of WSIs. Treating WSI patches as tokens,
+    SPT combines data transformation strategies from language and vision
+    modeling into a general and unified framework to generate views of WSIs for
+    self-supervised pretraining. SPT leverages the inherent regional
+    heterogeneity, histologic feature variability, and information redundancy
+    within WSIs to learn high-quality whole slide representations. We benchmark
+    SPT visual representations on five diagnostic tasks across three biomedical
+    microscopy datasets. SPT significantly outperforms baselines for
+    histopathologic diagnosis, cancer subtyping, and genetic mutation
+    prediction. Finally, we demonstrate that SPT consistently improves whole
+    slide representations when using off-the-shelf, in-domain, and foundational
+    patch encoders for whole slide multiple instance learning.
+    </p>
+</div>
+
+<div style="background-color: #f7f7f7; border-radius:10px;padding:15px;margin-top:15px; margin-bottom:15px">
+    <h3 style="font-size: 25px; font-weight:bold; margin: 0px 0px 0px 0px;">
+        Motivation</h3>
+    <img src="https://mlins-site.s3.amazonaws.com/images/papers/spt/spt_intro.webp" alt="workflow">
+    <p style="margin-top: 10px; margin-bottom:0px;">
+    <b>Self-supervised whole slide learning.</b> Previous work in computational pathology relies on multiple instance learning with weak supervision from slide or patient-level labels to learn whole slide representations. <i>Slide Pre-trained Transformers (SPT)</i> is a self-supervised framework for learning whole slide representations, that combines data transformations from vision and language modeling to generate high-quality paired views.
+    </p>
+</div>
+
+<div style="background-color: #f7f7f7; border-radius:10px;padding:15px;margin-top:15px; margin-bottom:15px">
+    <h3 style="font-size: 25px; font-weight:bold; margin: 0px 0px 0px 0px;">
+        SPT overview</h3>
+    <img src="https://mlins-site.s3.amazonaws.com/images/papers/spt/spt_mech.webp" alt="workflow">
+    <p style="margin-top: 10px; margin-bottom:0px;">
+    A. The SPT framework consists of a two-stage model architecture: 1) a pre-trained patch encoder and 2) a transformer whole slide encoder. WSIs are first divided into small patches, and the patch encoder extracts patch-level features. We then apply whole slide transformations to the patch tokens to create two views of the same WSI. The transformations combine splitting, cropping, and masking, which are informed by the structure and unique properties of WSIs. The transformed views are encoded by the transformer whole slide encoder, and the slide-level feature learning can use any paradigm. B. Example learning paradigms. In our experiments, we focus on three representative self-supervised paradigms, including SimCLR, BYOL, and VICReg, and supervised contrastive learning.
+    </p>
+</div>
+
+<div style="background-color: #f7f7f7; border-radius:10px;padding:15px;margin-top:15px; margin-bottom:15px">
+    <h3 style="font-size: 25px; font-weight:bold; margin: 0px 0px 0px 0px;">Bibtex</h3>
+    <pre style="margin-bottom:0px; background-color: #dddddd; border-color: #aaaaaa">
+@article{hou2024self,
+  title={A self-supervised framework for learning whole slide representations},
+  author={Hou, Xinhai and Jiang, Cheng and Kondepudi, Akhil and Lyu, Yiwei and Chowdury, Asadur Zaman and Lee, Honglak and Hollon, Todd C},
+  journal={arXiv preprint arXiv:2402.06188},
+  year={2024}
+}
+</pre>
+</div>
+</div>
+
