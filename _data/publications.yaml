@@ -10,16 +10,16 @@ kondepudi2024visual:
       link: https://fastglioma.mlins.org/
     - title: Preprint
       link: https://www.researchsquare.com/article/rs-4033133/v1
-lyu2024step:
-    color: 111
-    venue: ARXIV | 2024
-    link: https://arxiv.org/abs/2403.13680
-    title: Step-Calibrated Diffusion for Biomedical Optical Image Restoration
-    authors: Yiwei Lyu, Sung Jik Cha, Cheng Jiang, Asadur Chowdury, Xinhai Hou, Edward Harake, Akhil Kondepudi, Christian Freudiger, Honglak Lee, and Todd C. Hollon
-    im: lyu2024step.webp
+nasir2024localization:
+    color: 862e9c
+    venue: NATURE BIOMEDICAL ENGINEERING | 2024
+    link: nasir2024localization
+    title: Localization of protoporphyrin IX during glioma-resection surgery via paired stimulated Raman histology and fluorescence microscopy
+    authors: Mustafa Nasir-Moin, Lisa Irina Wadiura, Vlad Sacalean, Devin Juros, Misha Movahed-Ezazi, Emily K. Lock, Andrew Smith, Matthew Lee, Hannah Weiss, Michael Müther, Daniel Alber, Sujay Ratna, Camila Fang, Eric Suero-Molina, Sönke Hellwig, Walter Stummer, Karl Rössler, Johannes A. Hainfellner, Georg Widhalm, Barbara Kiesel, David Reichert, Mario Mischkulnig, Rajan Jain, Jakob Straehle, Nicolas Neidert, Oliver Schnell, Jürgen Beck, Jay Trautman, Steve Pastore, Donato Pacione, Dimitris Placantonakis, Eric Karl Oermann, John G. Golfinos, Todd C. Hollon, Matija Snuderl, Christian W. Freudiger, Dieter Henrik Heiland, and Daniel A. Orringer
+    im: nasir2024localization.webp
     pills:
-    - title: arXiv
-      link: https://arxiv.org/abs/2403.13680
+    - title: PDF
+      link: https://mlins-site.s3.amazonaws.com/pdf/papers/nasir2024localization.pdf
 hou2024self:
     color: 111
     venue: ARXIV | 2024
@@ -30,6 +30,33 @@ hou2024self:
     pills:
     - title: arXiv
       link: https://arxiv.org/abs/2402.06188
+jiang2024super:
+    color: 1864ab
+    venue: CVPR WORKSHOP | 2024
+    venue_link: https://cvmi-workshop.github.io/
+    link: https://mlins.org/msdsr/
+    title: Super-resolution of biomedical volumes with 2D supervision
+    authors: Cheng Jiang, Alexander Gedeon, Yiwei Lyu, Eric Landgraf, Yufeng Zhang, Xinhai Hou, Akhil Kondepudi, Asadur Chowdury, Honglak Lee, and Todd C. Hollon
+    pills:
+    - title: Website
+      link: https://mlins.org/msdsr
+    - title: arXiv
+      link: https://arxiv.org/abs/2404.09425
+    - title: Github
+      link: https://github.com/MLNeurosurg/msdsr/
+    - title: Poster
+      link: https://mlins-site.s3.amazonaws.com/pdf/posters/jiang2024super.png
+    im: jiang2024super.webp
+lyu2024step:
+    color: 111
+    venue: ARXIV | 2024
+    link: https://arxiv.org/abs/2403.13680
+    title: Step-Calibrated Diffusion for Biomedical Optical Image Restoration
+    authors: Yiwei Lyu, Sung Jik Cha, Cheng Jiang, Asadur Chowdury, Xinhai Hou, Edward Harake, Akhil Kondepudi, Christian Freudiger, Honglak Lee, and Todd C. Hollon
+    im: lyu2024step.webp
+    pills:
+    - title: arXiv
+      link: https://arxiv.org/abs/2403.13680
 harake2024development:
     color: 5c940d
     venue: JOURNAL OF NEUROSURGERY SPINE | 2024
