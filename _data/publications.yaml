@@ -1,19 +1,23 @@
 kondepudi2024visual:
     color: 111
-    venue: PREPRINT | 2024
-    link: https://fastglioma.mlins.org/
+    venue: NATURE | 2024
+    link: https://www.nature.com/articles/s41586-024-08169-3
     title: Visual foundation models for fast, label-free detection of diffuse glioma infiltration
     authors: Akhil Kondepudi, Melike Pekmezci, Xinhai Hou, Katie Scotford, Cheng Jiang, Akshay Rao, Edward Harake, Asadur Chowdury, Wajd Al-Holou, Lin Wang, Aditya Pandey, Pedro Lowenstein, Maria Castro, Lisa Koerner, Thomas Roetzer-Pejrimovsky, Georg Widhalm, Sandra Camelo-Piragua, Misha Movahed-Ezazi, Daniel Orringer, Honglak Lee, Christian Freudiger, Mitchel Berger, Shawn Hervey-Jumper, and Todd Hollon
     im: kondepudi2024visual.webp
     pills:
     - title: Interactive Demo
       link: https://fastglioma.mlins.org/
-    - title: Preprint
-      link: https://www.researchsquare.com/article/rs-4033133/v1
+    - title: Paper
+      link: https://www.nature.com/articles/s41586-024-08169-3
+    - title: GitHub
+      link: https://github.com/MLNeurosurg/fastglioma
+    - title: HuggingFace
+      link: https://huggingface.co/mlinslab/fastglioma
 nasir2024localization:
     color: 862e9c
     venue: NATURE BIOMEDICAL ENGINEERING | 2024
-    link: nasir2024localization
+    link: https://doi.org/10.1038/s41551-024-01217-3
     title: Localization of protoporphyrin IX during glioma-resection surgery via paired stimulated Raman histology and fluorescence microscopy
     authors: Mustafa Nasir-Moin, Lisa Irina Wadiura, Vlad Sacalean, Devin Juros, Misha Movahed-Ezazi, Emily K. Lock, Andrew Smith, Matthew Lee, Hannah Weiss, Michael Müther, Daniel Alber, Sujay Ratna, Camila Fang, Eric Suero-Molina, Sönke Hellwig, Walter Stummer, Karl Rössler, Johannes A. Hainfellner, Georg Widhalm, Barbara Kiesel, David Reichert, Mario Mischkulnig, Rajan Jain, Jakob Straehle, Nicolas Neidert, Oliver Schnell, Jürgen Beck, Jay Trautman, Steve Pastore, Donato Pacione, Dimitris Placantonakis, Eric Karl Oermann, John G. Golfinos, Todd C. Hollon, Matija Snuderl, Christian W. Freudiger, Dieter Henrik Heiland, and Daniel A. Orringer
     im: nasir2024localization.webp
