@@ -1,3 +1,6 @@
+- date: November 2024
+  update: We introduce <b>FastGlioma</b>, a visual foundation model enabling rapid, accurate detection of brain tumor infiltration during surgery, published in <a href="https://www.nature.com/articles/s41586-024-08169-3"><b>Nature</b></a> and featured on the <a href="https://directorsblog.nih.gov/2024/12/12/ai-system-has-potential-to-differentiate-brain-cancer-from-healthy-tissue-during-surgery-within-seconds/"><b>NIH Director's Blog</b></a>! An interactive demo can be found <a href="https://fastglioma.mlins.org"><b>here</b></a>.
+  image: /assets/images/updates/fastglioma.webp
 - date: June 2024
   update: Todd Hollon is awarded the Innovative Multidisciplinary Research Pilot Award by the UM Frankel Institute for Heart and Brain Health! 
 - date: February 2024
