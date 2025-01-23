@@ -24,18 +24,6 @@ people:
   position: MD/PhD Student
   key: akhilk
   link: "https://avkondepudi.me"
-- name: Samir Harake
-  position: Medical Student
-  key: eharakej
-  link: null
-- name: Abhishek Bhattacharya
-  position: Medical Student
-  key: abhishbh
-  link: null
-- name: Rushikesh Joshi, MD
-  key: joshiru
-  position: Neurosurgery Resident
-  link: null
 - name: Akshay Rao
   position: MD/PhD Student
   key: akshayro
@@ -48,13 +36,25 @@ people:
   signal processing algorithms to assist surgeons during deep brain stimulation
   procedures."
   link: /people/akshayro
+- name: Chenhui Zhao
+  position: PhD Student
+  key: chuizhao
+  link: null
+- name: Samir Harake
+  position: Medical Student
+  key: eharakej
+  link: null
+- name: Abhishek Bhattacharya
+  position: Medical Student
+  key: abhishbh
+  link: null
+- name: Rushikesh Joshi, MD
+  key: joshiru
+  position: Neurosurgery Resident
+  link: null
 - name: Shixuan Liu
   key: shixuanl
   position: Undergraduate Researcher
-  link: null
-- name: Daniel Li
-  key: ldaniela
-  position: Visiting Researcher
   link: null
 - name: Asadur Chowdury
   position: Machine Learning Engineer
@@ -86,6 +86,14 @@ collaborators:
   position: CTO, Invenio Imaging
   key: chris
   link: "https://www.invenio-imaging.com"
+- name: Mitchel Berger, MD
+  position: Professor of Neurosurgery, UCSF
+  key: berger
+  link: "https://www.ucsfhealth.org/providers/dr-mitchel-berger"
+- name: Shawn Hervey-Jumper, MD
+  position: Professor of Neurosurgery, UCSF
+  key: herveyjumper
+  link: "https://www.ucsfhealth.org/providers/dr-shawn-hervey-jumper"
 - name: Maria Castro, PhD
   position: Professor of Neurosurgery
   key: mariacas
@@ -95,6 +103,9 @@ collaborators:
   key: pedrol
   link: "https://medicine.umich.edu/dept/neurosurgery/pedro-lowenstein-md-phd"
 alums:
+- name: Daniel Li
+  position: Visiting Researcher (2024)
+  link: null
 - name: Sung Jik Cha
   position: Medical Student (2024), Western Michigan University
   link: null
