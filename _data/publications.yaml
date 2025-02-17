@@ -51,9 +51,9 @@ jiang2024super:
     - title: Poster
       link: https://mlins-site.s3.amazonaws.com/pdf/posters/jiang2024super.png
     im: jiang2024super.webp
-lyu2024step:
+lyu2025step:
     color: 111
-    venue: ARXIV | 2024
+    venue: AAAI | 2025
     link: https://arxiv.org/abs/2403.13680
     title: Step-Calibrated Diffusion for Biomedical Optical Image Restoration
     authors: Yiwei Lyu, Sung Jik Cha, Cheng Jiang, Asadur Chowdury, Xinhai Hou, Edward Harake, Akhil Kondepudi, Christian Freudiger, Honglak Lee, and Todd C. Hollon
@@ -61,6 +61,10 @@ lyu2024step:
     pills:
     - title: arXiv
       link: https://arxiv.org/abs/2403.13680
+    - title: Github
+      link: https://github.com/MLNeurosurg/restorative_step-calibrated_diffusion
+    - title: Poster
+      link: https://drive.google.com/file/d/1TjpVt_SjekUG0X3Y-98H_7cjM7NktIEx/view?usp=sharing
 harake2024development:
     color: 5c940d
     venue: JOURNAL OF NEUROSURGERY SPINE | 2024
