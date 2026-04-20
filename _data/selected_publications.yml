@@ -36,8 +36,8 @@ main:
     code: https://github.com/MLNeurosurg/deepglioma
     demo: https://deepglioma.mlins.org/
     pills:
-    - title: Interactive Demo
-      link: https://deepglioma.mlins.org/
+    # - title: Interactive Demo
+    #   link: https://deepglioma.mlins.org/
     - title: Paper
       link: https://doi.org/10.1038/s41591-023-02252-4
     - title: arXiv

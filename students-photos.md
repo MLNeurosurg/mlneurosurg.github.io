@@ -7,6 +7,12 @@ permalink: /students/photos/
 
 Outings, meals, symposiums, and other moments with the team.
 
+![Neurosurgery case in the operating room](/assets/img/lab/mlins_or_neurosurgery.png)
+
+![Match Day celebration - neurosurgery match at Michigan Medicine](/assets/img/lab/mlins_match_day_ceremony.png)
+
+![Keynote at the Congress of Neurological Surgeons meeting - DeepGlioma AI-based molecular classification of diffuse gliomas](/assets/img/lab/mlins_cns_keynote_deepglioma.png)
+
 ![MLiNS lab dinner outing](/assets/img/lab/mlins_fun_outing.png)
 
 ![Lab dinner, long table](/assets/img/lab/mlins_fun_dinner_long_table.png)
@@ -18,6 +24,8 @@ Outings, meals, symposiums, and other moments with the team.
 ![Research symposium - virtual biopsies with neuroimaging models (May 2025)](/assets/img/lab/mlins_symposium_virtual_biopsies_may2025.png)
 
 ![Lab dinner, round table](/assets/img/lab/mlins_fun_dinner_round_table.png)
+
+![Lab group selfie at the Library of Congress](/assets/img/lab/mlins_library_of_congress_selfie.png)
 
 ![Match Day - neurosurgery at Michigan Medicine](/assets/img/lab/mlins_match_day_neurosurgery.png)
 
@@ -34,5 +42,7 @@ Outings, meals, symposiums, and other moments with the team.
 ![Newborn in a basket with a hello world wooden sign](/assets/img/lab/mlins_hello_world_newborn.png)
 
 ![Symposium presentation - PRIMA neuroimaging foundation model results](/assets/img/lab/mlins_symposium_prima_presentation.jpg)
+
+![Lab members at a wedding celebration](/assets/img/lab/mlins_wedding_celebration.png)
 
 [← Back to lab members](/students/)

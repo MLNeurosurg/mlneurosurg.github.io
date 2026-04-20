@@ -7,7 +7,7 @@ permalink: /students/
 
 The best part of my day is working with these people.
 
-[**Fun lab photos**](/students/photos/) - outings, meals, and celebrations.
+### [Fun lab photos](/students/photos/) - Outings, meals, and celebrations.
 
 {% include_relative _includes/students.md %}
 

@@ -18,7 +18,7 @@ The team, the team, the team.
 - **Apr 2026** - Rush Joshi wins Best Clinical Absract at 2026 Neurosurgery Symposium.
 - **Feb 2026** - [***Prima***](https://www.nature.com/articles/s41551-025-01608-0) is published in *Nature Biomedical Engineering*.
 - **Feb 2026** - Yiwei Lyu's paper, ***ItemizedCLIP***, is accepted at *CVPR*.
-- **Dec 2025** - MLiNS lab's supercomputing-powered brain cancer research [featured in *The Detroit News*](https://archive.ph/Efqzr) by UM president Domenico Grasso.
+- **Dec 2025** - MLiNS lab's [featured in *The Detroit News*](https://archive.ph/Efqzr) by UM president Domenico Grasso.
 - **Mar 2025** - Todd Hollon [named](https://record.umich.edu/articles/regents-roundup-march-2025/) the inaugural ***Joseph R. Novello, M.D. and Alfredo Quiñones-Hinojosa, M.D. Research Professor of Neurosurgery***.
 - More news [here](/news/).
 
@@ -26,7 +26,7 @@ The team, the team, the team.
 
 - **[Intelligent Histology](/research/intelligent-histology/)** - intraoperative microscopy, computational pathology, brain tumor imaging
 - **[AI-based Neuroimaging](/research/neuroimaging/)** - AI for brain, spine, and peripheral nerve imaging
-- **[Biomedical Computer Vision](/research/computer-vision/)** - visual representation learning, vision-language modeling
+- **[Visual Intelligence](/research/computer-vision/)** - visual representation learning, vision-language modeling
 - **[Patient Forecasting](/research/patient-forecasting/)** - outcome and survival prediction
 - **[Collaborative Neuro-Oncology](/research/collaborative-neuro-oncology/)** - team science in brain tumor research
 
@@ -55,6 +55,10 @@ The team, the team, the team.
 <a href="https://www.youtube.com/watch?v=8BbshIbl7K8"><img src="https://img.youtube.com/vi/8BbshIbl7K8/hqdefault.jpg" alt="MLiNS video - watch on YouTube" width="240" height="180"></a>
 
 [CCMB Seminar 02/12/2025](https://www.youtube.com/watch?v=8BbshIbl7K8)
+
+<a href="https://www.youtube.com/watch?v=zNX1knTo2F4&t=80s"><img src="https://img.youtube.com/vi/zNX1knTo2F4/hqdefault.jpg" alt="I AM AI | GTC 2021 | Official Intro - watch on YouTube" width="240" height="180"></a>
+
+[I AM AI, NVIDIA GTC 2021, Official Intro (YouTube) (starts at 1:20)](https://www.youtube.com/watch?v=zNX1knTo2F4&t=80s)
 
 More videos and podcasts [here](/videos/).
 
