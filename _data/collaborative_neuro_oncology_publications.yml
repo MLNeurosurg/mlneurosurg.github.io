@@ -3,6 +3,8 @@ main:
   - title: 'Anatomic Predilection of Isocitrate Dehydrogenase-Mutant Gliomas: A Multi-Institutional Spatial Analysis'
     authors: Park M, Weiss H, Harake ES, Fang C, Springer A, Goff NK, Markert JE, Reinecke D, Maarouf N, Heiland DH, Miller AM, Todd C. Hollon, John G. Golfinos, and Daniel A. Orringer
     conference: NEUROSURGERY · 2026
+    description: >
+      A multi-institutional spatial analysis characterizing where **IDH-mutant gliomas** arise in the brain, informing surgical planning, sampling, and interpretation of tumor biology across centers.
     venue_logo: "/assets/img/venues/neurosurgery.png"
     image: "/assets/img/paper_logo/park2026idh_predilection.png"
     url: https://doi.org/10.1227/neu.0000000000004019
@@ -12,6 +14,8 @@ main:
   - title: 'Predicting therapeutic clinical trial enrollment for adult patients with low- and high-grade glioma using supervised machine learning'
     authors: Mehari M, Warrier G, Dada A, Kabir A, Haskell-Mendoza AP, Tripathy A, Jha R, Nieblas-Bedolla E, Jackson JD, Gonzalez AT, Reason EH, Flusche AM, Reihl S, Dalton T, Negussie M, Gonzales CN, Ambati VS, Desjardins A, Daniel AGS, Krishna S, Chang S, Porter A, Fecci PE, Todd Hollon, Chukwueke UN, Badal K, Molinaro AM, and Hervey-Jumper SL
     conference: SCIENCE ADVANCES · 2025
+    description: >
+      Supervised machine learning models predict **clinical trial enrollment** for adults with low- and high-grade glioma from routine data, with the goal of improving accrual and matching patients to studies.
     venue_logo: "/assets/img/venues/science_advances.png"
     image: "/assets/img/paper_logo/mehari2025_sciadv_trial_enrollment.png"
     url: https://doi.org/10.1126/sciadv.adt5708
@@ -21,6 +25,8 @@ main:
   - title: 'Combined cytotoxic and immune-stimulatory gene therapy for primary adult high-grade glioma: a phase 1, first-in- human trial'
     authors: Yoshie Umemura, Daniel Orringer, Larry Junck, Maria L Varela, Molly E J West, Syed M Faisal, Andrea Comba, Jason Heth, Oren Sagher, Denise Leung, Aaron Mammoser, Shawn Hervey-Jumper, Daniel Zamler, Viveka N Yadav, Patrick Dunn, Wajd Al-Holou, Todd Hollon, Michelle M Kim, Daniel R Wahl, Sandra Camelo-Piragua, Andrew P Lieberman, Sriram Venneti, Paul McKeever, Theodore Lawrence, Ryo Kurokawa, Karen Sagher, David Altshuler, Lili Zhao, Karin Muraszko, Maria G Castro, and Pedro R Lowenstein
     conference: The Lancet Oncology · 2023
+    description: >
+      A **phase 1, first-in-human** trial of combined cytotoxic and immune-stimulatory gene therapy delivered to the resection cavity in adults with primary high-grade glioma, reporting safety and early efficacy signals.
     venue_logo: "/assets/img/venues/lancet_oncology.png"
     url: https://doi.org/10.1016/S1470-2045(23)00347-9
     pdf: https://mlins-site.s3.amazonaws.com/pdf/papers/umemura2023combined.pdf
@@ -31,6 +37,8 @@ main:
   - title: Localization of protoporphyrin IX during glioma-resection surgery via paired stimulated Raman histology and fluorescence microscopy
     authors: Mustafa Nasir-Moin, Lisa Irina Wadiura, Vlad Sacalean, Devin Juros, Misha Movahed-Ezazi, Emily K. Lock, Andrew Smith, Matthew Lee, Hannah Weiss, Michael Müther, Daniel Alber, Sujay Ratna, Camila Fang, Eric Suero-Molina, Sönke Hellwig, Walter Stummer, Karl Rössler, Johannes A. Hainfellner, Georg Widhalm, Barbara Kiesel, David Reichert, Mario Mischkulnig, Rajan Jain, Jakob Straehle, Nicolas Neidert, Oliver Schnell, Jürgen Beck, Jay Trautman, Steve Pastore, Donato Pacione, Dimitris Placantonakis, Eric Karl Oermann, John G. Golfinos, Todd C. Hollon, Matija Snuderl, Christian W. Freudiger, Dieter Henrik Heiland, and Daniel A. Orringer
     conference: NATURE BIOMEDICAL ENGINEERING · 2024
+    description: >
+      Paired **stimulated Raman histology and fluorescence microscopy** map protoporphyrin IX (PpIX) during glioma resection, linking 5-ALA fluorescence to tissue context for more interpretable intraoperative guidance.
     venue_logo: "/assets/img/venues/nBME.jpg"
     url: https://doi.org/10.1038/s41551-024-01217-3
     pdf: https://mlins-site.s3.amazonaws.com/pdf/papers/nasir2024localization.pdf
@@ -41,6 +49,8 @@ main:
   - title: Spatiotemporal analysis of glioma heterogeneity reveals COL1A1 as an actionable target to disrupt tumor progression
     authors: Andrea Comba, Syed M. Faisal, Patrick J. Dunn, Anna E. Argento, Todd C. Hollon, Wajd N. Al-Holou, Maria Luisa Varela, Daniel B. Zamler, Gunnar L. Quass, Pierre F. Apostolides, Clifford Abel II, Christine E. Brown, Phillip E. Kish, Alon Kahana, Celina G. Kleer, Sebastien Motsch, Maria G. Castro and Pedro R. Lowenstein
     conference: NATURE COMMUNICATIONS · 2022
+    description: >
+      **Spatiotemporal** profiling of glioma heterogeneity implicates **COL1A1** in the tumor microenvironment as a tractable target to slow progression, connecting matrix biology to therapeutic opportunity. The **MLiNS** lab contributed a **semantic segmentation** model to detect **oncostreams** in brain tumor microscopy images, supporting quantitative analysis of tumor architecture.
     venue_logo: "/assets/img/venues/nature_comms.png"
     url: https://doi.org/10.1038/s41467-022-31340-1
     pdf: https://mlins-site.s3.amazonaws.com/pdf/papers/comba2021uncovering.pdf
@@ -51,6 +61,8 @@ main:
   - title: Methods and Impact for Using Federated Learning to Collaborate on Clinical Research
     authors: Alexander T M Cheung, Mustafa Nasir-Moin, Young Joon Fred Kwon, Jiahui Guan, Chris Liu, Lavender Jiang, Christian Raimondo, Silky Chotai, Lola Chambless, Hasan S Ahmad, Daksh Chauhan, Jang W Yoon, Todd Hollon, Vivek Buch, Douglas Kondziolka, Dinah Chen, Lama A Al-Aswad, Yindalon Aphinyanaphongs, and Eric Karl Oermann
     conference: NEUROSURGERY · 2022
+    description: >
+      A practical overview of **federated learning** for multi-site clinical research in neurosurgery: how models can be trained collaboratively without centralizing raw patient data, and what that means for governance and discovery.
     venue_logo: "/assets/img/venues/neurosurgery.png"
     url: https://doi.org/10.1227/neu.0000000000002198
     pdf: https://mlins-site.s3.amazonaws.com/pdf/papers/cheung2022methods.pdf

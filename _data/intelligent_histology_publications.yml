@@ -3,6 +3,8 @@ main:
   - title: Intelligent histology for tumor neurosurgery
     authors: Xinhai Hou <sup>*</sup>, Akhil V. Kondepudi <sup>*</sup>, Cheng Jiang <sup>*</sup>, Yiwei Lyu, Edward Samir Harake, Asadur Chowdury, Anna-Katharina Meißner, Volker Neuschmelting, David Reinecke, Gina Fürtjes, Georg Widhalm, Lisa Irina Körner, Jakob Straehle, Nicolas Neidert, Pierre Scheffler, Jürgen Beck, Michael E. Ivan, Ashish H. Shah, Aditya S. Pandey, Sandra Camelo-Piragua, Dieter Henrik Heiland, Oliver Schnell, Chris Freudiger, Jacob Young, Melike Pekmezci, Katie Scotford, Shawn Hervey-Jumper, Daniel Orringer, Mitchel Berger, and Todd Hollon
     conference: NEURO-ONCOLOGY ADVANCES · 2026
+    description: >
+      This review synthesizes advances in **intelligent histology** for neurosurgery, highlighting how stimulated Raman histology and modern machine learning are converging to support faster, more precise intraoperative decision-making.
     venue_logo: "/assets/img/venues/neuro_oncology_advances.png"
     url: https://academic.oup.com/noa/article/8/1/vdag065/8503168
     pdf: https://doi.org/10.1093/noajnl/vdag065
@@ -16,6 +18,8 @@ main:
   - title: Protocol to annotate and automate single-cell instance segmentation on stimulated Raman histology using deep learning
     authors: Abhishek Bhattacharya, Eric Landgraf, Cheng Jiang, Asadur Chowdury, Akhil Kondepudi, Lin Wang, Edward S. Harake, Xinhai Hou, Lisa Walsh, and Todd C. Hollon
     conference: STAR PROTOCOLS · 2025
+    description: >
+      This protocol provides a reproducible workflow for **single-cell annotation and segmentation** in stimulated Raman histology, enabling scalable dataset curation and model training for computational pathology studies.
     venue_logo: "/assets/img/venues/star_protocols.png"
     url: https://www.sciencedirect.com/science/article/pii/S2666166725006276?via%3Dihub
     pdf: "/assets/papers/1-s2.0-S2666166725006276-main.pdf"
@@ -129,6 +133,8 @@ main:
   - title: Rapid, label-free detection of diffuse glioma recurrence using intraoperative stimulated Raman histology and deep neural networks
     authors: Todd C Hollon, Balaji Pandian, Esteban Urias, Akshay V Save, Arjun R Adapa, Sudharsan Srinivasan, Neil K Jairath, Zia Farooq, Tamara Marie, Wajd N Al-Holou, Karen Eddy, Jason A Heth, Siri Sahib S Khalsa, Kyle Conway, Oren Sagher, Jeffrey N Bruce, Peter Canoll, Christian W Freudiger, Sandra Camelo-Piragua, Honglak Lee, Daniel A Orringer
     conference: NEURO-ONCOLOGY · 2021
+    description: >
+      This study demonstrates that stimulated Raman histology with deep neural networks can identify **diffuse glioma recurrence** intraoperatively, supporting rapid distinction between recurrent tumor and treatment-related changes.
     venue_logo: "/assets/img/venues/neuro_oncology.png"
     url: https://doi.org/10.1093/neuonc/noaa162
     pdf: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2021rapid.pdf
@@ -140,6 +146,8 @@ main:
   - title: Automated histologic diagnosis of CNS tumors with machine learning
     authors: Siri Sahib S Khalsa, Todd C Hollon, Arjun Adapa, Esteban Urias, Sudharsan Srinivasan, Neil Jairath, Julianne Szczepanski, Peter Ouillette, Sandra Camelo-Piragua, Daniel A Orringer
     conference: CNS ONCOLOGY · 2020
+    description: >
+      This work presents an early machine learning framework for **automated CNS tumor histologic diagnosis**, showing how computational analysis can augment intraoperative pathology interpretation.
     url: https://doi.org/10.2217/cns-2020-0003
     pdf: https://mlins-site.s3.amazonaws.com/pdf/papers/khalsa2020automated.pdf
     image: "/assets/img/paper_logo/khalsa2020automated.webp"
@@ -150,6 +158,8 @@ main:
   - title: Rapid Intraoperative Diagnosis of Pediatric Brain Tumors Using Stimulated Raman Histology
     authors: Todd C Hollon, Spencer Lewis, Balaji Pandian, Yashar S Niknafs, Mia R Garrard, Hugh Garton, Cormac O Maher, Kathryn McFadden, Matija Snuderl, Andrew P Lieberman, Karin Muraszko, Sandra Camelo-Piragua, Daniel A Orringer
     conference: CANCER RESEARCH · 2018
+    description: >
+      This paper extends stimulated Raman histology to pediatric neurosurgery, showing rapid, label-free intraoperative assessment of **pediatric brain tumors** to help guide operative management.
     venue_logo: "/assets/img/venues/cancer_research.png"
     url: https://doi.org/10.1158/0008-5472.can-17-1974
     pdf: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2018rapid.pdf
@@ -157,3 +167,18 @@ main:
     pills:
       - title: PDF
         link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2018rapid.pdf
+
+  - title: Rapid intraoperative histology of unprocessed surgical specimens via fibre-laser-based stimulated Raman scattering microscopy
+    authors: Daniel A Orringer, Balaji Pandian, Yashar S Niknafs, Todd C Hollon, Julianne Boyle, Spencer Lewis, Mia Garrard, Shawn L Hervey-Jumper, Hugh J L Garton, Cormac O Maher, Jason A Heth, Oren Sagher, D Andrew Wilkinson, Matija Snuderl, Sriram Venneti, Shakti H Ramkissoon, Kathryn A McFadden, Amanda Fisher-Hubbard, Andrew P Lieberman, Timothy D Johnson, X Sunney Xie, Jay K Trautman, Christian W Freudiger, Sandra Camelo-Piragua
+    conference: NATURE BIOMEDICAL ENGINEERING · 2017
+    description: >
+      This study established stimulated Raman histology as a practical **intraoperative microscopy** method, enabling rapid, label-free visualization of fresh surgical tissue and laying the groundwork for real-time computational neuropathology.
+    venue_logo: "/assets/img/venues/nBME.jpg"
+    url: https://doi.org/10.1038/s41551-016-0027
+    pdf: https://mlins-site.s3.amazonaws.com/pdf/papers/orringer2017rapid.pdf
+    image: "/assets/img/paper_logo/orringer2017rapid.webp"
+    pills:
+      - title: Paper
+        link: https://doi.org/10.1038/s41551-016-0027
+      - title: PDF
+        link: https://mlins-site.s3.amazonaws.com/pdf/papers/orringer2017rapid.pdf

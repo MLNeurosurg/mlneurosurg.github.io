@@ -10,7 +10,6 @@ I am an Assistant Professor at the University of Michigan and the Principal Inve
 
 The team, the team, the team.
 
-
 ## MLiNS News
 
 - **Apr 2026** - Xinhai Hou's paper, ***CodeV***, is accepted at *CVPR* as *Oral Paper*.
@@ -26,7 +25,7 @@ The team, the team, the team.
 
 - **[Intelligent Histology](/research/intelligent-histology/)** - intraoperative microscopy, computational pathology, brain tumor imaging
 - **[AI-based Neuroimaging](/research/neuroimaging/)** - AI for brain, spine, and peripheral nerve imaging
-- **[Visual Intelligence](/research/computer-vision/)** - visual representation learning, vision-language modeling
+- **[Visual Intelligence](/research/computer-vision/)** - visual reasoning, visual representation learning, vision-language modeling
 - **[Patient Forecasting](/research/patient-forecasting/)** - outcome and survival prediction
 - **[Collaborative Neuro-Oncology](/research/collaborative-neuro-oncology/)** - team science in brain tumor research
 

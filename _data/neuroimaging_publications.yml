@@ -61,6 +61,8 @@ main:
   - title: Development and Validation of an Artificial Intelligence Model to Accurately Predict Spinopelvic Parameters
     authors: Edward S. Harake, Joseph R. Linzey, Cheng Jiang, Rushikesh S. Joshi, Mark M. Zaki, Jaes C. Jones, Siri S. Khalsa, John H. Lee, Zachary Wilseck, Jacob R. Joseph, Todd C. Hollon, and Paul Park
     conference: JOURNAL OF NEUROSURGERY SPINE · 2024
+    description: >
+      This work introduces and validates an AI model for automated **spinopelvic parameter estimation** from imaging, aiming to improve speed and consistency in preoperative spinal alignment assessment.
     venue_logo: "/assets/img/venues/jns_logo.png"
     url: https://mlins.org/spinepose
     pdf: https://arxiv.org/abs/2402.06185
@@ -77,6 +79,8 @@ main:
   - title: Generating novel pituitary datasets from open-source imaging data and deep volumentric segmentation
     authors: Rachel Gologorsky, Edward Harake, Grace von Oiste, Mustafa Nasir-Moin, William Couldwell, Eric Oermann, and Todd Hollon
     conference: PITUITARY · 2022
+    description: >
+      This study builds a new pituitary imaging resource by combining open-source scans with deep **volumetric segmentation**, enabling larger and more standardized datasets for pituitary AI research.
     url: https://doi.org/10.1007/s11102-022-01255-7
     pdf: https://mlins-site.s3.amazonaws.com/pdf/papers/gologorsky2022generating.pdf
     image: "/assets/img/paper_logo/gologorsky2022generating.webp"

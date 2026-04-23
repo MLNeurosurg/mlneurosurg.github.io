@@ -7,6 +7,10 @@ permalink: /students/photos/
 
 Outings, meals, symposiums, and other moments with the team.
 
+![Joseph R. Novello, MD and Alfredo Quinones-Hinojosa, MD Research Professorship in Neurosurgery ceremony](/assets/img/lab/mlins_novello_professorship_ceremony.png)
+
+![Family and guests at the Novello / Quinones-Hinojosa Research Professorship ceremony](/assets/img/lab/mlins_novello_professorship_family.png)
+
 ![Neurosurgery case in the operating room](/assets/img/lab/mlins_or_neurosurgery.png)
 
 ![Match Day celebration - neurosurgery match at Michigan Medicine](/assets/img/lab/mlins_match_day_ceremony.png)

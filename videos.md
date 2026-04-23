@@ -13,6 +13,10 @@ Talks, interviews, seminar recordings, and podcasts.
 
 ## Videos
 
+<a href="https://vimeo.com/1074054655"><img src="https://i.vimeocdn.com/video/2003379854-27d673070f0a43d2091d5a940b34f744231e91cab5055d9c3c3a1e28962e1fb3-d_295x166" alt="Joseph R. Novello, MD and Alfredo Quinones-Hinojosa, MD Research Professorship in Neurosurgery - watch on Vimeo" width="240" height="180"></a>
+
+[Joseph R. Novello, MD and Alfredo Quinones-Hinojosa, MD Research Professorship in Neurosurgery (Vimeo)](https://vimeo.com/1074054655)
+
 <a href="https://www.youtube.com/watch?v=Q12IuCaKAr8"><img src="https://img.youtube.com/vi/Q12IuCaKAr8/hqdefault.jpg" alt="MLiNS video - watch on YouTube" width="240" height="180"></a>
 
 [AI Journeys Session (YouTube)](https://www.youtube.com/watch?v=Q12IuCaKAr8)
@@ -32,6 +36,7 @@ Talks, interviews, seminar recordings, and podcasts.
 <a href="https://www.youtube.com/watch?v=4H0lqr1JIZo"><img src="https://img.youtube.com/vi/4H0lqr1JIZo/hqdefault.jpg" alt="MLiNS video - watch on YouTube" width="240" height="180"></a>
 
 [Michigan AI Symposium 2025 Awards (YouTube)](https://www.youtube.com/watch?v=4H0lqr1JIZo)
+
 
 <a href="https://www.youtube.com/watch?v=8KopOQARsi8"><img src="https://img.youtube.com/vi/8KopOQARsi8/hqdefault.jpg" alt="MLiNS video - watch on YouTube" width="240" height="180"></a>
 

@@ -20,7 +20,7 @@ main:
     code: https://github.com/RenlyH/CodeV
     image: "/assets/img/paper_logo/codev2026.png"
     url: https://arxiv.org/abs/2511.19661
-    notes: Oral
+    notes: Oral Paper (Top 2%)
   - title: An Empirical Study on Unifying JEPA and Language Supervision for Visual Representation Learning
     authors: Shixuan Liu<sup>*</sup>, Daniel A. Li<sup>*</sup>, Yiwei Lyu, Akhil Kondepudi, Honglak Lee, and Todd C. Hollon
     conference: NEURIPS UNIREPS WORKSHOP · 2025
@@ -38,6 +38,8 @@ main:
   - title: Step-Calibrated Diffusion for Biomedical Optical Image Restoration
     authors: Yiwei Lyu, Sung Jik Cha, Cheng Jiang, Asadur Chowdury, Xinhai Hou, Edward Harake, Akhil Kondepudi, Christian Freudiger, Honglak Lee, and Todd C. Hollon
     conference: AAAI · 2025
+    description: >
+      This paper introduces **Restorative Step-Calibrated Diffusion (RSCD)** for biomedical optical image restoration, improving reconstruction fidelity by adapting denoising dynamics to the characteristics of microscopy data.
     venue_logo: "/assets/img/venues/aaai.png"
     url: https://arxiv.org/abs/2403.13680
     pdf: https://arxiv.org/abs/2403.13680
@@ -70,6 +72,8 @@ main:
   - title: Super-resolution of biomedical volumes with 2D supervision
     authors: Cheng Jiang, Alexander Gedeon, Yiwei Lyu, Eric Landgraf, Yufeng Zhang, Xinhai Hou, Akhil Kondepudi, Asadur Chowdury, Honglak Lee, and Todd C. Hollon
     conference: CVPR WORKSHOP · 2024
+    description: >
+      This work proposes **Masked Slice Diffusion for Super-Resolution (MSDSR)**, a strategy for volumetric biomedical super-resolution trained with only 2D supervision, enabling high-quality 3D reconstruction when fully paired 3D labels are scarce.
     venue_logo: "/assets/img/venues/cvpr.png"
     url: https://mlins.org/msdsr/
     pdf: https://arxiv.org/abs/2404.09425
@@ -88,6 +92,8 @@ main:
   - title: A self-supervised framework for learning whole slide representations
     authors: Xinhai Hou <sup>*</sup>, Cheng Jiang<sup>*</sup>, Akhil Kondepudi, Yiwei Lyu, Asadur Zaman Chowdury, Honglak Lee, and Todd C. Hollon
     conference: ARXIV · 2024
+    description: >
+      This study introduces **Slide Pre-trained Transformers (SPT)**, a self-supervised framework for whole-slide representation learning that captures multiscale histologic structure to support downstream pathology tasks with limited manual annotation.
     venue_logo: "/assets/img/venues/arxiv-logo.png"
     url: https://arxiv.org/abs/2402.06188
     pdf: https://arxiv.org/abs/2402.06188
@@ -106,7 +112,7 @@ main:
     image: "/assets/img/paper_logo/jiang2023hierarchical.webp"
     code: https://github.com/MLNeurosurg/hidisc
     page: https://hidisc.mlins.org/
-    notes: Highlight
+    notes: Highlight Paper (Top 5%)
     pills:
       - title: Website
         link: https://hidisc.mlins.org/
@@ -141,6 +147,8 @@ main:
   - title: Denoising stimulated Raman histology using weak supervision to improve label-free optical microscopy of human brain tumors
     authors: Esteban Urias, Christopher Freudiger, Daniel Orringer, Honglak Lee, and Todd Hollon
     conference: MLHC · 2020
+    description: >
+      This paper develops a weakly supervised denoising approach for stimulated Raman histology, improving image quality in **label-free optical microscopy** of human brain tumor specimens.
     url: https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/5f245aaae2b6cb56478c0c28/1596218027588/101_CameraReadySubmission_MLfH+Abstract+Final.pdf
     pdf: https://mlins-site.s3.amazonaws.com/pdf/papers/urias2020denoising.pdf
     image: "/assets/img/paper_logo/urias2020denoising.webp"
