@@ -17,6 +17,8 @@ Outings, meals, symposiums, and other moments with the team.
 
 ![Keynote at the Congress of Neurological Surgeons meeting - DeepGlioma AI-based molecular classification of diffuse gliomas](/assets/img/lab/mlins_cns_keynote_deepglioma.png)
 
+![Silica demo - cell mapping on stimulated Raman histology at University of Michigan Medical School](/assets/img/lab/mlins_silica_demo_presentation.png)
+
 ![MLiNS lab dinner outing](/assets/img/lab/mlins_fun_outing.png)
 
 ![Lab dinner, long table](/assets/img/lab/mlins_fun_dinner_long_table.png)

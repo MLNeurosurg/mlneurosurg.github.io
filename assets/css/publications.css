@@ -54,9 +54,9 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .publications ol.bibliography { list-style: none; padding: 0; margin-top: 0; }
 
-.publications ol.bibliography li { min-height: 125px; margin-bottom: 0.5rem; }
+.publications ol.bibliography li { min-height: 182px; margin-bottom: 0.5rem; }
 
-.publications ol.bibliography li .abbr { min-height: 8rem; height: auto; margin-bottom: 0.5rem; max-width: 100%; box-sizing: border-box; }
+.publications ol.bibliography li .abbr { min-height: 12.35rem; height: auto; margin-bottom: 0.5rem; max-width: 100%; box-sizing: border-box; }
 
 .publications ol.bibliography li .abbr .teaser-with-badge { position: relative; display: inline-block; max-width: 100%; }
 
@@ -116,7 +116,7 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .publications ol.bibliography li .pub-row { align-items: flex-start; max-width: 100%; box-sizing: border-box; }
 
-.publications ol.bibliography li .teaser { border-radius: 8px; box-shadow: 3px 3px 6px #888; height: 140px; width: min(305px, calc(100% - 10px)); max-width: 100%; margin: 5px; object-fit: cover; box-sizing: border-box; }
+.publications ol.bibliography li .teaser { border-radius: 8px; box-shadow: 3px 3px 6px #888; height: 218px; width: min(442px, calc(100% - 10px)); max-width: 100%; margin: 5px; object-fit: cover; box-sizing: border-box; }
 
 .publications ol.bibliography li .venue-logo { display: block; max-height: 67.5px; max-width: min(365px, calc(100% - 10px)); width: auto; height: auto; margin: 0 5px 6px 5px; object-fit: contain; object-position: left center; filter: brightness(0.95); box-sizing: border-box; }
 

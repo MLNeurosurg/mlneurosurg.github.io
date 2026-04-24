@@ -12,6 +12,18 @@ main:
       - title: PDF
         link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2018machine.pdf
 
+  - title: 'Surgical Treatment of Olfactory Neuroblastoma: Major Complication Rates, Progression Free and Overall Survival'
+    authors: Aileen Wertz, Todd Hollon, Lawrence J Marentette, Stephen E Sullivan, Jonathan B McHugh, Erin L McKean
+    conference: JOURNAL OF NEUROLOGICAL SURGERY · 2018
+    description: >
+      This outcomes study reports complication profiles and survival metrics after surgical treatment of olfactory neuroblastoma.
+    url: https://doi.org/10.1055/s-0037-1605593
+    pdf: https://mlins-site.s3.amazonaws.com/pdf/papers/wertz2018surgical.pdf
+    image: "/assets/img/paper_logo/wertz2018surgical.webp"
+    pills:
+      - title: PDF
+        link: https://mlins-site.s3.amazonaws.com/pdf/papers/wertz2018surgical.pdf
+
   - title: 'Outcome of Transsphenoidal Surgery for Cushing Disease: A Single-Center Experience Over 32 Years'
     authors: William F Chandler, Ariel L Barkan, Todd Hollon, Alla Sakharova, Jayson Sack, Barunashish Brahma, David E Schteingart
     conference: NEUROSURGERY · 2016
