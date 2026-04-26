@@ -87,7 +87,7 @@ main:
     code: https://github.com/RenlyH/CodeV
     image: /assets/img/paper_logo/codev2026.png
     url: https://arxiv.org/abs/2511.19661
-    notes: Oral
+    notes: Oral Paper (Top 2%)
 
   - title: Towards Scalable Language-Image Pre-training for 3D Medical Imaging
     authors: Chenhui Zhao, Yiwei Lyu, Asadur Zaman Chowdury, Edward S. Harake, Akhil Kondepudi, Akshay T. Rao, Xinhai Hou, Honglak Lee, and Todd C. Hollon
@@ -113,7 +113,7 @@ main:
     pdf: https://arxiv.org/abs/2303.01605
     image: /assets/img/paper_logo/jiang2023hierarchical.webp
     code: https://github.com/MLNeurosurg/hidisc
-    notes: Highlight
+    notes: Highlight Paper (Top 5%)
     pills:
       - title: Website
         link: https://hidisc.mlins.org/

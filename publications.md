@@ -6,6 +6,6 @@ permalink: /publications/
 ## Publications {#publications}
 
 <!-- Complete list of lab publications. [Back to home](/). -->
-Complete list of lab publications.
+The complete list of MLiNS Lab publications.
 
 {% include_relative _includes/publications.md %}

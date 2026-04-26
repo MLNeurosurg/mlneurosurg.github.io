@@ -58,6 +58,31 @@ main:
     demo: https://prima.mlins.org/
     url: https://www.nature.com/articles/s41551-025-01608-0
 
+  - title: Extending SEEDS to a Supervoxel Algorithm for Medical Image Analysis
+    authors: Chenhui Zhao, Yan Jiang, and Todd C. Hollon
+    conference: ARXIV · 2025
+    description: >
+      This work extends the SEEDS superpixel algorithm from 2D to 3D volumes as **3D SEEDS**, reporting substantially faster supervoxel generation and improved segmentation quality across diverse medical imaging tasks.
+    venue_logo: "/assets/img/venues/arxiv-logo.png"
+    url: https://arxiv.org/abs/2502.02409
+    pdf: https://arxiv.org/pdf/2502.02409
+    image: "/assets/img/paper_logo/zhao2025_3d_seeds.png"
+    pills:
+      - title: arXiv
+        link: https://arxiv.org/abs/2502.02409
+
+  - title: 'Validation of a novel artificial intelligence model (SpinePose) to automatically and accurately predict spinopelvic parameters using scoliosis radiographs in an external cohort'
+    authors: Rushikesh S. Joshi, Edward S. Harake, Cheng Jiang, Haselhuhn JJ, Linzey JR, Jones JC, Zaki MM, Odland K, Wilseck Z, Joseph JR, Polly DW, Todd C. Hollon, and P. Park
+    conference: NEUROSURGERY FOCUS · 2025
+    description: >
+      This external-cohort study validates **SpinePose** for automated spinopelvic parameter prediction from scoliosis radiographs, demonstrating generalizability across institutions.
+    venue_logo: "/assets/img/venues/jns_logo.png"
+    image: "/assets/img/paper_logo/joshi2025_spinepose_training_geography.png"
+    url: https://doi.org/10.3171/2025.3.FOCUS2574
+    pills:
+      - title: DOI
+        link: https://doi.org/10.3171/2025.3.FOCUS2574
+
   - title: Development and Validation of an Artificial Intelligence Model to Accurately Predict Spinopelvic Parameters
     authors: Edward S. Harake, Joseph R. Linzey, Cheng Jiang, Rushikesh S. Joshi, Mark M. Zaki, Jaes C. Jones, Siri S. Khalsa, John H. Lee, Zachary Wilseck, Jacob R. Joseph, Todd C. Hollon, and Paul Park
     conference: JOURNAL OF NEUROSURGERY SPINE · 2024

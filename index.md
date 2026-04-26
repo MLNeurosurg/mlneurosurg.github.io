@@ -62,8 +62,9 @@ The team, the team, the team.
 More videos and podcasts [here](/videos/).
 
 ## Support for MLiNS Lab
-- [NIH National Cancer Institute (NCI)](https://reporter.nih.gov/search/fasIncKaf0K7CqBQs0Fyiw/project-details/11227784)
-- [NIH National Institute of Neurological Disorders and Stroke (NINDS)](https://www.nrcdp.org/)
+- [NIH NCI R01](https://reporter.nih.gov/search/fasIncKaf0K7CqBQs0Fyiw/project-details/11227784)
+- [NIH NINDS K12](https://www.nrcdp.org/)
+- [NIH NINDS F31](https://reporter.nih.gov/project-details/10824645)
 - [Chan Zuckerberg Initiative](https://chanzuckerberg.com/science/programs-resources/imaging/community/?cycle=advancing-imaging-through-collaborative-projects)
 - [Ian's Friends Foundation (Phil and Cheryl Yagoda)](https://iansfriendsfoundation.com/)
 - [UM Frankel Institute for Heart and Brain Health](https://medresearch.umich.edu/labs-departments/centers/frankelihbh)
