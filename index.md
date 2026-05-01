@@ -6,6 +6,8 @@ layout: homepage
 
 I am an Assistant Professor at the University of Michigan and the Principal Investigator of the ***Machine Learning in Neurosurgery (MLiNS) Lab***. Our research focuses on developing machine intelligence that understands human health and disease, especially related to the nervous system. We aim to discover better data streams, model architectures, inductive biases, and learning objectives for medical AI. Our technical contributions include improved visual self-supervision, hierarchical and multimodal representation learning, and medical foundation modeling.
 
+We are actively *hiring postdocs in medical AI*. Projects can cover any of the research themes below. Please email me directly at tocho [at] med.umich.edu if interested.
+
 ## [Photos and Bios of MLiNS Team](/students/)
 
 The team, the team, the team.
@@ -18,7 +20,7 @@ The team, the team, the team.
 - **Feb 2026** - [***Prima***](https://www.nature.com/articles/s41551-025-01608-0) is published in *Nature Biomedical Engineering*.
 - **Feb 2026** - Yiwei Lyu's paper, ***ItemizedCLIP***, is accepted at *CVPR*.
 - **Dec 2025** - MLiNS lab's [featured in *The Detroit News*](https://archive.ph/Efqzr) by UM president Domenico Grasso.
-- **Mar 2025** - Todd Hollon [named](https://record.umich.edu/articles/regents-roundup-march-2025/) the inaugural ***Joseph R. Novello, M.D. and Alfredo Quiñones-Hinojosa, M.D. Research Professor of Neurosurgery***.
+- **Mar 2025** - Todd Hollon [named](https://record.umich.edu/articles/regents-roundup-march-2025/) the inaugural ***Joseph R. Novello, M.D. and Alfredo Quiñones-Hinojosa, M.D., Ph.D., Research Professor of Neurosurgery***.
 - More news [here](/news/).
 
 ## MLiNS Research Themes

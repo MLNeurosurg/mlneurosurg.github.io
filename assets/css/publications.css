@@ -52,6 +52,24 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .publications h2.year:first-of-type { margin-top: 0.5rem; }
 
+/* Homepage selected publications: subheadings between biomedical journals and ML venues */
+.publications h3.selected-pubs-section {
+  color: var(--global-theme-color);
+  border-top: 1px solid var(--global-theme-color);
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  padding-top: 0.4rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.publications h3.selected-pubs-section:first-of-type {
+  margin-top: 0;
+  border-top: none;
+  padding-top: 0;
+}
+
 .publications ol.bibliography { list-style: none; padding: 0; margin-top: 0; }
 
 .publications ol.bibliography li { min-height: 182px; margin-bottom: 0.5rem; }

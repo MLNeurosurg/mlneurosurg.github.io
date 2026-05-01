@@ -1,8 +1,8 @@
 <div class="publications">
+{% for section in site.data.selected_publications.sections %}
+<h3 class="selected-pubs-section">{{ section.heading }}</h3>
 <ol class="bibliography">
-
-{% for link in site.data.selected_publications.main %}
-
+{% for link in section.items %}
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -64,8 +64,7 @@
 </div>
 </li>
 <br>
-
 {% endfor %}
-
 </ol>
+{% endfor %}
 </div>

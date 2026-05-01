@@ -1,4 +1,5 @@
 main:
+
   - title: A machine learning approach to predict early outcomes after pituitary adenoma surgery
     authors: Todd C Hollon, Adish Parikh, Balaji Pandian, Jamaal Tarpeh, Daniel A Orringer, Ariel L Barkan, Erin L McKean, Stephen E Sullivan
     conference: JOURNAL OF NEUROSURGERY · 2018
@@ -12,6 +13,18 @@ main:
       - title: PDF
         link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2018machine.pdf
 
+  - title: Clinical Factors Associated With ICU-Specific Care Following Supratentoral Brain Tumor Resection and Validation of a Risk Prediction Score
+    authors: Lynze R Franko, Todd Hollon, Joseph Linzey, Christopher Roark, Venkatakrishna Rajajee, Kyle Sheehan, Magnus Teig, Shawn Hervey-Jumper, Jason Heth, Daniel Orringer, Craig A Williamson
+    conference: CRITICAL CARE MEDICINE · 2018
+    description: >
+      This work identifies predictors of **ICU-level needs** after supratentorial brain tumor resection and validates a risk score to guide postoperative triage and resource allocation.
+    url: https://doi.org/10.1097/ccm.0000000000003207
+    pdf: https://mlins-site.s3.amazonaws.com/pdf/papers/franko2018clinical.pdf
+    image: "/assets/img/paper_logo/franko2018clinical.webp"
+    pills:
+      - title: PDF
+        link: https://mlins-site.s3.amazonaws.com/pdf/papers/franko2018clinical.pdf
+
   - title: 'Surgical Treatment of Olfactory Neuroblastoma: Major Complication Rates, Progression Free and Overall Survival'
     authors: Aileen Wertz, Todd Hollon, Lawrence J Marentette, Stephen E Sullivan, Jonathan B McHugh, Erin L McKean
     conference: JOURNAL OF NEUROLOGICAL SURGERY · 2018
@@ -23,19 +36,6 @@ main:
     pills:
       - title: PDF
         link: https://mlins-site.s3.amazonaws.com/pdf/papers/wertz2018surgical.pdf
-
-  - title: 'Outcome of Transsphenoidal Surgery for Cushing Disease: A Single-Center Experience Over 32 Years'
-    authors: William F Chandler, Ariel L Barkan, Todd Hollon, Alla Sakharova, Jayson Sack, Barunashish Brahma, David E Schteingart
-    conference: NEUROSURGERY · 2016
-    description: >
-      This long-term single-center analysis reports outcomes of transsphenoidal surgery for **Cushing disease**, identifying patterns in remission and recurrence over three decades of care.
-    venue_logo: "/assets/img/venues/neurosurgery.png"
-    url: https://doi.org/10.1227/neu.0000000000001011
-    pdf: https://mlins-site.s3.amazonaws.com/pdf/papers/chandler2016outcome.pdf
-    image: "/assets/img/paper_logo/chandler2016outcome.webp"
-    pills:
-      - title: PDF
-        link: https://mlins-site.s3.amazonaws.com/pdf/papers/chandler2016outcome.pdf
 
   - title: 'Ventriculoscopic Surgery for Cystic Retrochiasmatic Craniopharyngiomas: Indications, Surgical Technique, and Short-Term Patient Outcomes'
     authors: Todd C Hollon, Luis E Savastano, David Altshuler, Ariel L Barkan, Stephen E Sullivan
@@ -50,18 +50,6 @@ main:
       - title: PDF
         link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2017ventriculoscopic.pdf
 
-  - title: Clinical Factors Associated With ICU-Specific Care Following Supratentoral Brain Tumor Resection and Validation of a Risk Prediction Score
-    authors: Lynze R Franko, Todd Hollon, Joseph Linzey, Christopher Roark, Venkatakrishna Rajajee, Kyle Sheehan, Magnus Teig, Shawn Hervey-Jumper, Jason Heth, Daniel Orringer, Craig A Williamson
-    conference: CRITICAL CARE MEDICINE · 2018
-    description: >
-      This work identifies predictors of **ICU-level needs** after supratentorial brain tumor resection and validates a risk score to guide postoperative triage and resource allocation.
-    url: https://doi.org/10.1097/ccm.0000000000003207
-    pdf: https://mlins-site.s3.amazonaws.com/pdf/papers/franko2018clinical.pdf
-    image: "/assets/img/paper_logo/franko2018clinical.webp"
-    pills:
-      - title: PDF
-        link: https://mlins-site.s3.amazonaws.com/pdf/papers/franko2018clinical.pdf
-
   - title: "Supratentorial hemispheric ependymomas: an analysis of 109 adults for survival and prognostic factors"
     authors: Todd Hollon, Vincent Nguyen, Brandon W Smith, Spencer Lewis, Larry Junck, Daniel A Orringer
     conference: JOURNAL OF NEUROSURGERY · 2016
@@ -74,3 +62,16 @@ main:
     pills:
       - title: PDF
         link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2016superatentorial.pdf
+
+  - title: 'Outcome of Transsphenoidal Surgery for Cushing Disease: A Single-Center Experience Over 32 Years'
+    authors: William F Chandler, Ariel L Barkan, Todd Hollon, Alla Sakharova, Jayson Sack, Barunashish Brahma, David E Schteingart
+    conference: NEUROSURGERY · 2016
+    description: >
+      This long-term single-center analysis reports outcomes of transsphenoidal surgery for **Cushing disease**, identifying patterns in remission and recurrence over three decades of care.
+    venue_logo: "/assets/img/venues/neurosurgery.png"
+    url: https://doi.org/10.1227/neu.0000000000001011
+    pdf: https://mlins-site.s3.amazonaws.com/pdf/papers/chandler2016outcome.pdf
+    image: "/assets/img/paper_logo/chandler2016outcome.webp"
+    pills:
+      - title: PDF
+        link: https://mlins-site.s3.amazonaws.com/pdf/papers/chandler2016outcome.pdf

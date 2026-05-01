@@ -1,162 +1,168 @@
 # Shown on the homepage (_includes/selected_publications.md). Full list: _data/publications.yml + /publications/
-main:
-  - title: Learning neuroimaging models with health system-scale data
-    authors: Yiwei Lyu, Samir Harake, Asadur Chowdury, Soumyanil Banerjee, Rachel Gologorsky, Shixuan Liu, Anna-Katharina Meissner, Akshay Rao, Chenhui Zhao, Akhil Kondepudi, Cheng Jiang, Xinhai Hou, Rushikesh S. Joshi, Volker Neuschmelting, Ashok Srinivasan, Dawn Kleindorfer, Brian Athey, Vikas Gulani, Aditya Pandey, Honglak Lee, and Todd Hollon
-    # conference_short: nBME
-    conference: NATURE BIOMEDICAL ENGINEERING · 2026
-    description: >
-      Introduces **Prima**, a visual foundation model for brain MRI trained at health-system scale for diagnosis, triage, and clinically grounded decision support.
-    venue_logo: /assets/img/venues/nBME.jpg
-    pdf: /assets/papers/Prima_2026.pdf
-    code: https://github.com/MLNeurosurg/Prima
-    image: /assets/img/paper_logo/prima2026.png
-    demo: https://prima.mlins.org/
-    url: https://www.nature.com/articles/s41551-025-01608-0
-  - title: Foundation models for fast, label-free detection of glioma infiltration
-    authors: Akhil Kondepudi, Melike Pekmezci, Xinhai Hou, Katie Scotford, Cheng Jiang, Akshay Rao, Edward S. Harake, Asadur Chowdury, Wajd Al-Holou, Lin Wang, Aditya Pandey, Pedro R. Lowenstein, Maria G. Castro, Lisa Irina Koerner, Thomas Roetzer-Pejrimovsky, Georg Widhalm, Sandra Camelo-Piragua, Misha Movahed-Ezazi, Daniel A. Orringer, Honglak Lee, Christian Freudiger, Mitchel Berger, Shawn Hervey-Jumper, and Todd Hollon
-    # conference_short: Nature
-    conference: NATURE · 2025
-    description: >
-      **FastGlioma** is a computational pathology model for real-time detection of glioma infiltration at the surgical margin, outperforming the current standard of care.
-    venue_logo: /assets/img/venues/nature.png
-    pdf: /assets/papers/fastglioma.pdf
-    code: https://github.com/MLNeurosurg/fastglioma
-    demo: https://fastglioma.mlins.org/
-    image: /assets/img/paper_logo/fastglioma.png
-    url: https://www.nature.com/articles/s41586-024-08169-3
-  - title: AI-based molecular classification of diffuse gliomas using rapid, label-free optical imaging
-    authors: Todd Hollon, Cheng Jiang, Asadur Chowdury, Mustafa Nasir-Moin, Akhil Kondepudi, Alexander Aabedi, Arjun Adapa, Wajd Al-Holou, Jason Heth, Oren Sagher, Pedro Lowenstein, Maria Castro, Lisa Irina Wadiura, Georg Widhalm, Volker Neuschmelting, David Reinecke, Niklas von Spreckelsen, Mitchel Berger, Shawn Hervey-Jumper, John Golfinos, Matija Snuderl, Sandra Camelo-Piragua, Christian Freudiger, Honglak Lee, and Daniel Orringer
-    conference: NATURE MEDICINE · 2023
-    description: >
-      Diffuse gliomas are classified using the molecular features. **DeepGlioma** predicts the molecular genetics of brain tumors within minutes of biopsy, *in the operating room*, to better inform surgical goals.
-    url: https://deepglioma.mlins.org/
-    pdf: https://doi.org/10.1038/s41591-023-02252-4
-    image: "/assets/img/paper_logo/hollon2023artificial.webp"
-    venue_logo: "/assets/img/venues/nature_medicine_logo.png"
-    code: https://github.com/MLNeurosurg/deepglioma
-    demo: https://deepglioma.mlins.org/
-    pills:
-    # - title: Interactive Demo
-    #   link: https://deepglioma.mlins.org/
-    - title: Paper
-      link: https://doi.org/10.1038/s41591-023-02252-4
-    - title: arXiv
-      link: https://arxiv.org/abs/2303.13610
-    - title: Github
-      link: https://github.com/MLNeurosurg/deepglioma
-  - title: Near real-time intraoperative brain tumor diagnosis using stimulated Raman histology and deep neural networks
-    authors: Todd C Hollon, Balaji Pandian, Arjun R Adapa, Esteban Urias, Akshay V Save, Siri Sahib S Khalsa, Daniel G Eichberg, Randy S D'Amico, Zia U Farooq, Spencer Lewis, Petros D Petridis, Tamara Marie, Ashish H Shah, Hugh J L Garton, Cormac O Maher, Jason A Heth, Erin L McKean, Stephen E Sullivan, Shawn L Hervey-Jumper, Parag G Patil, B Gregory Thompson, Oren Sagher, Guy M McKhann 2nd, Ricardo J Komotar, Michael E Ivan, Matija Snuderl, Marc L Otten, Timothy D Johnson, Michael B Sisti, Jeffrey N Bruce, Karin M Muraszko, Jay Trautman, Christian W Freudiger, Peter Canoll, Honglak Lee, Sandra Camelo-Piragua, Daniel A Orringer
-    conference: NATURE MEDICINE · 2020
-    description: >
-      A deep learning workflow combining stimulated Raman histology with convolutional neural networks delivers **near real-time intraoperative brain tumor diagnosis**, matching pathologist accuracy while compressing turnaround from ~30 minutes to under 150 seconds.
-    venue_logo: /assets/img/venues/nature_medicine_logo.png
-    url: https://doi.org/10.1038/s41591-019-0715-9
-    pdf: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2020near.pdf
-    image: /assets/img/paper_logo/hollon2020near.webp
-    code: https://github.com/MLNeurosurg/srh_cnn
-    pills:
-    - title: Paper
-      link: https://doi.org/10.1038/s41591-019-0715-9
-    - title: PDF
-      link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2020near.pdf
-    - title: Github
-      link: https://github.com/MLNeurosurg/srh_cnn
-    - title: Video
-      link: https://www.youtube.com/watch?v=UZZ08_fC7UU
-  - title: Learning complete and explainable visual representations from itemized text supervision
-    authors: Yiwei Lyu, Chenhui Zhao, Soumyanil Banerjee, Shixuan Liu, Akshay T. Rao, Akhil Kondepudi, Honglak Lee, and Todd C. Hollon
-    # conference_short: CVPR
-    conference: COMPUTER VISION AND PATTERN RECOGNITION · 2026
-    description: >
-      Standard contrastive language-image pre-training can neglect objects in visual scenes. **ItemizedCLIP** forces models to learn and attend to all described items, resulting in better visual representations.
-      
-    venue_logo: /assets/img/venues/cvpr.png
-    pdf: https://arxiv.org/pdf/2512.11141
-    code: https://github.com/MLNeurosurg/ItemizedCLIP
-    image: /assets/img/paper_logo/itemizedclip2026.png
-    url: https://arxiv.org/abs/2512.11141
+# Grouped with a subheading per section; order within each section is yours to curate.
+sections:
+  - heading: Biomedical research journals
+    items:
+      - title: Learning neuroimaging models with health system-scale data
+        authors: Yiwei Lyu, Samir Harake, Asadur Chowdury, Soumyanil Banerjee, Rachel Gologorsky, Shixuan Liu, Anna-Katharina Meissner, Akshay Rao, Chenhui Zhao, Akhil Kondepudi, Cheng Jiang, Xinhai Hou, Rushikesh S. Joshi, Volker Neuschmelting, Ashok Srinivasan, Dawn Kleindorfer, Brian Athey, Vikas Gulani, Aditya Pandey, Honglak Lee, and Todd Hollon
+        # conference_short: nBME
+        conference: NATURE BIOMEDICAL ENGINEERING · 2026
+        description: >
+          Introduces **Prima**, a visual foundation model for brain MRI trained at health-system scale for diagnosis, triage, and clinically grounded decision support.
+        venue_logo: /assets/img/venues/nBME.jpg
+        pdf: /assets/papers/Prima_2026.pdf
+        code: https://github.com/MLNeurosurg/Prima
+        image: /assets/img/paper_logo/prima2026.png
+        demo: https://prima.mlins.org/
+        url: https://www.nature.com/articles/s41551-025-01608-0
+      - title: Foundation models for fast, label-free detection of glioma infiltration
+        authors: Akhil Kondepudi, Melike Pekmezci, Xinhai Hou, Katie Scotford, Cheng Jiang, Akshay Rao, Edward S. Harake, Asadur Chowdury, Wajd Al-Holou, Lin Wang, Aditya Pandey, Pedro R. Lowenstein, Maria G. Castro, Lisa Irina Koerner, Thomas Roetzer-Pejrimovsky, Georg Widhalm, Sandra Camelo-Piragua, Misha Movahed-Ezazi, Daniel A. Orringer, Honglak Lee, Christian Freudiger, Mitchel Berger, Shawn Hervey-Jumper, and Todd Hollon
+        # conference_short: Nature
+        conference: NATURE · 2025
+        description: >
+          **FastGlioma** is a computational pathology model for real-time detection of glioma infiltration at the surgical margin, outperforming the current standard of care.
+        venue_logo: /assets/img/venues/nature.png
+        pdf: /assets/papers/fastglioma.pdf
+        code: https://github.com/MLNeurosurg/fastglioma
+        demo: https://fastglioma.mlins.org/
+        image: /assets/img/paper_logo/fastglioma.png
+        url: https://www.nature.com/articles/s41586-024-08169-3
+      - title: AI-based molecular classification of diffuse gliomas using rapid, label-free optical imaging
+        authors: Todd Hollon, Cheng Jiang, Asadur Chowdury, Mustafa Nasir-Moin, Akhil Kondepudi, Alexander Aabedi, Arjun Adapa, Wajd Al-Holou, Jason Heth, Oren Sagher, Pedro Lowenstein, Maria Castro, Lisa Irina Wadiura, Georg Widhalm, Volker Neuschmelting, David Reinecke, Niklas von Spreckelsen, Mitchel Berger, Shawn Hervey-Jumper, John Golfinos, Matija Snuderl, Sandra Camelo-Piragua, Christian Freudiger, Honglak Lee, and Daniel Orringer
+        conference: NATURE MEDICINE · 2023
+        description: >
+          Diffuse gliomas are classified using the molecular features. **DeepGlioma** predicts the molecular genetics of brain tumors within minutes of biopsy, *in the operating room*, to better inform surgical goals.
+        url: https://deepglioma.mlins.org/
+        pdf: https://doi.org/10.1038/s41591-023-02252-4
+        image: "/assets/img/paper_logo/hollon2023artificial.webp"
+        venue_logo: "/assets/img/venues/nature_medicine_logo.png"
+        code: https://github.com/MLNeurosurg/deepglioma
+        demo: https://deepglioma.mlins.org/
+        pills:
+        # - title: Interactive Demo
+        #   link: https://deepglioma.mlins.org/
+        - title: Paper
+          link: https://doi.org/10.1038/s41591-023-02252-4
+        - title: arXiv
+          link: https://arxiv.org/abs/2303.13610
+        - title: Github
+          link: https://github.com/MLNeurosurg/deepglioma
+      - title: Near real-time intraoperative brain tumor diagnosis using stimulated Raman histology and deep neural networks
+        authors: Todd C Hollon, Balaji Pandian, Arjun R Adapa, Esteban Urias, Akshay V Save, Siri Sahib S Khalsa, Daniel G Eichberg, Randy S D'Amico, Zia U Farooq, Spencer Lewis, Petros D Petridis, Tamara Marie, Ashish H Shah, Hugh J L Garton, Cormac O Maher, Jason A Heth, Erin L McKean, Stephen E Sullivan, Shawn L Hervey-Jumper, Parag G Patil, B Gregory Thompson, Oren Sagher, Guy M McKhann 2nd, Ricardo J Komotar, Michael E Ivan, Matija Snuderl, Marc L Otten, Timothy D Johnson, Michael B Sisti, Jeffrey N Bruce, Karin M Muraszko, Jay Trautman, Christian W Freudiger, Peter Canoll, Honglak Lee, Sandra Camelo-Piragua, Daniel A Orringer
+        conference: NATURE MEDICINE · 2020
+        description: >
+          A deep learning workflow combining stimulated Raman histology with convolutional neural networks delivers **near real-time intraoperative brain tumor diagnosis**, matching pathologist accuracy while compressing turnaround from ~30 minutes to under 150 seconds.
+        venue_logo: /assets/img/venues/nature_medicine_logo.png
+        url: https://doi.org/10.1038/s41591-019-0715-9
+        pdf: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2020near.pdf
+        image: /assets/img/paper_logo/hollon2020near.webp
+        code: https://github.com/MLNeurosurg/srh_cnn
+        pills:
+        - title: Paper
+          link: https://doi.org/10.1038/s41591-019-0715-9
+        - title: PDF
+          link: https://mlins-site.s3.amazonaws.com/pdf/papers/hollon2020near.pdf
+        - title: Github
+          link: https://github.com/MLNeurosurg/srh_cnn
+        - title: Video
+          link: https://www.youtube.com/watch?v=UZZ08_fC7UU
 
-  - title: "CodeV: Code with Images for Faithful Visual Reasoning via Tool-Aware Policy Optimization"
-    authors: Xinhai Hou, Shaoyuan Xu, Manan Biyani, Moyan Li, Jia Liu, Todd C. Hollon, and Bryan Wang
-    # conference_short: CVPR
-    conference: COMPUTER VISION AND PATTERN RECOGNITION · 2026
-    description: >
-      Recent visual agents can score well while using image tools unfaithfully-e.g., cropping irrelevant regions or ignoring tool outputs. **CodeV** represents tools as executable Python code and trains with Tool-Aware Policy Optimization (TAPO), using process-level rewards on visual tool inputs and outputs to improve both accuracy and faithful tool use on search and broader multimodal benchmarks.
-    venue_logo: /assets/img/venues/cvpr.png
-    pdf: https://arxiv.org/pdf/2511.19661
-    code: https://github.com/RenlyH/CodeV
-    image: /assets/img/paper_logo/codev2026.png
-    url: https://arxiv.org/abs/2511.19661
-    notes: Oral Paper (Top 2%)
+  - heading: Machine learning conferences and proceedings
+    items:
+      - title: Learning complete and explainable visual representations from itemized text supervision
+        authors: Yiwei Lyu, Chenhui Zhao, Soumyanil Banerjee, Shixuan Liu, Akshay T. Rao, Akhil Kondepudi, Honglak Lee, and Todd C. Hollon
+        # conference_short: CVPR
+        conference: COMPUTER VISION AND PATTERN RECOGNITION · 2026
+        description: >
+          Standard contrastive language-image pre-training can neglect objects in visual scenes. **ItemizedCLIP** forces models to learn and attend to all described items, resulting in better visual representations.
 
-  - title: Towards Scalable Language-Image Pre-training for 3D Medical Imaging
-    authors: Chenhui Zhao, Yiwei Lyu, Asadur Zaman Chowdury, Edward S. Harake, Akhil Kondepudi, Akshay T. Rao, Xinhai Hou, Honglak Lee, and Todd C. Hollon
-    conference: TRANSACTIONS ON MACHINE LEARNING RESEARCH · 2026
-    description: >
-      Vision-language pre-training for volumetric MRI and CT is usually limited by radiologist-curated datasets. **HLIP** instead uses hierarchical attention over slice, scan, and study to pre-train on uncurated clinical data at scale, boosting performance on public brain MRI and head CT benchmarks.
-    venue_logo: /assets/img/venues/tmlr.png
-    url: https://openreview.net/forum?id=WxHf4EcBWA
-    pdf: /assets/papers/5990_Towards_Scalable_Language.pdf
-    image: /assets/img/paper_logo/zhao2026hlip.png
-    pills:
-      - title: OpenReview
-        link: https://openreview.net/forum?id=WxHf4EcBWA
-      - title: PDF
-        link: /assets/papers/5990_Towards_Scalable_Language.pdf
-  - title: Hierarchical Discriminative Learning Improves Visual Representations of Biomedical Microscopy
-    authors: Cheng Jiang<sup>*</sup>, Xinhai Hou<sup>*</sup>, Akhil Kondepudi, Asadur Chowdury, Christian W. Freudiger, Daniel A. Orringer, Honglak Lee, and Todd C. Hollon
-    conference: COMPUTER VISION AND PATTERN RECOGNITION · 2023
-    description: >
-      **HiDisc** is a self-supervised learning method that leverages the inherent patient-slide-patch hierarchy of biomedical microscopy to learn stronger visual representations without explicit negative mining.
-    venue_logo: /assets/img/venues/cvpr.png
-    url: https://hidisc.mlins.org/
-    pdf: https://arxiv.org/abs/2303.01605
-    image: /assets/img/paper_logo/jiang2023hierarchical.webp
-    code: https://github.com/MLNeurosurg/hidisc
-    notes: Highlight Paper (Top 5%)
-    pills:
-      - title: Website
-        link: https://hidisc.mlins.org/
-      - title: arXiv
-        link: https://arxiv.org/abs/2303.01605
-      - title: Github
-        link: https://github.com/MLNeurosurg/hidisc
+        venue_logo: /assets/img/venues/cvpr.png
+        pdf: https://arxiv.org/pdf/2512.11141
+        code: https://github.com/MLNeurosurg/ItemizedCLIP
+        image: /assets/img/paper_logo/itemizedclip2026.png
+        url: https://arxiv.org/abs/2512.11141
 
-  - title: "OpenSRH: optimizing brain tumor surgery using intraoperative stimulated Raman histology"
-    authors: Cheng Jiang<sup>*</sup>, Asadur Chowdury<sup>*</sup>, Xinhai Hou<sup>*</sup>, Akhil Kondepudi, Christian W. Freudiger, Kyle Conway, Sandra Camelo-Piragua, Daniel A. Orringer, Honglak Lee, and Todd C. Hollon
-    conference: NEURIPS DATASETS & BENCHMARKS · 2022
-    description: >
-      **OpenSRH** is the first public dataset of clinical stimulated Raman histology images from brain tumor patients, released alongside benchmarks to accelerate machine learning research for intraoperative brain tumor diagnosis.
-    venue_logo: /assets/img/venues/neurips_logo.png
-    url: https://opensrh.mlins.org/
-    pdf: https://arxiv.org/abs/2206.08439/
-    image: /assets/img/paper_logo/jiang2022opensrh.webp
-    code: https://github.com/MLNeurosurg/opensrh
-    pills:
-      - title: Website
-        link: https://opensrh.mlins.org/
-      - title: arXiv
-        link: https://arxiv.org/abs/2206.08439/
-      - title: Github
-        link: https://github.com/MLNeurosurg/opensrh
+      - title: "CodeV: Code with Images for Faithful Visual Reasoning via Tool-Aware Policy Optimization"
+        authors: Xinhai Hou, Shaoyuan Xu, Manan Biyani, Moyan Li, Jia Liu, Todd C. Hollon, and Bryan Wang
+        # conference_short: CVPR
+        conference: COMPUTER VISION AND PATTERN RECOGNITION · 2026
+        description: >
+          Recent visual agents can score well while using image tools unfaithfully-e.g., cropping irrelevant regions or ignoring tool outputs. **CodeV** represents tools as executable Python code and trains with Tool-Aware Policy Optimization (TAPO), using process-level rewards on visual tool inputs and outputs to improve both accuracy and faithful tool use on search and broader multimodal benchmarks.
+        venue_logo: /assets/img/venues/cvpr.png
+        pdf: https://arxiv.org/pdf/2511.19661
+        code: https://github.com/RenlyH/CodeV
+        image: /assets/img/paper_logo/codev2026.png
+        url: https://arxiv.org/abs/2511.19661
+        notes: Oral Paper (Top 2%)
 
-  # - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-  #   authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-  #   conference_short: MICCAI
-  #   conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-  #   pdf: https://arxiv.org/pdf/2306.00988.pdf
-  #   code: https://github.com/MrGiovanni/ContinualLearning
-  #   bibtex: https://bib.yliu.me/MICCAI23.txt
-  #   image: ./assets/img/teaser_example_2.png
-  #   notes: Early Accept
+      - title: Towards Scalable Language-Image Pre-training for 3D Medical Imaging
+        authors: Chenhui Zhao, Yiwei Lyu, Asadur Zaman Chowdury, Edward S. Harake, Akhil Kondepudi, Akshay T. Rao, Xinhai Hou, Honglak Lee, and Todd C. Hollon
+        conference: TRANSACTIONS ON MACHINE LEARNING RESEARCH · 2026
+        description: >
+          Vision-language pre-training for volumetric MRI and CT is usually limited by radiologist-curated datasets. **HLIP** instead uses hierarchical attention over slice, scan, and study to pre-train on uncurated clinical data at scale, boosting performance on public brain MRI and head CT benchmarks.
+        venue_logo: /assets/img/venues/tmlr.png
+        url: https://openreview.net/forum?id=WxHf4EcBWA
+        pdf: /assets/papers/5990_Towards_Scalable_Language.pdf
+        image: /assets/img/paper_logo/zhao2026hlip.png
+        pills:
+          - title: OpenReview
+            link: https://openreview.net/forum?id=WxHf4EcBWA
+          - title: PDF
+            link: /assets/papers/5990_Towards_Scalable_Language.pdf
+      - title: Hierarchical Discriminative Learning Improves Visual Representations of Biomedical Microscopy
+        authors: Cheng Jiang<sup>*</sup>, Xinhai Hou<sup>*</sup>, Akhil Kondepudi, Asadur Chowdury, Christian W. Freudiger, Daniel A. Orringer, Honglak Lee, and Todd C. Hollon
+        conference: COMPUTER VISION AND PATTERN RECOGNITION · 2023
+        description: >
+          **HiDisc** is a self-supervised learning method that leverages the inherent patient-slide-patch hierarchy of biomedical microscopy to learn stronger visual representations without explicit negative mining.
+        venue_logo: /assets/img/venues/cvpr.png
+        url: https://hidisc.mlins.org/
+        pdf: https://arxiv.org/abs/2303.01605
+        image: /assets/img/paper_logo/jiang2023hierarchical.webp
+        code: https://github.com/MLNeurosurg/hidisc
+        notes: Highlight Paper (Top 5%)
+        pills:
+          - title: Website
+            link: https://hidisc.mlins.org/
+          - title: arXiv
+            link: https://arxiv.org/abs/2303.01605
+          - title: Github
+            link: https://github.com/MLNeurosurg/hidisc
 
-  # - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-  #   authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-  #   conference_short: CVPR
-  #   conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-  #   pdf: https://arxiv.org/pdf/2002.10211.pdf
-  #   code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-  #   page: https://class-il.mpi-inf.mpg.de/mnemonics/
-  #   bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-  #   notes: Oral Presentation
-  #   image: ./assets/img/teaser_example.png
+      - title: "OpenSRH: optimizing brain tumor surgery using intraoperative stimulated Raman histology"
+        authors: Cheng Jiang<sup>*</sup>, Asadur Chowdury<sup>*</sup>, Xinhai Hou<sup>*</sup>, Akhil Kondepudi, Christian W. Freudiger, Kyle Conway, Sandra Camelo-Piragua, Daniel A. Orringer, Honglak Lee, and Todd C. Hollon
+        conference: NEURIPS DATASETS & BENCHMARKS · 2022
+        description: >
+          **OpenSRH** is the first public dataset of clinical stimulated Raman histology images from brain tumor patients, released alongside benchmarks to accelerate machine learning research for intraoperative brain tumor diagnosis.
+        venue_logo: /assets/img/venues/neurips_logo.png
+        url: https://opensrh.mlins.org/
+        pdf: https://arxiv.org/abs/2206.08439/
+        image: /assets/img/paper_logo/jiang2022opensrh.webp
+        code: https://github.com/MLNeurosurg/opensrh
+        pills:
+          - title: Website
+            link: https://opensrh.mlins.org/
+          - title: arXiv
+            link: https://arxiv.org/abs/2206.08439/
+          - title: Github
+            link: https://github.com/MLNeurosurg/opensrh
+
+# - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
+#   authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
+#   conference_short: MICCAI
+#   conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
+#   pdf: https://arxiv.org/pdf/2306.00988.pdf
+#   code: https://github.com/MrGiovanni/ContinualLearning
+#   bibtex: https://bib.yliu.me/MICCAI23.txt
+#   image: ./assets/img/teaser_example_2.png
+#   notes: Early Accept
+
+# - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
+#   authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
+#   conference_short: CVPR
+#   conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
+#   pdf: https://arxiv.org/pdf/2002.10211.pdf
+#   code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+#   page: https://class-il.mpi-inf.mpg.de/mnemonics/
+#   bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+#   notes: Oral Presentation
+#   image: ./assets/img/teaser_example.png
