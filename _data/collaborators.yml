@@ -1,0 +1,27 @@
+# Collaborators shown on /students/
+# Optional fields per person: role, research_focus, image, website, email, bio
+
+main:
+  - name: Honglak Lee, PhD
+    role: Computer Scientist, University of Michigan
+    image: /assets/img/collaborators/honglak_lee.png
+  
+  - name: Sandra Camelo-Piragua, MD
+    role: Pathologist, University of Michigan
+    image: /assets/img/collaborators/sandra_camelo_piragua.png
+
+  - name: Daniel Orringer, MD
+    role: Neurosurgeon-scientist, New York University
+    image: /assets/img/collaborators/daniel_orringer.png
+
+  - name: Shawn Hervey-Jumper, MD
+    role: Neurosurgeon-scientist, University of California, San Francisco
+    image: /assets/img/collaborators/shawn_hervey_jumper.png
+
+  - name: Mitchel Berger, MD
+    role: Neurosurgeon-scientist, University of California, San Francisco
+    image: /assets/img/collaborators/mitchel_berger.png
+
+  - name: Chris Freudiger, PhD
+    role: Scientist, Invenio Imaging
+    image: /assets/img/collaborators/chris_freudiger.png

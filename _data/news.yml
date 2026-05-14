@@ -1,6 +1,11 @@
 # MLiNS news (merged from mlneurosurg.github.io/_data/news.yaml).
 # Images live in /assets/img/news/
 main:
+  - venue: University of Michigan Medical School | 2026
+    title: "Backpropagating to Better Patient Care: My Experiences in an AI Neurosurgery Lab"
+    link: https://medschool.umich.edu/dose-reality/backpropagating-better-patient-care-my-experiences-ai-neurosurgery-lab
+    image: /assets/img/news/harake2026_dose_of_reality_ai_neurosurgery_lab.png
+
   - venue: The University Record | 2026
     title: U-M summit to focus on challenges, opportunities of AI
     link: https://record.umich.edu/articles/u-m-summit-to-focus-on-challenges-opportunities-of-ai/

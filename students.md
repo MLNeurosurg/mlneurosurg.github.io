@@ -11,6 +11,12 @@ The best part of my day is working with these people.
 
 {% include_relative _includes/students.md %}
 
+## Collaborators
+
+Faculty and colleagues who work closely with the lab.
+
+{% include_relative _includes/collaborators.md %}
+
 ## Lab Alumni
 
 - **Asadur Chowdury**: Machine Learning Engineer (2025) >> Capital One

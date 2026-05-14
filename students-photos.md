@@ -17,6 +17,8 @@ Outings, meals, symposiums, and other moments with the team.
 
 ![Keynote at the Congress of Neurological Surgeons meeting - DeepGlioma AI-based molecular classification of diffuse gliomas](/assets/img/lab/mlins_cns_keynote_deepglioma.png)
 
+![AANS annual meeting presentation - Real-time Intraoperative Diagnostics in Brain Tumor Surgery (Todd Hollon, MD, Machine Learning in Neurosurgery Lab, University of Michigan)](/assets/img/lab/mlins_aans_realtime_intraoperative_diagnostics.png)
+
 ![Silica demo - cell mapping on stimulated Raman histology at University of Michigan Medical School](/assets/img/lab/mlins_silica_demo_presentation.png)
 
 ![MLiNS lab dinner outing](/assets/img/lab/mlins_fun_outing.png)
@@ -44,8 +46,6 @@ Outings, meals, symposiums, and other moments with the team.
 ![Award presentation](/assets/img/lab/mlins_award_stage.png)
 
 ![Lab office, group selfie](/assets/img/lab/mlins_office_group_selfie.png)
-
-![Newborn in a basket with a hello world wooden sign](/assets/img/lab/mlins_hello_world_newborn.png)
 
 ![Symposium presentation - PRIMA neuroimaging foundation model results](/assets/img/lab/mlins_symposium_prima_presentation.jpg)
 

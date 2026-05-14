@@ -4,9 +4,9 @@ layout: homepage
 
 ## Bio
 
-I am an Assistant Professor at the University of Michigan and the Principal Investigator of the ***Machine Learning in Neurosurgery (MLiNS) Lab***. Our research focuses on developing machine intelligence that understands human health and disease, especially related to the nervous system. We aim to discover better data streams, model architectures, inductive biases, and learning objectives for medical AI. Our technical contributions include improved visual self-supervision, hierarchical and multimodal representation learning, and medical foundation modeling.
+I am an Assistant Professor and the Novello & Quinones-Hinojosa Research Professor of Neurosurgery at the University of Michigan and the Principal Investigator of the ***Machine Learning in Neurosurgery (MLiNS) Lab***. Our research focuses on developing machine intelligence that understands human health and disease, especially related to the nervous system. We aim to discover better data streams, model architectures, inductive biases, and learning objectives for medical AI. Our technical contributions include improved visual self-supervision, hierarchical and multimodal representation learning, and medical foundation modeling.
 
-We are actively *hiring postdocs in medical AI*. Projects can cover any of the research themes below. Please email me directly at tocho [at] med.umich.edu if interested.
+We are actively *hiring phd students and postdocs in medical AI*. Projects can cover any of the research themes below. Please email me directly at tocho [at] med.umich.edu if interested.
 
 ## [Photos and Bios of MLiNS Team](/students/)
 
@@ -40,6 +40,10 @@ The team, the team, the team.
 {% include_relative _includes/selected_preprints.md %}
 
 ## MLiNS Videos and Podcasts
+
+<a href="https://www.youtube.com/watch?v=wP2Y9SDNBlI"><img src="https://img.youtube.com/vi/wP2Y9SDNBlI/hqdefault.jpg" alt="Improving the Results of Brain Surgery > Look to Michigan - watch on YouTube" width="240" height="180"></a>
+
+[Improving the Results of Brain Surgery > Look to Michigan (YouTube)](https://www.youtube.com/watch?v=wP2Y9SDNBlI)
 
 <a href="https://www.youtube.com/watch?v=Q12IuCaKAr8"><img src="https://img.youtube.com/vi/Q12IuCaKAr8/hqdefault.jpg" alt="MLiNS video - watch on YouTube" width="240" height="180"></a>
 

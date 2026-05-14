@@ -5,7 +5,8 @@ permalink: /research/computer-vision/
 
 ## Visual Intelligence
 
-<!-- The MLiNS lab’s computer vision program targets **representation learning** and **restoration** for biomedical optical imaging-stimulated Raman histology, whole-slide microscopy, and digital pathology-where supervision is limited and acquisition noise is real. We build self-supervised and discriminative pretraining, release datasets such as **OpenSRH**, and develop denoising, super-resolution, and diffusion-based restoration alongside newer **vision–language** and **tool-augmented reasoning** methods for interpretable clinical use. The list below collects **CVPR** (including workshop), **NeurIPS** Datasets & Benchmarks, **AAAI**, the whole-slide **arXiv** framework, and **MLHC** work that grounds the program in neurosurgical imaging. -->
+Our visual world is more complex than human language. Language is discrete, sequential, and constructed. Our visual world is continuous, geometric, and discovered. A major open problem in machine intelligence is how best to model visual perception and reasoning. We believe that the major advances in large language models, while impressive, do not illuminate this problem. Our lab focuses on visual reperesentation learning broadly and how image data structures can inform visual learning. For example, we exploit inherent hierarchical structures in biomedical microscopy (HiDisc) or neuroimaging (HLIP) to better learn complete and grounded visual features. We also aim to unify visual self-supervision and languauge supervision (CLIPred, SimCLIP), which are generally treated as independent learning enviroments. Visual reasonsing enables AI agents to reason about images, performing actions on those images such as cropping, clipping, and resizing (CodeV).
+
 
 ### Related publications
 

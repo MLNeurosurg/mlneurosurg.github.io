@@ -71,6 +71,17 @@ main:
     link: https://doi.org/10.1227/neu.0000000000004000
   - title: PubMed
     link: https://pubmed.ncbi.nlm.nih.gov/41891708/
+- title: AI-Powered Pipeline Transforms Neurosurgical Articles Into High-Quality Graphical Abstracts
+  authors: Alyakin A, Stryker J, Lee JV, Feng R, Todd C. Hollon, Kondziolka D, and Eric K. Oermann
+  conference: NEUROSURGERY PRACTICE · 2026
+  description: >
+    An automated pipeline extracts structured text, figures, and captions from neurosurgical manuscripts and **procedurally generates journal-style graphical abstracts**, scaling visual summaries for research dissemination.
+  venue_logo: "/assets/img/venues/neurosurgery.png"
+  image: "/assets/img/paper_logo/alyakin2026_graphical_abstracts_pipeline.png"
+  url: https://doi.org/10.1227/neuprac.0000000000000230
+  pills:
+  - title: DOI
+    link: https://doi.org/10.1227/neuprac.0000000000000230
 - title: 'Minimizing the risks of stereotactic brain biopsy in suspected central nervous system lymphoma: a retrospective database study'
   authors: Li A, Saleh S, Sharba N, Guivatchian E, Sagher O, Sullivan SE, Heth JA, Todd C. Hollon, Thompson BG, Pandey AS, Umemura Y, and Wajd N. Al-Holou
   conference: JOURNAL OF CANCER RESEARCH AND CLINICAL ONCOLOGY · 2026

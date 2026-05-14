@@ -17,6 +17,10 @@ Talks, interviews, seminar recordings, and podcasts.
 
 [Joseph R. Novello, MD and Alfredo Quinones-Hinojosa, MD Research Professorship in Neurosurgery (Vimeo)](https://vimeo.com/1074054655)
 
+<a href="https://www.youtube.com/watch?v=wP2Y9SDNBlI"><img src="https://img.youtube.com/vi/wP2Y9SDNBlI/hqdefault.jpg" alt="Improving the Results of Brain Surgery > Look to Michigan - watch on YouTube" width="240" height="180"></a>
+
+[Improving the Results of Brain Surgery > Look to Michigan (YouTube)](https://www.youtube.com/watch?v=wP2Y9SDNBlI)
+
 <a href="https://www.youtube.com/watch?v=Q12IuCaKAr8"><img src="https://img.youtube.com/vi/Q12IuCaKAr8/hqdefault.jpg" alt="MLiNS video - watch on YouTube" width="240" height="180"></a>
 
 [AI Journeys Session (YouTube)](https://www.youtube.com/watch?v=Q12IuCaKAr8)
